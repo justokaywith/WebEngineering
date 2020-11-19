@@ -1,0 +1,18 @@
+#site_header {
+  height: auto;
+  width: 100%;
+}
+#site_header a{
+  font-size: 25px;
+  text-decoration: none;
+  color: Black;
+  font-family: sans-serif;
+  padding: 10px;
+  display: inline-block;
+
+
+}
+#site_header span a:hover{
+  color: blue;
+  transition: .5s;
+}
