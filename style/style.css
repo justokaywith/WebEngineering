@@ -2,24 +2,46 @@ body	{
 	height: 100%;
 	width: 100%;
 	padding: 20px;
-
+	overflow: hidden;
+	position: absolute;
+	margin: 0;
+	background-color: whitesmoke;
 }
 header {
 	width: 100%;
 	height: auto;
+	margin: 0;
 
 }
 header a{
-	font-style: 20px;
+	font-size: 20px;
+	padding: 20px;
 	font-family: sans-serif;
 	text-decoration: none;
+	color: black;
 }
+header .sec_header_1{
+
+}
+header .sec_header_2{
+	
+}
+
+header .sec_header_3{
+	
+}
+
+header .sec_header_4{
+	
+}
+
 footer	{
 	text-align: center;
 	height: auto;
 	width: 100%;
 	position: absolute;
 	padding: 20px;
+	margin: 0;
 }
 footer p{
 	font-size: 20px;
