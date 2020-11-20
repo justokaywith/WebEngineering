@@ -1,8 +1,4 @@
-@media only screen and (max-width: 300px) {
-  header{
-    background-color: black;
-  }
-}
+
 body{
   margin: 0;
   padding: 0;
@@ -21,16 +17,22 @@ header {
 header a{
   text-decoration: none;
   padding:10px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: sans-serif;
   color: white;
   font-weight: 600;
   display: inline-block;
 }
-header a:nth-child(4){
-  padding: 10px;
-  display: inline-block;
-  position: absolute;
-  right: 50px;
-
+@media (max-width: 360px) {
+  header a{
+    font-size: 35px;
+    color: darkslateblue;
+  }
+  header a:hover{
+    font-size: 38px;
+    transition: .1s;
+  }
+  header{
+    background: white;
+  }
 }
