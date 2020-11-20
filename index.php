@@ -13,9 +13,9 @@
 		<p>Password</p>
 		<input type="password" name="Password" placeholder="Enter Password">
 	<br><br><br>	<button type="submit" name="button">Login</button>
-	<div class="index_form">
-
+	
 	</div>
+		<?php include 'includes/footer.php'; ?>
 </body>
 
 </html>

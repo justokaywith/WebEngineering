@@ -69,6 +69,30 @@ header a{
   font-weight: 600;
   display: inline-block;
 }
+/*-Footer css starts from here -*/
+
+Footer {
+  padding: 20px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+
+}
+Footer p{
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+Footer a{
+  text-decoration: none;
+  color: #5499c7;
+}
+Footer .btc{
+  color: orangered;
+}
 /*-Appointment css starts here*/
 #appointment{
   width: 100%;
@@ -156,7 +180,45 @@ margin: 10px;
   transition: .2s;
   padding-left: 50px;
 }
+/*---media query for footer---*/
+@media (min-width: 768px) {
+  footer p{
 
+    }
+}
+@media (max-width: 550px) {
+  footer p{
+    font-size: 10px;
+  }
+  footer a{
+    color:  #58d68d ;
+  }
+}
+/*----media query for index p,input and button----*/
+@media (min-width: 768px) {
+
+}
+@media (max-width: 550px) {
+  #index{
+    position: relative;
+    text-align: center;
+  }
+  #index p{
+    margin-left:0;
+    font-size: 20px;
+    color:  #58d68d ;
+  }
+  #index input{
+    margin-left:0;
+    border-color:  #58d68d ;
+    width: 250px;
+  }
+  #index button{
+    margin-left: 0;
+    background-color:  #58d68d ;
+  }
+
+}
 /*----media query for appointment php----*/
 @media (min-width: 768px) {
 
