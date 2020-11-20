@@ -5,6 +5,6 @@
 	<title>Main</title>
 </head>
 <body>
-	<?php inclued 'includes/header.php' ?>
+	<?php include 'includes/header.php' ?>
 </body>
 </html>
