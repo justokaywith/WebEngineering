@@ -30,3 +30,8 @@ footer .sec_footer_2:hover{
 	transition: .5s;
 	cursor: pointer;
 }
+header a{
+	font-style: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
