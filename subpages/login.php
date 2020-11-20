@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Main</title>
+	<title>Login or Signup</title>
 </head>
 <body>
-	
+
 </body>
 </html>
