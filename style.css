@@ -9,17 +9,17 @@ body{
 /*-header css starts from here -*/
 
 header {
-  padding: 25px;
+  padding: 20px;
   width: auto;
   height: auto;
   margin: 10px;
-  background-color: darkslateblue;
+  background-color:   #5499c7  ;
 
 }
 header a{
   text-decoration: none;
   padding:10px;
-  font-size: 17px;
+  font-size: 20px;
   font-family: sans-serif;
   color: white;
   font-weight: 600;
@@ -49,9 +49,9 @@ margin: 10px;
   border-width: 1px;
 }
 .sec_appointment_1:hover{
-  background-color: darkslateblue;
+  background-color:  #5499c7 ;
   color: white;
-  transition: .3s;
+  transition: .2s;
   padding-left: 50px;
 }
 /*-About css starts here*/
@@ -78,9 +78,9 @@ margin: 10px;
   border-width: 1px;
 }
 .sec_about_1:hover{
-  background-color: darkslateblue;
+  background-color:  #5499c7 ;
   color: white;
-  transition: .3s;
+  transition: .2s;
   padding-left: 50px;
 }
 /*-Signup css starts here*/
@@ -107,9 +107,9 @@ margin: 10px;
   border-width: 1px;
 }
 .sec_signup_1:hover{
-  background-color: darkslateblue;
+  background-color:  #5499c7 ;
   color: white;
-  transition: .3s;
+  transition: .2s;
   padding-left: 50px;
 }
 
@@ -193,7 +193,6 @@ margin: 10px;
 @media (min-width: 768px){
   header {
 
-    padding: 20px;
   }
 }
 @media (max-width: 550px){
