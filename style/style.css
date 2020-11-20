@@ -1,5 +1,32 @@
+body	{
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+
+}
 header {
 	width: 100%;
 	height: auto;
-	
+
+}
+footer	{
+	text-align: center;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	padding: 20px;
+}
+footer p{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+footer .sec_footer:hover{
+	color: navy;
+	transition: .5s;
+	cursor: pointer;
+}
+footer .sec_footer_2:hover{
+	color: orangered;
+	transition: .5s;
+	cursor: pointer;
 }
