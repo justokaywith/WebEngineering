@@ -23,6 +23,9 @@ header a{
   font-weight: 600;
   display: inline-block;
 }
+
+/*----media query for header php----*/
+
 @media (max-width: 360px) {
   header a{
     font-size: 35px;
