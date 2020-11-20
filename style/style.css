@@ -21,11 +21,13 @@ header a{
 	color: black;
 }
 header a:hover{
-	color: lightblue;
-	transition: .3s;
-	
+	color: #1877F2;
+	transition: .1s;
+	border-bottom: solid;
+	border-width: 3px;
+	border-collapse: collapse;
+	border-color: #1877F2;
 }
-
 footer	{
 	text-align: center;
 	height: auto;
@@ -39,12 +41,17 @@ footer p{
 	font-family: sans-serif;
 }
 footer .sec_footer:hover{
-	color: navy;
+	color: #1877F2;
 	transition: .5s;
 	cursor: pointer;
 }
+footer a{
+	text-decoration: none;
+	color: black;
+}
 footer .sec_footer_2:hover{
-	color: orangered;
-	transition: .5s;
+	color: #1877F2;
+	transition: .3s;
 	cursor: pointer;
+	
 }
