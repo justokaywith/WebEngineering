@@ -8,5 +8,9 @@
     <h1>Love You</h1>
   </body>
 </html>
+<<<<<<< Updated upstream
 
 // Haris
+=======
+//haris
+>>>>>>> Stashed changes
