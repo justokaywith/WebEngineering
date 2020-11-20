@@ -7,3 +7,4 @@
     <?php include 'includes/footer.php' ?>
   </body>
 </html>
+//shit happens /
