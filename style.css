@@ -307,30 +307,28 @@ margin: 10px;
     background:  #58d68d ;
   }
   header a{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 340px) {
   header {
-    background:  #58d68d ;
+    height: 100%;
+    width: 100%;
+    background: #58d68d;
 
   }
   header a{
-    font-size: 25px;
+    font-size: 15px;
     color: white;
   }
 
 }
 @media (max-width: 320px) {
-  header a{
-    font-size: 30px;
-    color: darkslateblue;
-  }
-  header a:hover{
-    font-size: 28px;
-    transition: .1s;
-  }
   header{
-    background: white;
+    height: 100%;
+    width: 100%;
+    background: #58d68d;
+  }
+
   }
 }
