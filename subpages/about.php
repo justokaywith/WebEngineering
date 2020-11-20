@@ -7,7 +7,7 @@
 </head>
 <body id="about">
 	<div class="about_div_1">
-		<a class="sec_about_1" href="../index.php">BACK</a>
+		<a class="sec_about_1" href="../index.php"><</a>
 	</div>
 </body>
 </html>
