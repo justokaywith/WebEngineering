@@ -119,7 +119,7 @@ margin: 10px;
 }
 @media (max-width: 550px) {
   #appointment{
-    background-color: coral;
+    background-color:  #58d68d ;
   }
   .sec_appointment_1{
 
@@ -143,7 +143,7 @@ margin: 10px;
 }
 @media (max-width:550px) {
   #about{
-    background-color: coral;
+    background-color:  #58d68d ;
   }
 }
 .sec_about_1{
@@ -170,7 +170,7 @@ margin: 10px;
 @media (max-width:550px) {
   #signup{
     border-radius: 50px;
-    background-color: coral;
+    background-color:  #58d68d ;
   }
 }
 .sec_signup_1{
@@ -199,7 +199,7 @@ margin: 10px;
 @media (max-width: 550px){
   header {
     padding: 30px;
-    background: coral;
+    background:  #58d68d ;
   }
   header a{
     font-size: 20px;
@@ -207,7 +207,7 @@ margin: 10px;
 }
 @media (max-width: 340px) {
   header {
-    background: coral;
+    background:  #58d68d ;
 
   }
   header a{
