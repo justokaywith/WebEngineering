@@ -8,5 +8,4 @@
   </body>
 </html>
 
-// Love you
 // Love you too osama ji <3
