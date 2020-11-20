@@ -1,32 +1,39 @@
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}
+@media only screen and (min-width: 601px) {
+  header {
+    font-size: 80px;
+    font-family: cursive;
+  }
+}
 body	{
 	height: 100%;
 	width: 100%;
-	padding: 20px;
-	overflow: hidden;
-	position: absolute;
-	margin: 0;
+	margin: 20px;
+	padding: 0;
 	background-color: whitesmoke;
 }
 header {
+	
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin: 0;
+
 
 }
 header a{
-	font-size: 20px;
-	padding: 20px;
-	font-family: sans-serif;
 	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	font-family: sans-serif;
 	color: black;
 }
 header a:hover{
-	color: #1877F2;
-	transition: .1s;
-	border-bottom: solid;
-	border-width: 3px;
-	border-collapse: collapse;
-	border-color: #1877F2;
+	
 }
 footer	{
 	text-align: center;
