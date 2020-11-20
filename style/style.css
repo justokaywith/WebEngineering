@@ -9,6 +9,11 @@ header {
 	height: auto;
 
 }
+header a{
+	font-style: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
 footer	{
 	text-align: center;
 	height: auto;
@@ -29,9 +34,4 @@ footer .sec_footer_2:hover{
 	color: orangered;
 	transition: .5s;
 	cursor: pointer;
-}
-header a{
-	font-style: 20px;
-	font-family: sans-serif;
-	text-decoration: none;
 }
