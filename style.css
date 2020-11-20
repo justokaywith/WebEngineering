@@ -6,6 +6,50 @@ body{
   height: 100%;
   background-color: whitesmoke;
 }
+/*-index css starts from here-*/
+#index{
+  position: relative;
+
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: 0px;
+}
+
+#index p{
+  position: relative;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color:    #5499c7;
+}
+#index input{
+  margin-left: 60px;
+  border: none;
+  width: 270px;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color:    #5499c7;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#index button{
+  margin-left: 150px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #5499c7;
+  color: white;
+  border: none;
+
+}
+#index button:hover{
+  box-shadow: 2px 2px 4px 1px black;
+  transition: .1s;
+}
 /*-header css starts from here -*/
 
 header {

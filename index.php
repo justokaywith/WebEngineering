@@ -8,7 +8,13 @@
 <body>
 	<?php include 'includes/header.php' ?>
 	<div id="index">
-			<img src="graphics/Forest.jpg" alt="">
+		<p>Email</p>
+		<input type="email" name="email" placeholder="Enter Email">
+		<p>Password</p>
+		<input type="password" name="Password" placeholder="Enter Password">
+	<br><br><br>	<button type="submit" name="button">Login</button>
+	<div class="index_form">
+
 	</div>
 </body>
 
