@@ -9,7 +9,6 @@ body{
 /*-index css starts from here-*/
 #index{
   position: relative;
-
   width: auto;
   height: auto;
   padding: 20px;
@@ -33,12 +32,12 @@ body{
   font-family: sans-serif;
   font-size: 15px;
 }
-#index input::before{
-  width: 300px;
+#index input:focus{
+  width: 320px;
   transition: .2s;
 }
 #index button{
-  margin-left: 150px;
+  margin-left: 125px;
   font-size: 18px;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -52,8 +51,7 @@ body{
 }
 #index button:hover{
   box-shadow: 2px 2px 4px 1px black;
-  transform: rotate(-10deg);
-  transition: .3s;
+  transition: .2s;
 }
 /*-header css starts from here -*/
 
@@ -95,38 +93,8 @@ Footer a{
   text-decoration: none;
   color: #5499c7;
 }
-Footer .btc{
-  color: orangered;
-}
-/*-Appointment css starts here*/
-#appointment{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-.app_div_1{
-padding: 25px;
-width: auto;
-width: auto;
-margin: 10px;
-}
-.sec_appointment_1{
-  text-decoration: none;
-  padding: 10px;
-  color: black;
-  letter-spacing: 1px;
-  font-family: sans-serif;
-  border-radius: 50px;
-  border: solid;
-  border-width: 1px;
-}
-.sec_appointment_1:hover{
-  background-color:  #5499c7 ;
-  color: white;
-  transition: .2s;
-  padding-left: 50px;
-}
+
+
 /*-About css starts here*/
 #about{
   width: 100%;
@@ -135,26 +103,26 @@ margin: 10px;
   padding: 0;
 }
 .about_div_1{
-padding: 25px;
-width: auto;
-width: auto;
-margin: 10px;
+  padding: 25px;
+  width: auto;
+  width: auto;
+  margin: 10px;
 }
 .sec_about_1{
-  text-decoration: none;
-  padding: 10px;
-  color: black;
-  letter-spacing: 1px;
   font-family: sans-serif;
-  border-radius: 50px;
   border: solid;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
   border-width: 1px;
+  border-color:  #5499c7;
+  background:  #5499c7;
+  text-decoration: none;
+  font-size: 20px;
 }
 .sec_about_1:hover{
-  background-color:  #5499c7 ;
-  color: white;
-  transition: .2s;
   padding-left: 50px;
+  transition: .2s;
 }
 /*-Signup css starts here*/
 #signup{
@@ -164,26 +132,26 @@ margin: 10px;
   padding: 0;
 }
 .signup_div_1{
-padding: 25px;
-width: auto;
-width: auto;
-margin: 10px;
+  padding: 25px;
+  width: auto;
+  width: auto;
+  margin: 10px;
 }
 .sec_signup_1{
-  text-decoration: none;
-  padding: 10px;
-  color: black;
-  letter-spacing: 1px;
   font-family: sans-serif;
-  border-radius: 50px;
   border: solid;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
   border-width: 1px;
+  border-color:  #5499c7;
+  background:  #5499c7;
+  text-decoration: none;
+  font-size: 20px;
 }
 .sec_signup_1:hover{
-  background-color:  #5499c7 ;
-  color: white;
-  transition: .2s;
   padding-left: 50px;
+  transition: .2s;
 }
 /*---media query for footer---*/
 @media (min-width: 768px) {
@@ -200,63 +168,62 @@ margin: 10px;
   }
 }
 /*----media query for index p,input and button----*/
-@media (min-width: 768px) {
-
-}
 @media (max-width: 550px)
-{
+  {
  #index{
   background-color: #58d68d;
   height: 150%;
   text-align: center;
-}
-
+  }
   #index p{
+    text-align: center;
     margin-left:0;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
     color:  white; ;
   }
   #index input{
     margin-left: 0px;
     border: none;
     background-color: #58d68d;
-    width: 220px;
+    width: 200px;
     border-bottom: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color:   white;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 12px;
+  }
+  #index input:focus{
+    width: 200px;
+    transition: .2s;
   }
   #index button{
     margin-left: 0;
     background-color:  #58d68d ;
     box-shadow: 2px 2px 4px 1px black;
-
+    padding: 5px;
    }
 
 }
-/*----media query for appointment php----*/
-@media (min-width: 768px) {
+@media (max-width: 320px) {
+  #index input{
 
-}
-@media (max-width: 550px) {
-  #appointment{
+    width: 100px;
+    background: #58d68d;
+    font-size: 14px;
+  }
+  #index input:focus{
+    width: 120px;
+    transition: .2s;
+  }
+  #index button{
+    margin-left: 0;
     background-color:  #58d68d ;
+    box-shadow: 1px 2px 2px 1px black
+    padding 3px;
   }
-  .sec_appointment_1{
+  }
 
-    border-color: white;
-    color: black;
-    background: white;
-    font-size: 15px;
-    border-radius: 50px;
-    font-weight: bold;
-  }
-  .sec_appointment_1:hover{
-    background-color: white;
-    color: black;
-    padding: 10px;
-}
 /*----media query for about php----*/
 @media (min-width: 768px){
   #about{
@@ -268,53 +235,16 @@ margin: 10px;
     background-color:  #58d68d ;
   }
 }
-.sec_about_1{
 
-  border-color: white;
-  color: black;
-  background: white;
-  font-size: 15px;
-  border-radius: 50px;
-  font-weight: bold;
-}
-.sec_about_1:hover{
-
-  background-color: white;
-  color: black;
-  padding: 10px;
-}
 /*----media query for signup php----*/
-@media (min-width: 768px){
-  #about{
-
-  }
-}
 @media (max-width:550px) {
   #signup{
     border-radius: 50px;
     background-color:  #58d68d ;
   }
 }
-.sec_signup_1{
-
-  border-color: white;
-  color: black;
-  background: white;
-  font-size: 15px;
-  border-radius: 50px;
-  font-weight: bold;
-}
-.sec_signup_1:hover{
-
-  background-color: white;
-  color: black;
-  padding: 10px;
-}
-
 /*----media query for header php----*/
-@media (min-width: 768px){
 
-}
 @media (max-width: 550px){
 
   header {
@@ -328,23 +258,26 @@ margin: 10px;
 }
 @media (max-width: 340px) {
   header {
-    height: 100%;
-    width: 100%;
-    background: #58d68d;
+    height: auto;
+    width: auto;
+    background: white;
+
+
 
   }
   header a{
     font-size: 15px;
-    color: white;
+    color: #58d68d;
   }
-
 }
 @media (max-width: 320px) {
   header{
     height: 100%;
     width: 100%;
-    background: #58d68d;
+    background: white;
   }
-
+  header a{
+    height: auto;
+    width: auto;
   }
-}
+  }
