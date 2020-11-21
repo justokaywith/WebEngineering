@@ -36,7 +36,7 @@ body{
 
   width: 320px;
   font-size: 15px;
-  transition: .2s;
+  
 }
 #index button{
   margin-left: 125px;
@@ -206,7 +206,7 @@ Footer a{
 
   }
   #index button{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0;
     background-color:  #58d68d ;
     box-shadow: 2px 2px 4px 1px black;
