@@ -82,12 +82,12 @@ header a{
 }
 /*-Footer css starts from here -*/
 
-Footer {
+footer {
   width: auto;
   height: auto;
   text-align: center;
 }
-Footer p{
+footer p{
   color: black;
   text-decoration: none;
   padding: 5px;
@@ -95,7 +95,7 @@ Footer p{
   font-family: sans-serif;
   text-align: center;
 }
-Footer a{
+footer a{
   text-decoration: none;
   color: #5499c7;
 }
