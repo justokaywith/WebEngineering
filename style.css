@@ -211,15 +211,16 @@ Footer a{
     background-color:  #58d68d ;
     box-shadow: 2px 2px 4px 1px black;
     padding: 5px;
+    font-weight: bold;
    }
    #index button:active{
-     font-size: 15px;
+     font-size: 13px;
      transition: .1s;
      font-weight: bold;
    }
 
 }
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   #index p{
     font-size: 12px;
   }
@@ -239,6 +240,7 @@ Footer a{
     box-shadow: 1px 2px 2px 1px black
     padding 2px;
     font-size: 12px;
+    font-weight: bold;
   }
   #index button:active{
     font-size: 10px;
