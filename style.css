@@ -33,6 +33,10 @@ body{
   font-family: sans-serif;
   font-size: 15px;
 }
+#index input::before{
+  width: 300px;
+  transition: .2s;
+}
 #index button{
   margin-left: 150px;
   font-size: 18px;
@@ -48,7 +52,8 @@ body{
 }
 #index button:hover{
   box-shadow: 2px 2px 4px 1px black;
-  transition: .1s;
+  transform: rotate(-10deg);
+  transition: .3s;
 }
 /*-header css starts from here -*/
 
@@ -198,25 +203,36 @@ margin: 10px;
 @media (min-width: 768px) {
 
 }
-@media (max-width: 550px) {
-  #index{
-    position: relative;
-    text-align: center;
-  }
+@media (max-width: 550px)
+{
+ #index{
+  background-color: #58d68d;
+  height: 150%;
+  text-align: center;
+}
+
   #index p{
     margin-left:0;
     font-size: 20px;
-    color:  #58d68d ;
+    color:  white; ;
   }
   #index input{
-    margin-left:0;
-    border-color:  #58d68d ;
-    width: 250px;
+    margin-left: 0px;
+    border: none;
+    background-color: #58d68d;
+    width: 220px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color:   white;
+    font-family: sans-serif;
+    font-size: 15px;
   }
   #index button{
     margin-left: 0;
     background-color:  #58d68d ;
-  }
+    box-shadow: 2px 2px 4px 1px black;
+
+   }
 
 }
 /*----media query for appointment php----*/
@@ -297,17 +313,17 @@ margin: 10px;
 
 /*----media query for header php----*/
 @media (min-width: 768px){
-  header {
 
-  }
 }
 @media (max-width: 550px){
+
   header {
-    padding: 30px;
-    background:  #58d68d ;
+    padding: 0px;
+    background-color: white;
   }
   header a{
     font-size: 18px;
+    color: #58d68d;
   }
 }
 @media (max-width: 340px) {
