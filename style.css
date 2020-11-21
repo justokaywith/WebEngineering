@@ -2,16 +2,15 @@
 body{
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: auto;
   height: 100%;
   background-color: whitesmoke;
 }
 /*-index css starts from here-*/
 #index{
-  position: relative;
   width: auto;
-  height: auto;
-  padding: 20px;
+  height: 100%;
+  padding: 10px;
   margin: 0px;
 }
 
@@ -20,7 +19,7 @@ body{
   margin-left: 50px;
   font-family: sans-serif;
   font-size: 20px;
-  color:    #5499c7;
+  color:  #5499c7 ;
 }
 #index input{
   margin-left: 60px;
@@ -28,9 +27,10 @@ body{
   width: 270px;
   border-bottom: solid;
   border-width: 3px;
-  border-color:    #5499c7;
+  border-color:  #5499c7 ;
   font-family: sans-serif;
   font-size: 13px;
+
 }
 #index input:focus{
 
@@ -63,8 +63,9 @@ body{
 /*-header css starts from here -*/
 
 header {
-  padding: 20px;
+  padding: 10px;
   width: auto;
+  text-align: right;
   height: auto;
   margin: 10px;
   background-color:   #5499c7  ;
@@ -72,7 +73,7 @@ header {
 }
 header a{
   text-decoration: none;
-  padding:10px;
+  padding:20px;
   font-size: 20px;
   font-family: sans-serif;
   color: white;
@@ -82,11 +83,9 @@ header a{
 /*-Footer css starts from here -*/
 
 Footer {
-  padding: 20px;
   width: auto;
   height: auto;
-  margin: 10px;
-
+  text-align: center;
 }
 Footer p{
   color: black;
@@ -297,6 +296,7 @@ Footer a{
 @media (max-width: 550px){
 
   header {
+    text-align: center;
     padding: 0px;
     background-color: white;
   }
@@ -307,11 +307,10 @@ Footer a{
 }
 @media (max-width: 340px) {
   header {
-    height: auto;
+    text-align: center;
+    height: 100%;
     width: auto;
     background: white;
-
-
 
   }
   header a{
@@ -321,6 +320,9 @@ Footer a{
 }
 @media (max-width: 320px) {
   header{
+    text-align: center;
+    padding: 0;
+    margin: 0;
     height: 100%;
     width: 100%;
     background: white;

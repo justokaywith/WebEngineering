@@ -13,7 +13,7 @@
 		<p>Password</p>
 		<input type="password" name="Password" placeholder="Enter Password">
 	<br><br><br>	<button type="submit" name="button">Login</button>
-	
+
 	</div>
 		<?php include 'includes/footer.php'; ?>
 </body>
