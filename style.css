@@ -53,6 +53,11 @@ body{
   box-shadow: 2px 2px 4px 1px black;
   transition: .2s;
 }
+#index button:active{
+  font-size: 15px;
+  transition: .1s;
+  font-weight: bold;
+}
 /*-header css starts from here -*/
 
 header {
@@ -172,7 +177,7 @@ Footer a{
   {
  #index{
   background-color: #58d68d;
-  height: 150%;
+  height: auto;
   text-align: center;
   }
   #index p{
@@ -198,19 +203,24 @@ Footer a{
     transition: .2s;
   }
   #index button{
+    font-size: 20px;
     margin-left: 0;
     background-color:  #58d68d ;
     box-shadow: 2px 2px 4px 1px black;
     padding: 5px;
    }
+   #index button:active{
+     font-size: 15px;
+     transition: .1s;
+     font-weight: bold;
+   }
 
 }
 @media (max-width: 320px) {
   #index input{
-
     width: 100px;
     background: #58d68d;
-    font-size: 14px;
+    font-size: 10px;
   }
   #index input:focus{
     width: 120px;
@@ -222,25 +232,55 @@ Footer a{
     box-shadow: 1px 2px 2px 1px black
     padding 3px;
   }
+  #index button:active{
+    font-size: 15px;
+    transition: .2s;
+    font-weight: bold;
+  }
   }
 
 /*----media query for about php----*/
-@media (min-width: 768px){
-  #about{
 
-  }
-}
 @media (max-width:550px) {
   #about{
     background-color:  #58d68d ;
   }
-}
+  .sec_about_1{
+    background: white;
+    border-color: white;
+    color:  #58d68d;
+    padding: 8px;
+  }
+  .sec_about_1:hover{
+    padding: 8px;
+  }
+  .sec_about_1:active{
+    font-size: 15px;
+  }
+  .sec_about_1:out-of-range{
+    font-size: 20px;
+  }
 
 /*----media query for signup php----*/
 @media (max-width:550px) {
   #signup{
-    border-radius: 50px;
     background-color:  #58d68d ;
+  }
+  .sec_signup_1{
+    background: white;
+    border-color: white;
+    color:  #58d68d;
+    padding: 8px;
+  }
+  .sec_signup_1:hover{
+    padding: 8px;
+  }
+  .sec_signup_1:active{
+    font-size: 15px;
+  }
+  .sec_signup_1:out-of-range{
+      font-size: 20px;
+
   }
 }
 /*----media query for header php----*/
