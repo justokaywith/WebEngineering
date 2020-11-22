@@ -322,3 +322,63 @@ footer a{
 	font-family: bsit;
 	font-size: 19px;
 }
+
+/*-------------deal 1 start here---------*/
+
+.deal_1{
+	height: auto;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}
+.deal_1 img{
+	
+	width: 100%;
+	height: 100%;
+}
+.deal_1 label{
+	font-size: 20px;
+	color: white;
+	font-family: bsit; 
+}
+.deal_1 p{
+	font-size: 16.5px;
+	font-family: sans-serif;
+}
+.deal_only_for {
+	font-size: 20px;
+	font-family: bsit;
+	color: orange;
+}
+.deal_price{
+	font-size: 30px;
+	font-family: bsit;
+	color: #ffa60a;
+}
+.deal_1 a{
+	text-decoration: none;
+	font-size:	15px;
+	color: white;
+	font-family: bsit;
+	padding: 5px;
+	background: #ffa60a;
+}
+.deal_1 a:active{
+	background: red;
+	font-size: 13px;
+}
+.deal_1 hr{
+	color: #ffa60a;
+}
+.deal_p_1{
+	font-family: bsit;
+	font-size: 19px;
+	text-transform: uppercase;	
+	color:  #ffa60a;	
+}
+.deal_p_2{
+	font-family: bsit;
+	font-size: 	19px;
+	text-transform: uppercase;	
+	color: 	 #ffa60a;
+}

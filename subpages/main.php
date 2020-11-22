@@ -45,7 +45,7 @@
   	<label>The Karma Shuarma</label>
  	
   	<img src="./graphics/shuarma.webp">
-  	<p>Finger lickin' good.The best of the best.The karma shuarma! <br><br><span class="only_for_4">Starts From</span><br><span class="price_4"> Rs 250.00</span>
+  	<p>Finger lickin' good.The best of the best.The karma shuarma! <br><br><span class="only_for_4">Only From</span><br><span class="price_4"> Rs 250.00</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -55,17 +55,31 @@
    <div class="deals">
  		<label>Deals</label>
  		<p>So you're one of those guys ? <br>
- 			Well! No Worries. <br>
+ 			Well! No Worries. <br> <br>
  			<span>We Got the best deals in town for you.</span></p>
  	</div>
 
  	 <! ------------------Deal 1 starts here >
 
- 	    <div class="sec_4_main">
-  	<label>The Karma Shuarma</label>
+ 	    <div class="deal_1">
+  	<label>Deal 1</label>
  	
-  	<img src="./graphics/shuarma.webp">
-  	<p>Finger lickin' good.The best of the best.The karma shuarma! <br><br><span class="only_for_4">Starts From</span><br><span class="price_4"> Rs 250.00</span>
+  	<img src="./graphics/deal1.webp">
+  	<p>The budget deals are here. <br>
+  	Buy <span class="deal_p_1">two</span> medium Pizza and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 1450.00</span>
+  </p>
+  	<a href="#">Order Here</a>
+  	<hr>
+  </div>
+
+   <! ------------------Deal 2 starts here >
+
+ 	    <div class="deal_1">
+  	<label>Deal 2</label>
+ 	
+  	<img src="./graphics/deal2.webp">
+  	<p>The budget deals are here. <br>
+  	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> 750 ml coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
