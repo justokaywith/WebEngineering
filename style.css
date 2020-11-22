@@ -370,9 +370,73 @@ footer a{
 	.deal_p_2{
 		font-size: 35px;
 	}
+	.deal_only_for{
+		font-size: 35px;
+	}
+	.deal_price{
+		font-size: 40px;
+	}
 	.end_of_deals p{
 		font-size: 25px;
 	}
 	.end_span{
 		font-size:28px;
 	}}
+@media (min-width: 568px){
+	header a{
+		font-size: 30px;
+	}}
+@media (min-width: 896px){
+	header a{
+		font-size: 45px;
+		padding: 30px;
+	}}
+@media (min-width: 1450px){
+	header {
+		height:100%;
+		width: auto;
+		padding: 0px;
+		margin: 10px;
+		text-align: right;
+	}
+	header a{
+		font-size: 30px;
+		padding: 0;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px; 
+	}
+	header a:focus
+	{
+		background-color: #252E3B;
+	}
+	header a:hover{
+		background: #ffa60a;
+	}
+	.specials label{
+		font-family: 
+	}
+	.spec{
+		width: auto;
+		height: auto;
+		text-align: left;
+	}
+	.spec img{
+		padding: 10px;
+		height: 450px;
+		width: 450px;
+	}
+	.deal img{
+		padding: 10px;
+		height: 450px;
+		width: 450px;
+
+	}
+	.deal hr{
+		width: 800px;
+	}
+	.spec hr{
+		width: 800px;
+	}
+}

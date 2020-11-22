@@ -7,8 +7,9 @@
  <!------------------Special Item 1 starts here----->
 
   <div class="spec">
-  	<label>The King Hamburger</label>
-  	<img src="./graphics/burger.webp">
+  	<label>The King Hamburger</label> <br>
+  	<img src="./graphics/burger.webp"> <br>
+  	
   	<p>Try out our best hamburger. <br><br><span class="only_for">Only for</span><br><span class="price"> Rs 299.00</span>
   	</p>
   	<a href="#">Order Here</a>
@@ -18,9 +19,9 @@
   <!------------------Special Item 2 starts here----->
 
     <div class="spec">
-  	<label>Chick n'Nuggets</label>
- 	
-  	<img src="./graphics/nuggets.webp">
+  	<label>Chick n'Nuggets</label> <br>
+  	<img src="./graphics/nuggets.webp"> <br>
+  	
   	<p>Best in town Chicken & Nuggets.<br><br><span class="only_for">Only for</span><br><span class="price"> Rs 269.99</span>
   	</p>
   	<a href="#">Order Here</a>
@@ -30,9 +31,10 @@
    <!-------------------Special Item 3 starts here--->
 
     <div class="spec">
-  	<label>E che pizza!</label>
- 	
-  	<img src="./graphics/pizza.webp">
+
+ 		<label>E che pizza!</label> <br>
+  	<img src="./graphics/pizza.webp"> <br>
+  	  
   	<p>We'll serve it hot. Get the best pizza in town. <br><br><span class="only_for">Starts From</span><br><span class="price"> Rs 800.00 <span class="inches">for 8"</span></span>
   </p>
   	<a href="#">Order Here</a>
@@ -42,13 +44,14 @@
      <!------------------Special Item 4 starts here---->
 
     <div class="spec">
-  	<label>The Karma Shuarma</label>
- 	
-  	<img src="./graphics/shuarma.webp">
+ 		<label>The Karma Shuarma</label> <br>
+  	<img src="./graphics/shuarma.webp"> <br>
+  	  
+
   	<p>Finger lickin' good.The best of the best.The karma shuarma! <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 250.00</span>
   </p>
   	<a href="#">Order Here</a>
-  	<hr>
+  	<hr> <br>
   </div>
 
    <!------------------Deals starts here----->
@@ -62,9 +65,9 @@
  	 <!------------------Deal 1 starts here------->
 
  	    <div class="deal">
-  	<label>Deal 1</label>
- 	
-  	<img src="./graphics/deal1.webp">
+ 	    	  	  	<label>Deal 1</label> <br>
+  	<img src="./graphics/deal1.webp"> <br>
+
   	<p>The budget deals are here. <br>
   	Buy <span class="deal_p_1">two</span> medium Pizza and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 1450.00</span>
   </p>
@@ -74,10 +77,10 @@
 
    <!------------------Deal 2 starts here-------->
 
- 	    <div class="deal">
-  	<label>Deal 2</label>
- 	
-  	<img src="./graphics/deal2.webp">
+ 	 <div class="deal">
+ 		  	  	<label>Deal 2</label> <br>
+  	<img src="./graphics/deal2.webp"> <br>
+
   	<p>The budget deals are here. <br>
   	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> 750 ml coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
   </p>
