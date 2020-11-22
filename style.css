@@ -6,6 +6,10 @@
 	src: url(./fonts/BigShouldersInlineText-ExtraBold.ttf);
 	font-family: bsit;
 }
+@font-face{
+	src: url(./fonts/Satisfy-Regular.ttf);
+	font-family: satisfy;
+}
 html{
 	width: 100%;
 	height: 100%;
@@ -27,15 +31,17 @@ body{
 
 header{
 	margin-top: 10px;
-	text-align: center;
+	text-align: right;
 	height:	auto;
 	width: auto;
 	background: #252E3B ;
 }
 header hr{
+
 	color: #ffa60a;
 }
 header a{
+
 	font-size: 20px;
 	text-decoration: none;
 	color: white;
@@ -391,25 +397,47 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}}
-@media (min-width: 1450px){
-	header {
-		height:100%;
+@media (min-width: 1250px){
+	body{
+		background: white;
+	}
+	.main{
 		width: auto;
-		padding: 0px;
-		margin: 10px;
+		height: auto;
+		padding: 10px;
+		text-align: left;
+		background: white;
+	}
+	.main h1{
+		text-align: left;
+		color: black;
+	}
+	header {
+		background: white;
+		position: absolute;
+		position: sticky;
+		height: auto;
+		width: auto;
+		padding: 0;
+		margin: 0;
 		text-align: right;
 	}
 	header a{
-		font-size: 30px;
+		font-family: lobs;
+		color: red;
+		font-size: 25px;
 		padding: 0;
-		padding-right: 10px;
-		padding-left: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
 		padding-top: 10px;
 		padding-bottom: 10px; 
 	}
+	header hr{
+		color: red;
+	}
 	header a:focus
 	{
-		background-color: #252E3B;
+		background-color: #ffa60a;
 	}
 	header a:hover{
 		background: #ffa60a;
@@ -422,21 +450,138 @@ footer a{
 		height: auto;
 		text-align: left;
 	}
+	.spec hr{
+		color: red;
+	}
 	.spec img{
+		border-radius: 50%;
 		padding: 10px;
-		height: 450px;
-		width: 450px;
+		height: 250px;
+		width: 250px;
+	}
+	.spec a{
+		font-family: sans-serif;
+		background: #358535;
+	}
+	.spec a:hover{
+		background: #91f291;
+	}
+	.spec a:active{
+		font-size: 30px;
+		background:  #91f291;
 	}
 	.deal img{
+		border-radius: 50%;
 		padding: 10px;
-		height: 450px;
-		width: 450px;
+		height: 250px;
+		width: 250px;
 
+	}
+	.deal label{
+		font-family: satisfy;
+		color: red;
+	}
+	.deals p{
+		color: black;
+	}
+	.deals span{
+		font-family: satisfy;
 	}
 	.deal hr{
 		width: 800px;
+		color: red;
+	}
+	.deal p{
+		color: black;
+		font-size: 20px;
+	}
+	.deal a{
+			font-family: sans-serif;
+		background: #358535;
+	}
+	.deal a:active{
+		font-size: 30px;
+		background:  #91f291;
+	}
+	.deal_p_1{
+		color: red;
+		font-family: satisfy;
+	}
+	.deal_p_2{
+		color: red;
+		font-family: satisfy;
+	}
+	.deal_only_for{
+		color: red;
+		font-family: satisfy;
+	}
+	.deal_price{
+		color: red;
+		font-family: satisfy;
+	}
+	.deals label{
+		font-family: satisfy;
+		color: red;
+		border-bottom: 1px solid red;
+
 	}
 	.spec hr{
 		width: 800px;
+	}
+	.specials label{
+		color: red;
+		border-bottom: 1px solid red;
+		font-family: lobs;
+		font-size: 45px;
+
+	}
+	.spec label{
+		color: red;
+		font-family: satisfy;
+	}
+	.spec p{
+		color: black;
+	}
+	.only_for{
+		font-family: lobs;
+		color: red;
+	}
+	.price{
+		font-family: lobs;
+		color: red;
+	}
+	.end_of_deals{
+		text-align: center;
+	}
+	.end_of_deals p{
+		color: black;
+	}
+	.end_of_deals a{
+		color: black;
+		border-bottom: 1px solid red;
+	}
+	.end_of_deals a:active{
+		border:none;
+		background-color:white;	
+	}
+	.end_of_deals a:hover{
+		background: red;
+		color: white
+		border:none;
+	}
+	.end_span{
+		font-family: satisfy;
+		color: red;
+	}
+	footer{
+		background: white;
+		
+	}
+	footer p{
+		font-size: 20px;
+	}
+	footer a{
+		color: black;
+		font-weight: bold;
 	}
 }
