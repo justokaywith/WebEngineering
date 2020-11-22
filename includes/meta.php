@@ -4,4 +4,4 @@
   <meta name="author" content="Osama ali mangi">
   <meta name="author" content="Abdullah">
   <meta name="description" content="Web project">
-  <meta name="keywords" content="code, tutorials">
+  <meta name="keywords" content="food, orderfood, the foodies">

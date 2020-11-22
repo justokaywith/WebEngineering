@@ -30,11 +30,11 @@ body{
 /*-------header starts here---------*/
 
 header{
-	margin-top: 10px;
+	margin-top: 0px;
 	text-align: right;
 	height:	auto;
 	width: auto;
-	background: #252E3B ;
+	background: #252E3B;
 }
 header hr{
 
@@ -45,7 +45,7 @@ header a{
 	font-size: 20px;
 	text-decoration: none;
 	color: white;
-	padding: 10px;
+	padding: 20px;
 	font-family: sans-serif;
 }
 header a:focus{
@@ -68,7 +68,8 @@ footer p{
 	font-family: sans-serif;
 }
 footer a{
-	color: red;
+	color: black;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -437,11 +438,10 @@ footer a{
 	}
 	header a:focus
 	{
-		background-color: #ffa60a;
+		background-color: white;
+		color: red;
 	}
-	header a:hover{
-		background: #ffa60a;
-	}
+	
 	.specials label{
 		font-family: 
 	}
@@ -454,11 +454,9 @@ footer a{
 		color: red;
 	}
 	.spec img{
-		border-radius: 50%;
 		padding: 10px;
-		height: 250px;
-		width: 250px;
-	}
+		height: 450px;
+		width: 550px;	}
 	.spec a{
 		font-family: sans-serif;
 		background: #358535;
@@ -471,10 +469,10 @@ footer a{
 		background:  #91f291;
 	}
 	.deal img{
-		border-radius: 50%;
+		align-items: center;
 		padding: 10px;
-		height: 250px;
-		width: 250px;
+		height: 450px;
+		width: 550px;
 
 	}
 	.deal label{
