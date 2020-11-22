@@ -9,5 +9,6 @@
   <body>
     <?php include 'includes/header.php' ?>
   <?php include 'subpages/main.php' ?>
+  <?php include 'includes/footer.php' ?>
   </body>
 </html>

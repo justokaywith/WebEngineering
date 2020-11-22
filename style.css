@@ -22,6 +22,9 @@ body{
 	width: auto;
 	background: #252E3B;
 }
+
+/*-------header starts here---------*/
+
 header{
 	margin-top: 10px;
 	text-align: center;
@@ -44,18 +47,49 @@ header a:focus{
 	color: white;
 }
 
+/*-------footer starts here---------*/
+
+footer{
+	border-top: 2px solid red;
+	width: auto;
+	height: auto;
+	background-color: #ffa60a;
+	overflow: hidden;
+	text-align: center;
+}
+footer p{
+	font-size: 11px;
+	font-family: sans-serif;
+}
+footer a{
+	color: red;
+	text-decoration: none;
+}
+
+/*-------main starts here---------*/
+
+.main{
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+
+}
 .main p{
+
 	color: white;
 }
 .main h1{
-	text-align: center;
+		text-align: center;
 	font-family: lobs ;
 	color: white;
+	font-size: 40px;
 }
 .foodies_logo{
 	color:red;
 }
 .specials{
+	margin: 0;
 	width: auto;
 	height: auto;
 	padding: 10px;
@@ -64,7 +98,7 @@ header a:focus{
 	font-size: 50px;
 	color: #ffa60a;
 	font-family: bsit;
-	width: 120px;
+	width: 140px;
 	border-bottom: 1px solid #ffa60a;
 
 }
@@ -104,6 +138,7 @@ header a:focus{
 	text-decoration: none;
 	font-size:	15px;
 	color: white;
+	font-family: bsit;
 	padding: 5px;
 	background: #ffa60a;
 }
@@ -150,6 +185,7 @@ header a:focus{
 .sec_2_main a{
 	text-decoration: none;
 	font-size:	15px;
+	font-family: bsit;
 	color: white;
 	padding: 5px;
 	background: #ffa60a;
@@ -201,6 +237,7 @@ header a:focus{
 .sec_3_main a{
 	text-decoration: none;
 	font-size:	15px;
+	font-family: bsit;
 	color: white;
 	padding: 5px;
 	background: #ffa60a;
@@ -240,14 +277,16 @@ header a:focus{
 	font-family: bsit;
 	color: orange;
 }
-.inches{
-	font-size: 15px;
-
+.price_4{
+	font-size: 30px;
+	font-family: bsit;
+	color: #ffa60a;
 }
 .sec_4_main a{
 	text-decoration: none;
 	font-size:	15px;
 	color: white;
+	font-family: bsit;
 	padding: 5px;
 	background: #ffa60a;
 }
@@ -259,3 +298,27 @@ header a:focus{
 	color: #ffa60a;
 }
 
+/*--------Deals start here-----*/
+
+.deals{
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+.deals label{
+	font-size: 50px;
+	color: #ffa60a;
+	font-family: bsit;
+	width: 80px;
+	border-bottom: 1px solid #ffa60a;
+
+}
+.deals p{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.deals span{
+	font-family: bsit;
+	font-size: 19px;
+}
