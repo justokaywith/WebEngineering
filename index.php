@@ -7,8 +7,7 @@
     <title>Login</title>
   </head>
   <body>
-    <?php include 'includes/header_login.php' ?>
-    <?php include 'subpages/login.php' ?>
-
+    <?php include 'includes/header.php' ?>
+  <?php include 'subpages/main.php' ?>
   </body>
 </html>

@@ -4,5 +4,4 @@
   <meta name="author" content="Osama ali mangi">
   <meta name="author" content="Abdullah">
   <meta name="description" content="Web project">
-  <meta http-equiv="refresh" content="3">
   <meta name="keywords" content="code, tutorials">

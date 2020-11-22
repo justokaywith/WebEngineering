@@ -1,0 +1,261 @@
+@font-face{
+	src: url(./fonts/Lobster-Regular.ttf);
+	font-family: lobs;
+}
+@font-face{
+	src: url(./fonts/BigShouldersInlineText-ExtraBold.ttf);
+	font-family: bsit;
+}
+html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	overflow: scroll;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: #252E3B;
+}
+header{
+	margin-top: 10px;
+	text-align: center;
+	height:	auto;
+	width: auto;
+	background: #252E3B ;
+}
+header hr{
+	color: #ffa60a;
+}
+header a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family: sans-serif;
+}
+header a:focus{
+	background-color: red;
+	color: white;
+}
+
+.main p{
+	color: white;
+}
+.main h1{
+	text-align: center;
+	font-family: lobs ;
+	color: white;
+}
+.foodies_logo{
+	color:red;
+}
+.specials{
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+.specials p{
+	font-size: 50px;
+	color: #ffa60a;
+	font-family: bsit;
+	width: 120px;
+	border-bottom: 1px solid #ffa60a;
+
+}
+   /* Sec 1 starts here */
+
+.sec_1_main{
+	height: auto;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}
+.sec_1_main img{
+	
+	width: 100%;
+	height: 100%;
+}
+.sec_1_main label{
+	font-size: 20px;
+	color: white;
+	font-family: bsit; 
+}
+.sec_1_main p{
+	font-size: 16.5px;
+	font-family: sans-serif;
+}
+.only_for_1 {
+	font-size: 20px;
+	font-family: bsit;
+	color: orange;
+}
+.price_1 {
+	font-size: 30px;
+	font-family: bsit;
+	color: #ffa60a;
+}
+.sec_1_main a{
+	text-decoration: none;
+	font-size:	15px;
+	color: white;
+	padding: 5px;
+	background: #ffa60a;
+}
+.sec_1_main a:active{
+	background: red;
+	font-size: 13px;
+}
+.sec_1_main hr{
+	color: #ffa60a;
+}
+
+/* Sec 2 starts here */
+
+.sec_2_main{
+	height: auto;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}
+.sec_2_main img{
+	
+	width: 100%;
+	height: 100%;
+}
+.sec_2_main label{
+	font-size: 20px;
+	color: white;
+	font-family: bsit; 
+}
+.sec_2_main p{
+	font-size: 16.5px;
+	font-family: sans-serif;
+}
+.only_for_2 {
+	font-size: 20px;
+	font-family: bsit;
+	color: orange;
+}
+.price_2 {
+	font-size: 30px;
+	font-family: bsit;
+	color: #ffa60a;
+}
+.sec_2_main a{
+	text-decoration: none;
+	font-size:	15px;
+	color: white;
+	padding: 5px;
+	background: #ffa60a;
+}
+.sec_2_main a:active{
+	background: red;
+	font-size: 13px;
+}
+.sec_2	_main hr{
+	color: #ffa60a;
+}
+
+/* Sec 3 starts here */
+
+.sec_3_main{
+	height: auto;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}
+.sec_3_main img{
+	
+	width: 100%;
+	height: 100%;
+}
+.sec_3_main label{
+	font-size: 20px;
+	color: white;
+	font-family: bsit; 
+}
+.sec_3_main p{
+	font-size: 16.5px;
+	font-family: sans-serif;
+}
+.only_for_3 {
+	font-size: 20px;
+	font-family: bsit;
+	color: orange;
+}
+.price_3 {
+	font-size: 30px;
+	font-family: bsit;
+	color: #ffa60a;
+}
+.inches{
+	font-size: 15px;
+
+}
+.sec_3_main a{
+	text-decoration: none;
+	font-size:	15px;
+	color: white;
+	padding: 5px;
+	background: #ffa60a;
+}
+.sec_3_main a:active{
+	background: red;
+	font-size: 13px;
+}
+.sec_3_main hr{
+	color: #ffa60a;
+}
+
+/* Sec 4 starts here */
+
+.sec_4_main{
+	height: auto;
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}
+.sec_4_main img{
+	
+	width: 100%;
+	height: 100%;
+}
+.sec_4_main label{
+	font-size: 20px;
+	color: white;
+	font-family: bsit; 
+}
+.sec_4_main p{
+	font-size: 16.5px;
+	font-family: sans-serif;
+}
+.only_for_4 {
+	font-size: 20px;
+	font-family: bsit;
+	color: orange;
+}
+.inches{
+	font-size: 15px;
+
+}
+.sec_4_main a{
+	text-decoration: none;
+	font-size:	15px;
+	color: white;
+	padding: 5px;
+	background: #ffa60a;
+}
+.sec_4_main a:active{
+	background: red;
+	font-size: 13px;
+}
+.sec_4_main hr{
+	color: #ffa60a;
+}
+
