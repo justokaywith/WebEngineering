@@ -7,10 +7,10 @@
  <!------------------Special Item 1 starts here----->
 
   <div class="spec">
-  	<label>The King Hamburger</label> <br>
+  	<label>The King Mac</label> <br>
   	<img src="./graphics/burger.webp"> <br>
   	
-  	<p>Try out our best hamburger. <br><br><span class="only_for">Only for</span><br><span class="price"> Rs 299.00</span>
+  	<p>Try out our best hamburger. <br><br><span class="only_for">Only for</span><br><span class="price"> Rs 299.99</span>
   	</p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -22,7 +22,7 @@
   	<label>Chick n'Nuggets</label> <br>
   	<img src="./graphics/nuggets.webp"> <br>
   	
-  	<p>Best in town Chicken & Nuggets.<br><br><span class="only_for">Only for</span><br><span class="price"> Rs 269.99</span>
+  	<p>Best in town Chicken & Nuggets.<br><br><span class="only_for">Bucket for</span><br><span class="price"> Rs 379.99</span>
   	</p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -35,7 +35,7 @@
  		<label>E che pizza!</label> <br>
   	<img src="./graphics/pizza.webp"> <br>
   	  
-  	<p>We'll serve it hot. Get the best pizza in town. <br><br><span class="only_for">Starts From</span><br><span class="price"> Rs 800.00 <span class="inches">for 8"</span></span>
+  	<p>We'll serve it hot. Get the best pizza in town. <br><br><span class="only_for">Starts From</span><br><span class="price"> Rs 799.99 <span class="inches">for 8"</span></span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -48,7 +48,7 @@
   	<img src="./graphics/shuarma.webp"> <br>
   	  
 
-  	<p>Finger lickin' good.The best shuwarma. <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 250.00</span>
+  	<p>Finger lickin' good.The best shuwarma. <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 249.99</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr> <br>
@@ -69,7 +69,7 @@
   	<img src="./graphics/deal1.webp"> <br>
 
   	<p>
-  	Buy <span class="deal_p_1">two</span> medium Pizza and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 1450.00</span>
+  	Buy <span class="deal_p_1">two</span> medium Pizza and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 1449.99</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -82,7 +82,7 @@
   	<img src="./graphics/deal2.webp"> <br>
 
   	<p>
-  	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> half ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> half ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 479.99</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -95,7 +95,7 @@
   	<img src="./graphics/deal3.webp"> <br>
 
   	<p> 
-  	Buy <span class="deal_p_1">one</span> family platter and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  	Buy <span class="deal_p_1">two</span> King Macs and get <span class="deal_p_2">one</span> half ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 559.99</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
@@ -108,7 +108,7 @@
   	<img src="./graphics/deal4.webp"> <br>
 
   	<p> 
-  	Buy <span class="deal_p_1">two</span> full size nugget bucket and get <span class="deal_p_2">one</span> ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  	Buy <span class="deal_p_1">two</span> full size nugget bucket and get <span class="deal_p_2">one</span> ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 739.99</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>

@@ -19,6 +19,7 @@ html{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+
 }
 
 body{
@@ -402,9 +403,19 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}}
-
 @media(min-width: 1350px){
 	
+	.scroller::-webkit-scrollbar{
+		width: 20px;
+	}
+	.scroller::-webkit-scrollbar-track{
+		border: 5px solid red; 
+	}
+	.scroller::-webkit-scrollbar-thumb{
+		color: orange;
+	}
+	
+
 	header{
 		background: #252E3B;
 		min-width: 100%;
@@ -426,7 +437,8 @@ footer a{
 		color: white;
 		border-top: none;
 		border-top: 1px solid orange;
-	}
+		padding:10px;
+			}
 	footer p{
 		font-size: 20px;
 		word-spacing: 5px;
