@@ -5,3 +5,4 @@
   <meta name="author" content="Abdullah">
   <meta name="description" content="Web project">
   <meta name="keywords" content="food, orderfood, the foodies">
+  <meta charset="utf-8">

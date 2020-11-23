@@ -1,3 +1,4 @@
+<title>Home</title>
 <div class="main">
 
  	<div class="specials">
@@ -116,7 +117,7 @@
 	<!-------------- end of deals-------->
 
 	<div class="end_of_deals">
-	   <p>Any Recommendations ? Mail us </p><input type="email" name="" value="" placeholder="Email Address"><button type="submit" name="button">Submit</button>
+	   <p>Get updates on all special menu items and deals. Subscribe here</p><input type="email" name="" value="" placeholder="Email Address"><button type="submit" name="button">Submit</button>
 	</div>
 
 
