@@ -566,14 +566,14 @@ footer a{
 
 	}
 	.spec:hover{
-		box-shadow: 15px 20px 7px;
+		box-shadow: 8px 11px 8px;
 		transition: .2s;
-		width: 355px;
+
 	}
 	.spec img:hover{
-		box-shadow: 10px 15px 10px;
+		box-shadow: 8px 11px 8px;
 		transition: .2s;
-		width: 355px;
+
 	}
 	.spec a{
 		text-align: center;
@@ -621,14 +621,14 @@ footer a{
 		background-image: linear-gradient(to top,orange,darkorange);
 	}
 	.deal:hover{
-		box-shadow: 15px 20px 7px;
+		box-shadow: 8px 11px 8px;
 		transition: .2s;
-		width: 355px;
+
 	}
 	.deal img:hover{
-		box-shadow: 10px 15px 10px;
+	box-shadow: 8px 11px 8px;
 		transition: .2s;
-		width: 355px;
+
 	}
 	.deal img{
 		box-shadow: 1px 2px 7px;
@@ -752,6 +752,9 @@ footer a{
 		margin: 2px;
 		width: 320px;
 		height: 600px;
+	}
+	.spec:hover{
+		box-shadow:
 	}
 	.deal{
 		margin: 2px;
