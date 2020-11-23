@@ -1,4 +1,5 @@
-<title>Home</title>
+<title> <?php echo $Site_TITLE ?></title>
+
 <div class="main">
 
  	<div class="specials">

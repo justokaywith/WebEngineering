@@ -557,7 +557,7 @@ footer a{
 		display: block;
 	}
 	.spec {
-		margin: 5px;
+		margin: 2px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -603,6 +603,7 @@ footer a{
 	.spec hr{
 		display: none;
 
+
 	}
 	.inches{
 		font-size: 20px;
@@ -612,7 +613,7 @@ footer a{
 		transition: .2s;
 	}
 	.deal {
-		margin: 5px;
+		margin: 2px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -737,4 +738,7 @@ footer a{
 			transition: .3s;
 			transition-timing-function:ease-in-out;
 		}
+}
+@media  {
+
 }
