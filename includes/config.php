@@ -1,3 +1,4 @@
 <?php
- $Site_TITLE="";//provide if optional
- $Site_URL="";//provide absolute path to the a tags 
+ $Site_TITLE="The Foodies";//provide if optional
+ $Site_URL="The Foodies.com.pk";//provide absolute path to the a tags
+ ?>
