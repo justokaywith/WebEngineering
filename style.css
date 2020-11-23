@@ -496,7 +496,7 @@ footer a{
 		display: inline-table;
 		width: 350px;
 		height: 600px;
-		background-image: linear-gradient(to top,orange,orangered);
+		background-image: linear-gradient(to top,orange,darkorange);
 
 	}
 	.spec:hover{
@@ -548,7 +548,7 @@ footer a{
 	.deal {
 		box-shadow: 1px 2px 7px;
 		margin: 10px;
-		background-image: linear-gradient(to top,orange,orangered);
+		background-image: linear-gradient(to top,orange,darkorange);
 		display: inline-table;
 		width: 350px;
 		height: 650px;
