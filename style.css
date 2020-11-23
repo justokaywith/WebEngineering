@@ -35,23 +35,20 @@ body{
 /*-------header starts here---------*/
 
 header{
-	margin-top: 0px;
+	padding:0;
 	text-align: right;
 	height:	auto;
 	width: auto;
 	background: #252E3B;
 }
 header hr{
-
 	color: #ffa60a;
 }
-header a{
-
-	font-size: 20px;
-	text-decoration: none;
+header h1{
+	text-align: center;
+	font-family: lobs ;
 	color: white;
-	padding: 20px;
-	font-family: sans-serif;
+	font-size: 40px;
 }
 
 
@@ -88,12 +85,7 @@ footer a{
 
 	color: white;
 }
-.main h1{
-		text-align: center;
-	font-family: lobs ;
-	color: white;
-	font-size: 40px;
-}
+
 .foodies_logo{
 	color:red;
 	text-shadow: 1px 2px 5px white;
@@ -121,14 +113,14 @@ footer a{
 	padding: 10px;
 }
 .spec img{
-	
+
 	width: 100%;
 	height: 100%;
 }
 .spec label{
 	font-size: 20px;
 	color: white;
-	font-family: bsit; 
+	font-family: bsit;
 }
 .spec p{
 	font-size: 16.5px;
@@ -195,14 +187,14 @@ footer a{
 	padding: 10px;
 }
 .deal img{
-	
+
 	width: 100%;
 	height: 100%;
 }
 .deal label{
 	font-size: 20px;
 	color: white;
-	font-family: bsit; 
+	font-family: bsit;
 }
 .deal p{
 	font-size: 16.5px;
@@ -236,13 +228,13 @@ footer a{
 .deal_p_1{
 	font-family: bsit;
 	font-size: 19px;
-	text-transform: uppercase;	
-	color:  #ffa60a;	
+	text-transform: uppercase;
+	color:  #ffa60a;
 }
 .deal_p_2{
 	font-family: bsit;
 	font-size: 	19px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	color: 	 #ffa60a;
 }
 .end_of_deals{
@@ -255,22 +247,34 @@ footer a{
 	font-size: 15px;
 	font-family: sans-serif;
 }
-.end_span{
-	font-size: 19px;
-	font-family: bsit;
-	color:	 #ffa60a;
-}
+
 .end_of_deals a{
-	text-decoration: none;
+	text-align: right;
+	font-size: 15px;
 	color: white;
-	text-decoration: underline;
-	text-decoration-color: orange;
+	text-decoration: none;
+	font-family: bsitb;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background: orange;
 }
 .end_of_deals a:active{
-	background-color:  #ffa60a;
+	background-color:  red;
 }
 /*------HOME CSS ENDS HERE-----*/
-
+@media (min-width:360px){
+	.end_of_deals a{
+		font-size: 20px;
+	}
+	.deal a{
+		font-size: 20px;
+	}
+	.spec a{
+		font-size: 20px;
+	}
+}
 @media (min-width: 414px){
 	footer p{
 		font-size:14px;
@@ -278,9 +282,22 @@ footer a{
 	.end_of_deals p{
 		font-size:20px;
 	}
-	.end_span{
-		font-size:28px;
+	.end_of_deals a{
+		text-align: right;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		font-family: bsitb;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		background: orange;
 	}
+	.end_of_deals a:active{
+		background-color:  red;
+	}
+
 	.deal label{
 		font-size: 25px;
 	}
@@ -325,7 +342,7 @@ footer a{
 	.spec label{
 		font-size: 35px;
 	}
-	
+
 	.spec p{
 		font-size: 30px;
 	}
@@ -389,9 +406,22 @@ footer a{
 	.end_of_deals p{
 		font-size: 25px;
 	}
-	.end_span{
-		font-size:28px;
-	}}
+	.end_of_deals a{
+		text-align: right;
+		font-size: 25px;
+		color: white;
+		text-decoration: none;
+		font-family: bsitb;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		background: orange;
+	}
+	.end_of_deals a:active{
+		background-color:  red;
+	}
+}
 @media (min-width: 568px){
 	header a{
 		font-size: 30px;
@@ -402,55 +432,61 @@ footer a{
 		padding: 30px;
 	}}
 @media(min-width: 1250px) and (min-height: 680px){
-	
+
 	::-webkit-scrollbar{
 		width: 20px;
 	}
 	::-webkit-scrollbar-track{
-		border: 5px solid red; 
+		border: 5px solid red;
 	}
 	::-webkit-scrollbar-thumb{
 		color: orange;
 	}
-	
+	header h1{
+		font-size: 50px;
+	}
 	.foodies_logo{
 		text-shadow: none;
 	}
 	.foodies_logo:hover{
 		text-shadow: 0px 0px 0px none;
 		text-shadow: 1px 3px 5px white;
+		transition: .1s;
 	}
 	header{
+		padding-left: 10px;
+		padding-right: 10px;
 		background: #252E3B;
-		min-width: 100%;
+		width: auto
 		height: auto;
+
 	}
 	header a{
 		font-size: 30px;
 		padding: 0;
 		padding:10px;
 	}
-	header a:active{
-		background: none;
-	}
-	header a:hover{
-		background: orange;
+
+	header hr{
+
 	}
 	footer{
+		text-align: center;
 		background: #252E3B;
 		color: white;
 		border-top: none;
 		border-top: 1px solid orange;
-		padding:10px;
-			}
+		padding:20px;
+	}
+
 	footer p{
 		font-size: 20px;
-		word-spacing: 5px;
+
 	}
 	footer a{
-		color: white;
+		color: orange;
 	}
-	
+
 	.main{
 		display: block;
 	}
@@ -460,7 +496,7 @@ footer a{
 		display: inline-table;
 		width: 350px;
 		height: 600px;
-		background: orange;
+		background-image: linear-gradient(to top,orange,orangered);
 
 	}
 	.spec:hover{
@@ -509,10 +545,10 @@ footer a{
 		box-shadow: 15px 20px 7px;
 		transition: .2s;
 	}
-	.deal {	
+	.deal {
 		box-shadow: 1px 2px 7px;
 		margin: 10px;
-		background: orange;
+		background-image: linear-gradient(to top,orange,orangered);
 		display: inline-table;
 		width: 350px;
 		height: 650px;
@@ -531,14 +567,14 @@ footer a{
 		box-shadow: 1px 2px 7px;
 	}
 	.deal p{
-		
+
 	}
 	.deal hr{
 		display: none;
 	}
 	.deals label{
 		font-family: bsitb;
-		font-size: 100px;
+		font-size: 75px;
 	}
 	.deals span{
 
@@ -584,15 +620,38 @@ footer a{
 		padding: 20px;
 	}
 	.specials label{
-		font-size: 100px;
+		font-size: 75px;
 		font-family: bsitb;
+	}
+	.end_of_deals{
+		width: auto;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		padding: 10px;
+		border-top: 1px solid orange;
+	}
+	.end_of_deals hr{
+		border-bottom: none;
 	}
 	.end_of_deals p{
+		margin: 20px;
+		font-size: 25px;
+	}
+	.end_of_deals a{
+		text-align: right;
 		font-size: 30px;
-	}
-	.end_span{
-		font-size: 35px;
+		text-decoration: none;
 		font-family: bsitb;
+		margin: 0;
+		margin-left: 20px;
+		padding-left: 170px;
+		padding-right: 170px;
+		background: red;
 	}
+	.end_of_deals a:hover{
+		box-shadow: 1px 3px 5px black;
+		transition: .2s;
+	}
+
 }
-		
