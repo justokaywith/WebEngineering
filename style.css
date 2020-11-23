@@ -750,8 +750,12 @@ footer a{
 @media (min-width: 1920px ){
 	.spec{
 		margin: 2px;
+		width: 320px;
+		height: 600px;
 	}
 	.deal{
 		margin: 2px;
+		width: 320px;
+		height: 600px;
 	}
 }
