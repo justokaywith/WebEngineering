@@ -440,17 +440,32 @@ footer a{
 	}
 	.spec {
 		margin: 10px;
-		box-shadow: 5px 10px 7px;
+		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
 		height: 600px;
 		background: orange;
 
 	}
+	.spec:hover{
+		box-shadow: 15px 20px 7px;
+		transition: .2s;
+		width: 355px;
+	}
+	.spec img:hover{
+		box-shadow: 10px 15px 10px;
+		transition: .2s;
+		width: 355px;
+	}
 	.spec a{
 		text-align: center;
 		width: 100%;
 		background: red;
+	}
+	.spec a:hover{
+		box-shadow: 1px 3px 5px black;
+		transition: .2s;
+		width: 355px;
 	}
 	.only_for{
 		color: red;
@@ -459,7 +474,7 @@ footer a{
 		font-family: bsitb;
 	}
 	.spec img{
-		box-shadow: 5px 10px 7px;
+		box-shadow: 1px 2px 7px;
 	}
 	.price{
 		color: red;
@@ -474,16 +489,30 @@ footer a{
 	.inches{
 		font-size: 20px;
 	}
-	.deal {
-		box-shadow: 5px 10px 7px;
+	.deal:hover{
+		box-shadow: 15px 20px 7px;
+		transition: .2s;
+	}
+	.deal {	
+		box-shadow: 1px 2px 7px;
 		margin: 10px;
 		background: orange;
 		display: inline-table;
 		width: 350px;
 		height: 650px;
 	}
+	.deal:hover{
+		box-shadow: 15px 20px 7px;
+		transition: .2s;
+		width: 355px;
+	}
+	.deal img:hover{
+		box-shadow: 10px 15px 10px;
+		transition: .2s;
+		width: 355px;
+	}
 	.deal img{
-		box-shadow: 5px 10px 7px;
+		box-shadow: 1px 2px 7px;
 	}
 	.deal p{
 		
@@ -516,6 +545,11 @@ footer a{
 		text-align: center;
 		width: 100%;
 		background: red;
+	}
+	.deal a:hover{
+		box-shadow: 1px 3px 5px black;
+		transition: .2s;
+		width: 355px;
 	}
 	.deal_only_for{
 		color: red;
