@@ -506,7 +506,7 @@ footer a{
 		background: red;
 	}
 }
-@media (min-width: 1360px) and (min-height: 680px){
+@media (min-width: 1366px) and (min-height: 680px){
 
 	header h1{
 		font-size: 50px;
@@ -557,7 +557,7 @@ footer a{
 		display: block;
 	}
 	.spec {
-		margin: 2px;
+		margin: 5px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -613,7 +613,7 @@ footer a{
 		transition: .2s;
 	}
 	.deal {
-		margin: 2px;
+		margin: 5px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -739,6 +739,6 @@ footer a{
 			transition-timing-function:ease-in-out;
 		}
 }
-@media  {
+@media  (min-width: ){
 
 }
