@@ -282,7 +282,7 @@ footer a{
 }
 
 /*------HOME CSS ENDS HERE-----*/
-@media (min-width:360px){
+@media (min-width: 360px){
 	.end_of_deals a{
 		font-size: 20px;
 	}
@@ -557,7 +557,7 @@ footer a{
 		display: block;
 	}
 	.spec {
-		margin: 5px;
+		margin: 4px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -613,7 +613,7 @@ footer a{
 		transition: .2s;
 	}
 	.deal {
-		margin: 5px;
+		margin: 4px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -739,6 +739,19 @@ footer a{
 			transition-timing-function:ease-in-out;
 		}
 }
-@media  (min-width: ){
-
+@media (min-width: 1600px ){
+	.spec{
+		margin: 10px;
+	}
+	.deal{
+		margin: 10px;
+	}
+}
+@media (min-width: 1920px ){
+	.spec{
+		margin: 2px;
+	}
+	.deal{
+		margin: 2px;
+	}
 }
