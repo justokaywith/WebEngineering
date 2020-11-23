@@ -398,6 +398,7 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}}
+/*----------------------------
 @media (min-width: 1350px){
 	body{
 		background: white;
@@ -455,8 +456,9 @@ footer a{
 	}
 	.spec img{
 		padding: 10px;
-		height: 450px;
-		width: 550px;	}
+		max-width: 100%;
+		height: auto;
+	}
 	.spec a{
 		font-family: sans-serif;
 		background: #358535;
@@ -581,5 +583,29 @@ footer a{
 	footer a{
 		color: black;
 		font-weight: bold;
+	}}
+-----------------------------*/
+@media(min-width: 1350px){
+	.main{
+		display: block;
 	}
+	.spec {
+		display: inline-table;
+		width: 350px;
+		height: 700px;
+
+	}
+	.spec hr{
+		display: none;
+
+	}
+	.deal {
+		display: inline-table;
+		width: 350px;
+		height: 700px;
+	}
+	.deal hr{
+		display: none;
+	}
+		
 }

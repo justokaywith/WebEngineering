@@ -48,7 +48,7 @@
   	<img src="./graphics/shuarma.webp"> <br>
   	  
 
-  	<p>Finger lickin' good.The best of the best.The karma shuarma! <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 250.00</span>
+  	<p>Finger lickin' good.The best shuwarma. <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 250.00</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr> <br>
