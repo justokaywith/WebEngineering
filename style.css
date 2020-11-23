@@ -99,6 +99,7 @@ footer a{
 }
 .foodies_logo{
 	color:red;
+	text-shadow: 1px 2px 5px white;
 }
 .specials{
 	margin: 0;
@@ -415,7 +416,13 @@ footer a{
 		color: orange;
 	}
 	
-
+	.foodies_logo{
+		text-shadow: none;
+	}
+	.foodies_logo:hover{
+		text-shadow: 0px 0px 0px none;
+		text-shadow: 1px 3px 5px white;
+	}
 	header{
 		background: #252E3B;
 		min-width: 100%;
