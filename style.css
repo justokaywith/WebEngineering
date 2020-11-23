@@ -568,7 +568,7 @@ footer a{
 		display: block;
 	}
 	.spec {
-		margin: 10px;
+		margin: 5px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 350px;
@@ -624,7 +624,7 @@ footer a{
 	}
 	.deal {
 		box-shadow: 1px 2px 7px;
-		margin: 10px;
+		margin: 5px;
 		background-image: linear-gradient(to top,orange,darkorange);
 		display: inline-table;
 		width: 350px;
