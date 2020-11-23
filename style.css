@@ -586,6 +586,9 @@ footer a{
 	}}
 -----------------------------*/
 @media(min-width: 1350px){
+	header a{
+		font-size: 30px;
+	}
 	.main{
 		display: block;
 	}
