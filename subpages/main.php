@@ -58,8 +58,8 @@
    <div class="deals">
  		<label>Deals</label>
  		<p>So you're one of those guys ? <br>
- 			Well! No Worries. <br> <br>
- 			<span>We Got the best deals in town for you.</span></p>
+ 			Well.No worries because <br>
+ 			<span>We Got the best deals in town for you!!</span></p>
  	</div>
 
  	 <!------------------Deal 1 starts here------->
@@ -68,7 +68,7 @@
  	    	  	  	<label>Deal 1</label> <br>
   	<img src="./graphics/deal1.webp"> <br>
 
-  	<p>The budget deals are here. <br>
+  	<p>
   	Buy <span class="deal_p_1">two</span> medium Pizza and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 1450.00</span>
   </p>
   	<a href="#">Order Here</a>
@@ -81,17 +81,42 @@
  		  	  	<label>Deal 2</label> <br>
   	<img src="./graphics/deal2.webp"> <br>
 
-  	<p>The budget deals are here. <br>
-  	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> 750 ml coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  	<p>
+  	Buy <span class="deal_p_1">two</span> medium Shuwarmas and get <span class="deal_p_2">one</span> half ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
   </p>
   	<a href="#">Order Here</a>
   	<hr>
   </div>
 
+   <!------------------Deal 3 starts here-------->
+
+ 	 <div class="deal">
+ 		  	  	<label>Deal 3</label> <br>
+  	<img src="./graphics/deal3.webp"> <br>
+
+  	<p> 
+  	Buy <span class="deal_p_1">one</span> family platter and get <span class="deal_p_2">one</span> 1.5 ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  </p>
+  	<a href="#">Order Here</a>
+  	<hr>
+  </div>
+
+ <!------------------Deal 4 starts here-------->
+
+ 	 <div class="deal">
+ 		  	  	<label>Deal 4</label> <br>
+  	<img src="./graphics/deal4.webp"> <br>
+
+  	<p> 
+  	Buy <span class="deal_p_1">two</span> full size nugget bucket and get <span class="deal_p_2">one</span> ltr coke absoulty free! <br><br><span class="deal_only_for">Only From</span><br><span class="deal_price"> Rs 475.00</span>
+  </p>
+  	<a href="#">Order Here</a>
+  	<hr>
+  </div>
 	<!-------------- end of deals-------->
 
 	<div class="end_of_deals">
-		<p>Find out more <span class="end_span">Interesting</span> deals <br><span class="end_span">Order </span>them <a href="#">Here</a></p>
+		<p>Find out more <span class="end_span">Interesting</span> deals <br><span class="end_span">Order </span>them <a href="#">Here</a>.</p>
 	</div>
 
 

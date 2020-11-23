@@ -3,6 +3,10 @@
 	font-family: lobs;
 }
 @font-face{
+	src: url(./fonts/BigShouldersInlineText-Black.ttf);
+	font-family: bsitb;
+}
+@font-face{
 	src: url(./fonts/BigShouldersInlineText-ExtraBold.ttf);
 	font-family: bsit;
 }
@@ -398,217 +402,141 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}}
-/*----------------------------
-@media (min-width: 1350px){
-	body{
-		background: white;
-	}
-	.main{
-		width: auto;
+
+@media(min-width: 1350px){
+	
+	header{
+		background: #252E3B;
+		min-width: 100%;
 		height: auto;
-		padding: 10px;
-		text-align: left;
-		background: white;
-	}
-	.main h1{
-		text-align: left;
-		color: black;
-	}
-	header {
-		background: white;
-		position: absolute;
-		position: sticky;
-		height: auto;
-		width: auto;
-		padding: 0;
-		margin: 0;
-		text-align: right;
 	}
 	header a{
-		font-family: lobs;
-		color: red;
-		font-size: 25px;
+		font-size: 30px;
 		padding: 0;
-		padding-right: 15px;
-		padding-left: 15px;
-		padding-top: 10px;
-		padding-bottom: 10px; 
+		padding:10px;
 	}
-	header hr{
-		color: red;
+	header a:active{
+		background: none;
 	}
-	header a:focus
-	{
-		background-color: white;
-		color: red;
-	}
-	
-	.specials label{
-		font-family: 
-	}
-	.spec{
-		width: auto;
-		height: auto;
-		text-align: left;
-	}
-	.spec hr{
-		color: red;
-	}
-	.spec img{
-		padding: 10px;
-		max-width: 100%;
-		height: auto;
-	}
-	.spec a{
-		font-family: sans-serif;
-		background: #358535;
-	}
-	.spec a:hover{
-		background: #91f291;
-	}
-	.spec a:active{
-		font-size: 30px;
-		background:  #91f291;
-	}
-	.deal img{
-		align-items: center;
-		padding: 10px;
-		height: 450px;
-		width: 550px;
-
-	}
-	.deal label{
-		font-family: satisfy;
-		color: red;
-	}
-	.deals p{
-		color: black;
-	}
-	.deals span{
-		font-family: satisfy;
-	}
-	.deal hr{
-		width: 800px;
-		color: red;
-	}
-	.deal p{
-		color: black;
-		font-size: 20px;
-	}
-	.deal a{
-			font-family: sans-serif;
-		background: #358535;
-	}
-	.deal a:active{
-		font-size: 30px;
-		background:  #91f291;
-	}
-	.deal_p_1{
-		color: red;
-		font-family: satisfy;
-	}
-	.deal_p_2{
-		color: red;
-		font-family: satisfy;
-	}
-	.deal_only_for{
-		color: red;
-		font-family: satisfy;
-	}
-	.deal_price{
-		color: red;
-		font-family: satisfy;
-	}
-	.deals label{
-		font-family: satisfy;
-		color: red;
-		border-bottom: 1px solid red;
-
-	}
-	.spec hr{
-		width: 800px;
-	}
-	.specials label{
-		color: red;
-		border-bottom: 1px solid red;
-		font-family: lobs;
-		font-size: 45px;
-
-	}
-	.spec label{
-		color: red;
-		font-family: satisfy;
-	}
-	.spec p{
-		color: black;
-	}
-	.only_for{
-		font-family: lobs;
-		color: red;
-	}
-	.price{
-		font-family: lobs;
-		color: red;
-	}
-	.end_of_deals{
-		text-align: center;
-	}
-	.end_of_deals p{
-		color: black;
-	}
-	.end_of_deals a{
-		color: black;
-		border-bottom: 1px solid red;
-	}
-	.end_of_deals a:active{
-		border:none;
-		background-color:white;	
-	}
-	.end_of_deals a:hover{
-		background: red;
-		color: white
-		border:none;
-	}
-	.end_span{
-		font-family: satisfy;
-		color: red;
+	header a:hover{
+		background: orange;
 	}
 	footer{
-		background: white;
-		
+		background: #252E3B;
+		color: white;
+		border-top: none;
+		border-top: 1px solid orange;
 	}
 	footer p{
 		font-size: 20px;
+		word-spacing: 5px;
 	}
 	footer a{
-		color: black;
-		font-weight: bold;
-	}}
------------------------------*/
-@media(min-width: 1350px){
-	header a{
-		font-size: 30px;
+		color: white;
 	}
+	
 	.main{
 		display: block;
 	}
 	.spec {
+		margin: 10px;
+		box-shadow: 5px 10px 7px;
 		display: inline-table;
 		width: 350px;
-		height: 700px;
+		height: 600px;
+		background: orange;
 
+	}
+	.spec a{
+		text-align: center;
+		width: 100%;
+		background: red;
+	}
+	.only_for{
+		color: red;
+		word-spacing: 10px;
+		font-size: 40px;
+		font-family: bsitb;
+	}
+	.price{
+		color: red;
+		word-spacing: 10px;
+		font-size: 55px;
+		font-family: bsitb;
 	}
 	.spec hr{
 		display: none;
 
 	}
+	.inches{
+		font-size: 20px;
+	}
 	.deal {
+		box-shadow: 5px 10px 7px;
+		margin: 10px;
+		background: orange;
 		display: inline-table;
 		width: 350px;
-		height: 700px;
+		height: 650px;
+	}
+	.deal p{
+		
 	}
 	.deal hr{
 		display: none;
 	}
-		
+	.deals label{
+		font-family: bsitb;
+		font-size: 100px;
+	}
+	.deals span{
+
+		font-size: 40px;
+		color: orange;
+		word-spacing: 10px;
+	}
+	.deals p{
+		font-size: 30px;
+	}
+	.deal_p_1{
+		color: red;
+		font-family: bsitb;
+	}
+	.deal_p_2{
+		color: red;
+		font-family: bsitb;
+	}
+	.deal a{
+		text-align: center;
+		width: 100%;
+		background: red;
+	}
+	.deal_only_for{
+		color: red;
+		word-spacing: 10px;
+		font-size: 40px;
+		font-family: bsitb;
+	}
+	.deal_price{
+		color: red;
+		word-spacing: 10px;
+		font-size: 55px;
+		font-family: bsitb;
+	}
+	.specials{
+		padding: 0;
+		padding: 20px;
+	}
+	.specials label{
+		font-size: 100px;
+		font-family: bsitb;
+	}
+	.end_of_deals p{
+		font-size: 30px;
+	}
+	.end_span{
+		font-size: 35px;
+		font-family: bsitb;
+	}
 }
+		
