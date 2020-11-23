@@ -406,13 +406,13 @@ footer a{
 	}}
 @media(min-width: 1350px) and (min-height: 680px){
 	
-	.scroller::-webkit-scrollbar{
+	::-webkit-scrollbar{
 		width: 20px;
 	}
-	.scroller::-webkit-scrollbar-track{
+	::-webkit-scrollbar-track{
 		border: 5px solid red; 
 	}
-	.scroller::-webkit-scrollbar-thumb{
+	::-webkit-scrollbar-thumb{
 		color: orange;
 	}
 	
