@@ -741,10 +741,10 @@ footer a{
 }
 @media (min-width: 1600px ){
 	.spec{
-		margin: 10px;
+		margin: 5px;
 	}
 	.deal{
-		margin: 10px;
+		margin: 5px;
 	}
 }
 @media (min-width: 1920px ){
