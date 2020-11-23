@@ -764,7 +764,7 @@ footer a{
 		font-size: 25px;
 	}
 	.deal_p_1{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.deal_p_2{
 		font-size: 30px;
@@ -836,10 +836,10 @@ footer a{
 
 	}
 	.spec p{
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.deal p{
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.spec:hover{
 		box-shadow: 8px 11px 8px;
@@ -864,7 +864,7 @@ footer a{
 	.only_for{
 		color: red;
 		word-spacing: 10px;
-		font-size: 40px;
+		font-size: 30px;
 		font-family: bsitb;
 	}
 	.spec img{
@@ -873,7 +873,7 @@ footer a{
 	.price{
 		color: red;
 		word-spacing: 10px;
-		font-size: 55px;
+		font-size: 35px;
 		font-family: bsitb;
 	}
 	.spec hr{
@@ -946,13 +946,13 @@ footer a{
 	.deal_only_for{
 		color: red;
 		word-spacing: 10px;
-		font-size: 40px;
+		font-size: 30px;
 		font-family: bsitb;
 	}
 	.deal_price{
 		color: red;
 		word-spacing: 10px;
-		font-size: 55px;
+		font-size: 35px;
 		font-family: bsitb;
 	}
 	.specials{
@@ -1030,7 +1030,7 @@ footer a{
 	.deal{
 		margin: 2px;
 		width: 320px;
-		height: 600px;
+		height: 500px;
 	}
 	.deal p{
 		font-size: 20px;
