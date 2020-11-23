@@ -116,7 +116,7 @@
 	<!-------------- end of deals-------->
 
 	<div class="end_of_deals">
-	   <p>Any Recommendations ? Mail us </p><a href="mailto:harisrana99@gmail.com?subject=feedback">Here</a>
+	   <p>Any Recommendations ? Mail us </p><input type="email" name="" value="" placeholder="Email Address"><button type="submit" name="button">Submit</button>
 	</div>
 
 

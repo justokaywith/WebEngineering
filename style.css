@@ -263,6 +263,30 @@ footer a{
 .end_of_deals a:active{
 	background-color:  red;
 }
+.end_of_deals input{
+	text-align: left;
+	font-size: 13px;
+	border: none;
+	border-bottom: 2px solid orange;
+	background: none;
+	width: auto;
+	color: orange;
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+.end_of_deals button{
+	font-size: 13px;
+	border: none;
+	padding: 3px;
+	margin-left: 10px;
+	background: darkorange;
+	color: white;
+}
+.end_of_deals button:active{
+	background: red;
+}
+
 /*------HOME CSS ENDS HERE-----*/
 @media (min-width:360px){
 	.end_of_deals a{
@@ -273,6 +297,29 @@ footer a{
 	}
 	.spec a{
 		font-size: 20px;
+	}
+	.end_of_deals input{
+		text-align: left;
+		font-size: 15px;
+		border: none;
+		border-bottom: 2px solid orange;
+		background: none;
+		width: auto;
+		color: orange;
+		text-decoration: none;
+		font-family: sans-serif;
+
+	}
+	.end_of_deals button{
+		font-size: 15px;
+		border: none;
+		padding: 3px;
+		margin-left: 10px;
+		background: darkorange;
+		color: white;
+	}
+	.end_of_deals button:active{
+		background: red;
 	}
 }
 @media (min-width: 414px){
@@ -324,7 +371,11 @@ footer a{
 	.spec a:active{
 		background: red;
 		font-size: 18px;
-	}}
+	}
+	.end_of_deals button:active{
+		background: red;
+	}
+}
 @media (min-width: 720px){
 	header a{
 		font-size: 30px;
@@ -421,16 +472,46 @@ footer a{
 	.end_of_deals a:active{
 		background-color:  red;
 	}
+	.end_of_deals input{
+		text-align: left;
+		font-size: 18px;
+		border: none;
+		border-bottom: 1px solid orange;
+		background: none;
+		width: 300px;
+		color: orange;
+		text-decoration: none;
+		font-family: sans-serif;
+
+	}
+	.end_of_deals button{
+		font-size: 18px;
+		border: none;
+		padding: 4px;
+		margin-left: 13px;
+		background: darkorange;
+		color: white;
+	}
+	.end_of_deals button:active{
+		background: red;
+	}
 }
 @media (min-width: 568px){
 	header a{
 		font-size: 30px;
 	}}
+	.end_of_deals button:active{
+		background: red;
+	}
 @media (min-width: 896px){
 	header a{
 		font-size: 45px;
 		padding: 30px;
-	}}
+	}
+	.end_of_deals button:active{
+		background: red;
+	}
+}
 @media(min-width: 1250px) and (min-height: 680px){
 
 	::-webkit-scrollbar{
@@ -636,22 +717,30 @@ footer a{
 	}
 	.end_of_deals p{
 		margin: 20px;
-		font-size: 25px;
+		font-size: 20px;
+		font-family: sans-serif;
 	}
-	.end_of_deals a{
-		text-align: right;
-		font-size: 30px;
+	.end_of_deals input{
+		text-align: left;
+		font-size: 16px;
+		border: none;
+		border-bottom: 2px solid orange;
+		background: none;
+		width: 300px;
+		color: orange;
 		text-decoration: none;
-		font-family: bsitb;
+		font-family: sans-serif;
 		margin: 0;
 		margin-left: 20px;
-		padding-left: 170px;
-		padding-right: 170px;
-		background: red;
 	}
-	.end_of_deals a:hover{
-		box-shadow: 1px 3px 5px black;
-		transition: .2s;
+	.end_of_deals button{
+		font-size: 16px;
+		border: none;
+		background-color: orange;
+		color: white;
+		font-family: bsitb;
+		padding: 5px;
+		margin-left: 10px;
 	}
-
-}
+		.end_of_deals button:hover{
+			box-shadow: 1px 3px 5px black;}	}
