@@ -458,6 +458,9 @@ footer a{
 		font-size: 40px;
 		font-family: bsitb;
 	}
+	.spec img{
+		box-shadow: 5px 10px 7px;
+	}
 	.price{
 		color: red;
 		word-spacing: 10px;
@@ -478,6 +481,9 @@ footer a{
 		display: inline-table;
 		width: 350px;
 		height: 650px;
+	}
+	.deal img{
+		box-shadow: 5px 10px 7px;
 	}
 	.deal p{
 		
