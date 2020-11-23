@@ -53,10 +53,7 @@ header a{
 	padding: 20px;
 	font-family: sans-serif;
 }
-header a:focus{
-	background-color: red;
-	color: white;
-}
+
 
 /*-------footer starts here---------*/
 
@@ -404,7 +401,7 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}}
-@media(min-width: 1350px) and (min-height: 680px){
+@media(min-width: 1250px) and (min-height: 680px){
 	
 	::-webkit-scrollbar{
 		width: 20px;
