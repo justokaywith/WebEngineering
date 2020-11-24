@@ -15,7 +15,7 @@ html{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-
+	background: #191919;
 }
 
 body{
@@ -25,7 +25,7 @@ body{
 	padding: 0;
 	height: auto;
 	width: auto;
-	background: #252E3B;
+	background:#191919;
 }
 
 /*-------header starts here---------*/
@@ -35,7 +35,7 @@ header{
 	text-align: right;
 	height:	auto;
 	width: auto;
-	background: #252E3B;
+	background: #191919;
 }
 header hr{
 	color: #ffa60a;
@@ -75,7 +75,7 @@ footer a{
 	width: auto;
 	height: auto;
 	padding: 0;
-
+	background: #191919;
 }
 .main p{
 
