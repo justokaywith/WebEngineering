@@ -25,21 +25,12 @@ body {
 }
 
 
-<<<<<<< HEAD
 header {
 	margin-top: 10px;
 	text-align: center;
 	height:	auto;
 	width: auto;
 	background-color: #252E3B ;
-=======
-header{
-	padding:0;
-	text-align: right;
-	height:	auto;
-	width: auto;
-	background: #191919;
->>>>>>> parent of c5d1614... Update style.css
 }
 
 header hr {
@@ -129,12 +120,8 @@ footer a {
 	height: 100%;
 	padding: 10px;
 }
-<<<<<<< HEAD
 
 .spec img {
-=======
-.spec img{
->>>>>>> parent of c5d1614... Update style.css
 	width: 100%;
 	height: 100%;
 }
@@ -215,13 +202,8 @@ footer a {
 	height: 100%;
 	padding: 10px;
 }
-<<<<<<< HEAD
 
 .deal img {
-=======
-.deal img{
-
->>>>>>> parent of c5d1614... Update style.css
 	width: 100%;
 	height: 100%;
 }
@@ -441,65 +423,13 @@ footer a {
 		background: red;
 		font-size: 18px;
 	}
-<<<<<<< HEAD
-=======
-}
-@media (min-width: 568px){
-	header a{
-		font-size: 30px;
-	}}
-	.end_of_deals button:active{
-		background: red;
-	}
-@media (min-width: 896px){
-	header a{
-		font-size: 45px;
-		padding: 30px;
-	}
-	.end_of_deals button:active{
-		background: red;
-	}
-}
-@media (min-width: 1360px){
-
-	header h1{
-		font-size: 50px;
-	}
-	.foodies_logo{
-		text-shadow: none;
-	}
-	.foodies_logo:hover{
-		text-shadow: 0px 0px 0px none;
-		text-shadow: 1px 3px 5px white;
-		transition: .1s;
-	}
-	header{
-		padding-left: 10px;
-		padding-right: 10px;
-		background: #252E3B;
-		width: auto
-		height: auto;
->>>>>>> parent of c5d1614... Update style.css
 
 	.deal p {
 		font-size: 30px;
 	}
 
-<<<<<<< HEAD
 	.deal_p_1 {
 		font-size: 35px;
-=======
-	header hr{
-
-	}
-	footer{
-		text-align: center;
-		background: #252E3B;
-		color: white;
-		border-top: none;
-		border-top: 1px solid orange;
-		padding:20px;
->>>>>>> parent of c5d1614... Update style.css
 	}
 
 	.deal_p_2 {
@@ -509,16 +439,6 @@ footer a {
 	.deal_only_for {
 		font-size: 35px;
 	}
-<<<<<<< HEAD
-=======
-	.spec {
-		margin: 4px;
-		box-shadow: 1px 2px 7px;
-		display: inline-table;
-		width: 300px;
-		height: 500px;
-		background-image: linear-gradient(to top,orange,darkorange);
->>>>>>> parent of c5d1614... Update style.css
 
 	.deal_price {
 		font-size: 40px;
@@ -531,26 +451,7 @@ footer a {
 	.end_span {
 		font-size:28px;
 	}
-<<<<<<< HEAD
 }
-=======
-	.deal {
-		margin: 4px;
-		box-shadow: 1px 2px 7px;
-		display: inline-table;
-		width: 300px;
-		height: 500px;
-		background-image: linear-gradient(to top,orange,darkorange);
-	}
-	.deal:hover{
-		box-shadow: 8px 11px 8px;
-		transition: .2s;
-
-	}
-	.deal img:hover{
-	box-shadow: 8px 11px 8px;
-		transition: .2s;
->>>>>>> parent of c5d1614... Update style.css
 
 
 
@@ -559,55 +460,14 @@ footer a {
 		font-size: 30px;
 	}
 }
-<<<<<<< HEAD
 
 @media (min-width: 896px) {
 	header a {
 		font-size: 45px;
 		padding: 30px;
-=======
-@media (min-width: 1440px ){
-	.spec{
-		margin: 10px;
-		width: 300px;
-		height: auto;
-	}
-	.spec p{
-		font-size: 25px;
-	}
-	.only_for{
-		font-size: 30px;
-	}
-	.price{
-		font-size: 35px;
-	}
-	.deals p{
-		font-size: 25px;
-	}
-	.deal{
-		margin: 5px 10px 5px 10px;
-		width: 300px;
-		height: auto;
-	}
-	.deal p{
-		font-size: 25px;
-	}
-	.deal_p_1{
-		font-size: 25px;
-	}
-	.deal_p_2{
-		font-size: 30px;
-	}
-	.deal_only_for{
-		font-size: 30px;
-	}
-	.deal_price{
-		font-size: 35px;
->>>>>>> parent of c5d1614... Update style.css
 	}
 }
 
-<<<<<<< HEAD
 @media (min-width: 1450px) {
 	header {
 		height:100%;
@@ -616,73 +476,19 @@ footer a {
 		margin: 10px;
 		text-align: right;
 	}
-=======
-	header h1{
-		font-size: 50px;
-	}
-	.foodies_logo{
-		text-shadow: none;
-	}
-	.foodies_logo:hover{
-		text-shadow: 0px 0px 0px none;
-		text-shadow: 1px 3px 5px white;
-		transition: .1s;
-	}
-	header{
-		padding-left: 10px;
-		padding-right: 10px;
-		background: #252E3B;
-		width: auto
-		height: auto;
->>>>>>> parent of c5d1614... Update style.css
 
 	header a {
 		font-size: 30px;
 		padding: 0;
-<<<<<<< HEAD
 		padding-right: 10px;
 		padding-left: 10px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-=======
-		padding:10px;
-	}
-
-	header hr{
-
-	}
-	footer{
-		text-align: center;
-		background: #252E3B;
-		color: white;
-		border-top: none;
-		border-top: 1px solid orange;
-		padding:20px;
-	}
-
-	footer p{
-		font-size: 20px;
-
-	}
-	footer a{
-		color: orange;
->>>>>>> parent of c5d1614... Update style.css
 	}
 
 	header a:focus {
 		background-color: #252E3B;
 	}
-<<<<<<< HEAD
-=======
-	.spec {
-		margin: 4px;
-		margin-left: 10px;
-		box-shadow: 1px 2px 7px;
-		display: inline-table;
-		width: 350px;
-		height: 500px;
-		background-image: linear-gradient(to top,orange,darkorange);
->>>>>>> parent of c5d1614... Update style.css
 
 	header a:hover {
 		background: #ffa60a;
@@ -703,27 +509,6 @@ footer a {
 		height: 450px;
 		width: 450px;
 	}
-<<<<<<< HEAD
-=======
-	.inches{
-		font-size: 20px;
-	}
-	.deal:hover{
-		box-shadow: 15px 20px 7px;
-		transition: .2s;
-	}
-	.deal {
-		margin: 4px;
-		box-shadow: 1px 2px 7px;
-		display: inline-table;
-		width: 350px;
-		height: 500px;
-		background-image: linear-gradient(to top,orange,darkorange);
-	}
-	.deal:hover{
-		box-shadow: 8px 11px 8px;
-		transition: .2s;
->>>>>>> parent of c5d1614... Update style.css
 
 	.deal img {
 		padding: 10px;
@@ -735,126 +520,7 @@ footer a {
 		width: 800px;
 	}
 
-<<<<<<< HEAD
 	.spec hr {
 		width: 800px;
-=======
-		font-size: 40px;
-		color: orange;
-		word-spacing: 10px;
-	}
-	.deals p{
-		font-size: 30px;
-	}
-	.deal_p_1{
-		color: red;
-		font-family: bsitb;
-	}
-	.deal_p_2{
-		color: red;
-		font-family: bsitb;
-	}
-	.deal a{
-		text-align: center;
-		width: 100%;
-		background: red;
-	}
-	.deal a:hover{
-		box-shadow: 1px 3px 5px black;
-		transition: .2s;
-		width: 355px;
-	}
-	.deal_only_for{
-		color: red;
-		word-spacing: 10px;
-		font-size: 30px;
-		font-family: bsitb;
-	}
-	.deal_price{
-		color: red;
-		word-spacing: 10px;
-		font-size: 35px;
-		font-family: bsitb;
-	}
-	.specials{
-		padding: 0;
-		padding: 20px;
-	}
-	.specials label{
-		font-size: 75px;
-		font-family: bsitb;
-	}
-	.end_of_deals{
-		width: auto;
-		height: auto;
-		padding: 0;
-		margin: 0;
-		padding: 10px;
-		border-top: 1px solid orange;
-	}
-	.end_of_deals hr{
-		border-bottom: none;
-	}
-	.end_of_deals p{
-		margin: 20px;
-		font-size: 20px;
-		font-family: sans-serif;
-	}
-	.end_of_deals input{
-		text-align: left;
-		font-size: 16px;
-		border: none;
-		border-bottom: 2px solid orange;
-		background: none;
-		width: 300px;
-		color: orange;
-		text-decoration: none;
-		font-family: sans-serif;
-		margin: 0;
-		margin-left: 20px;
-	}
-	.end_of_deals button{
-		font-size: 20px;
-		border: none;
-		background-color: orange;
-		color: white;
-		font-family: sans-serif;
-		padding: 5px;
-		margin-left: 10px;
-	}
-		.end_of_deals button:hover{
-			box-shadow: 1px 3px 5px black;
-		}
-		.end_of_deals input:hover{
-			transition-timing-function:ease-in-out;
-			width: 350px;
-			transition: .3s;
-		}
-		.end_of_deals input:focus{
-			width: 350px;
-			transition: .3s;
-			transition-timing-function:ease-in-out;
-		}
-}
-@media (min-width: 1920px ){
-	.spec{
-		margin: 20px;
-		width: 300px;
-		height: 500px;
-	}
-	.spec p{
-		font-size: 20px;
-	}
-	.spec:hover{
-		box-shadow:
-	}
-	.deal{
-		margin: 20px;
-		width: 320px;
-		height: 500px;
-	}
-	.deal p{
-		font-size: 20px;
->>>>>>> parent of c5d1614... Update style.css
 	}
 }
