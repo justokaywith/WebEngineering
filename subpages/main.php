@@ -115,7 +115,8 @@
   	<a href="#">Order Here</a>
   	<hr>
   </div>
-	<!-------------- end of deals-------->
+  
+	<!---------------------- end of deals-------->
 
 	<div class="end_of_deals">
 	   <p>Get updates on all special menu items and deals. Subscribe here</p><input type="email" name="" value="" placeholder="Email Address"><button type="submit" name="button">Submit</button>
