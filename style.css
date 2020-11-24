@@ -1045,7 +1045,10 @@ footer a{
 		font-size: 20px;
 	}
 }
-//-------------------------------------------------------------about php starts here
+
+/*-----------------------------------------------------------------------------ABOUT STARTS HERE*/
+
 .about p{
-		font-size: 50px;
+		font-size: 20px;
+		color: white;
 }
