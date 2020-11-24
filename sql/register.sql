@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2020 at 06:36 PM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.4.8
+-- Generation Time: Nov 24, 2020 at 06:50 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -38,7 +38,7 @@ CREATE TABLE `register` (
 
 INSERT INTO `register` (`id`, `email`) VALUES
 (1, 'harisrana99@gmail.com'),
-(3, 'abc@gmail.com');
+(3, 'osama.mangi98@gmail.com');
 
 --
 -- Indexes for dumped tables
