@@ -3,7 +3,7 @@
   <head>
     <?php include './includes/meta.php' ?>
     <?php include './link/link.php' ?>
-    <?php 	include './includes/config.php' ?>
+    <?php 	include './includes/config.php' ?> 
   </head>
   <body>
     <?php include 'includes/header.php' ?>

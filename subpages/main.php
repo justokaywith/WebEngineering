@@ -118,9 +118,12 @@
   
 	<!---------------------- end of deals-------->
 
-	<div class="end_of_deals">
-	   <p>Get updates on all special menu items and deals. Subscribe here</p><input type="email" name="" value="" placeholder="Email Address"><button type="submit" name="button">Submit</button>
-	</div>
+<form action="../includes/insert.php" method="POST">
+    <div class="end_of_deals">
+     <p>Get updates on all special menu items and deals. Subscribe here</p><input type="email" name="email" value="" placeholder="Email Address" required>
+     <button type="submit" value="" name="button">Submit</button>
+  </div>
+</form>
 
 
 </div>
