@@ -13,18 +13,6 @@ html {
 	padding: 0;
 	margin: 0;
 }
-
-body {
-	overflow: scroll;
-	scroll-behavior: smooth;
-	margin: 0;
-	padding: 0;
-	height: auto;
-	width: auto;
-	background: #252E3B;
-}
-
-
 /*-------header starts here---------*/
 
 header {
@@ -52,7 +40,6 @@ header a:focus {
 	color: white;
 }
 
-
 /*-------footer starts here---------*/
 
 footer {
@@ -75,7 +62,18 @@ footer a {
 }
 
 
-/*-------main starts here---------*/
+
+/*------------- Main php starts here---------*//
+body {
+	overflow: scroll;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: #252E3B;
+}
+
 
 .main {
 	margin: 0;
@@ -115,7 +113,7 @@ footer a {
 }
 
 
-   /* Sec 1 starts here */
+/*---------------------------------------------Special item starts here---*/
 
 .spec {
 	height: auto;
@@ -171,7 +169,7 @@ footer a {
 }
 
 
-/*--------Deals start here-----*/
+/*-------------------------------------------Deal items start here-----*/
 
 .deals {
 	margin: 0;
@@ -198,8 +196,6 @@ footer a {
 	font-size: 19px;
 }
 
-
-/*-------------deal 1 start here---------*/
 
 .deal {
 	height: auto;
@@ -298,7 +294,17 @@ footer a {
 }
 
 
-/*------HOME CSS ENDS HERE-----*/
+/*----------------------Main CSS ENDS HERE---------------------------*/
+
+
+
+/*----------------------Media queries start here----------------------*/
+
+
+
+/*------------------------------------media for 414px---*/
+
+
 
 @media (min-width: 414px) {
 	footer p {
@@ -345,6 +351,10 @@ footer a {
 		font-size: 18px;
 	}
 }
+
+
+/*------------------------------------media for 720px---*/
+
 
 @media (min-width: 720px) {
 	header a {
@@ -451,6 +461,8 @@ footer a {
 		font-size:28px;
 	}
 }
+
+/*------------------------------------media for 568px---*/
 
 @media (min-width: 568px) {
 	header a {
