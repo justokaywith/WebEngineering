@@ -1,4 +1,9 @@
-<div class="sql_subscribe">
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+<div id="sql_subscribe">
+	
+	<a href="../index.php">Return</a>
+	<br><br><br>
 	<?php 
 	$email = $_POST['email'];
 	if(!empty($email)){
@@ -30,10 +35,10 @@
 				$stmt = $conn->prepare($INSERT);
 				$stmt->bind_param("s", $email);
 				$stmt->execute();
-				echo "Thankyou";
+				echo "Thankyou for subscribing to dark lords";
 			}
 			else{
-				echo "Youre Already Registered";
+				echo "You're already subscribed to the dark lord";
 			}
 			$stmt->close();
 			$conn->close();
@@ -47,4 +52,27 @@
 	}
 	
  ?>
+<pre>
+	
+                                                 
+                                                                
+                                                                
+                            ▓▓▓▓▓▓▓▓▓▓                          
+                          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓                        
+                        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                      
+                      ▓▓▓▓░░░░░░▓▓░░░░░░▓▓▓▓                    
+                  ░░░░▓▓░░░░░░░░░░░░░░░░░░▓▓░░░░                
+                  ░░░░▓▓░░  ██░░░░░░  ██░░▓▓░░░░                
+                    ░░▓▓░░████░░░░░░████░░▓▓░░                  
+                      ▓▓░░▒▒▒▒░░░░░░▒▒▒▒░░▓▓                    
+                        ▓▓░░░░░░░░░░░░░░▓▓                      
+                          ▓▓▓▓░░░░░░▓▓▓▓                        
+                              ▓▓▓▓▓▓        ░░                  
+                            ▓▓▓▓▓▓▓▓▓▓      ▓▓                  
+                            ▓▓▓▓▓▓▓▓▓▓    ▓▓▓▓                  
+                          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                    
+                          ▓▓▓▓░░▓▓░░▓▓▓▓                        
+                                                  
+</pre>
 </div>
+ <?php include '../includes/footer.php' ?>
