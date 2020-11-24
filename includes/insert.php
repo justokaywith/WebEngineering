@@ -1,30 +1,50 @@
-<?php 
-	$email = $_POST['email']
+<div class="sql_subscribe">
+	<?php 
+	$email = $_POST['email'];
 	if(!empty($email)){
-		$host = 'localhost';
-		$dbUsername	=	'root';
-		$dbPassword = '';
-		$dbName = 'subscribe';
+		$host ="localhost";
+		$dbUsername ="root";
+		$dbPassword ="";
+		$dbname = "subscribe";
 
-		$conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
+		$conn = new mysqli($host,$dbUsername,$dbPassword,$dbname);
 
-		if(mysqli_connect_error()){
-			die('Connect Error(' .mysqli_connect_errno(). ')' . mysqli_connect_errno());
+		if(mysqli_connect_error())
+		{
+			die('Connect Error (' .mysqli_connect_errno() .')' . mysqli_connect_error());
 		}
-		else{
-			$SELECT = "SELECT email From register Where email = ? Limit 1";
-			$INSERT = "INSERT Into register (email) values (?)";
-			
+		else
+		{
+			$SELECT = "SELECT email from register where email = ? limit 1";
+			$INSERT = "INSERT into register (email) values(?)";
+
+			$stmt = $conn->prepare($SELECT);
+			$stmt->bind_param("s", $email);
+			$stmt->execute();
+			$stmt->bind_result($email);
 			$stmt->store_result();
 			$rnum = $stmt->num_rows;
-			
-			echo "New Email inserted";
-		}
-		
+
+			if($rnum==0){
+				$stmt->close();
+				$stmt = $conn->prepare($INSERT);
+				$stmt->bind_param("s", $email);
+				$stmt->execute();
+				echo "Thankyou";
+			}
+			else{
+				echo "Youre Already Registered";
+			}
+			$stmt->close();
+			$conn->close();
+
+		}			
 
 	}
-	else{
-		echo "Enter Email Address";
-		die();
+		else
+		{
+		echo "Enter email first";
 	}
+	
  ?>
+</div>
