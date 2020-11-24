@@ -13,14 +13,24 @@ html {
 	padding: 0;
 	margin: 0;
 }
-/*-------------------------------------header starts here---------*/
+
+body {
+	overflow: scroll;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: #252E3B;
+}
+
 
 header {
 	margin-top: 10px;
 	text-align: center;
 	height:	auto;
 	width: auto;
-	background: #252E3B ;
+	background-color: #252E3B ;
 }
 
 header hr {
@@ -40,7 +50,7 @@ header a:focus {
 	color: white;
 }
 
-/*-------footer starts here---------*/
+
 
 footer {
 	border-top: 2px solid red;
@@ -62,17 +72,6 @@ footer a {
 }
 
 
-
-/*------------- Main php starts here---------*//
-body {
-	overflow: scroll;
-	scroll-behavior: smooth;
-	margin: 0;
-	padding: 0;
-	height: auto;
-	width: auto;
-	background: #252E3B;
-}
 
 
 .main {
@@ -113,7 +112,7 @@ body {
 }
 
 
-/*---------------------------------------------Special item starts here---*/
+
 
 .spec {
 	height: auto;
@@ -169,7 +168,7 @@ body {
 }
 
 
-/*-------------------------------------------Deal items start here-----*/
+
 
 .deals {
 	margin: 0;
@@ -294,15 +293,7 @@ body {
 }
 
 
-/*----------------------Main CSS ENDS HERE---------------------------*/
 
-
-
-/*----------------------Media queries start here----------------------*/
-
-
-
-/*------------------------------------media for 414px---*/
 
 
 
@@ -353,7 +344,7 @@ body {
 }
 
 
-/*------------------------------------media for 720px---*/
+
 
 
 @media (min-width: 720px) {
@@ -462,7 +453,7 @@ body {
 	}
 }
 
-/*------------------------------------media for 568px---*/
+
 
 @media (min-width: 568px) {
 	header a {
