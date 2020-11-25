@@ -1,4 +1,6 @@
-<?php include '../link/link.php' ?>
+<link rel="stylesheet" type="text/css" href="../style.css">
 <div class="about">
-	<p>data</p>
+	<p>
+		凸(¬‿¬)凸 Surprise Osama 
+	</p>
 </div>

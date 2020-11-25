@@ -1046,6 +1046,27 @@ footer a{
 	}
 }
 
-.about p{
-		font-size: 50px;
+/*-----------------------------------------------------------------------------insert page starts here---*/
+#sql_subscribe{
+	height: auto;
+	padding: 50px;
+	width: auto;
+	text-align: center;
+	font-size: 30px;
+	word-spacing: 3px;
+	color: white;
+	text-transform: uppercase;
+
+}
+#sql_subscribe a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: bsitb;
+	color: white;
+	word-spacing: 4px;
+	background: orange;
+	padding: 20px;
+}
+#sql_subscribe pre{
+	font-size: 8px;
 }
