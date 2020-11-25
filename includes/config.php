@@ -138,7 +138,7 @@
   $error['heading'] = "ERROR";
   $error['span']  = "Invalid Credentials";
 
-
+/**********************************************error page ends******************************/
 
 
 
