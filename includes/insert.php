@@ -1,5 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../style.css">
-
+ <?php require '../link/link.php' ?>
 <div id="sql_subscribe">
 	
 	<a href="../index.php">Return</a>

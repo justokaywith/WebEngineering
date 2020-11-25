@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <?php include './includes/meta.php' ?>
-    <?php include './link/link.php' ?>
-    <?php 	include './includes/config.php' ?> 
+    <?php require './includes/meta.php' ?>
+    <?php require './link/link.php' ?>
+    <?php require './includes/config.php' ?> 
   </head>
   <body>
-    <?php include 'includes/header.php' ?>
-    <?php include 'subpages/main.php' ?>
-    <?php include 'includes/footer.php' ?>
-    
+    <?php require 'includes/header.php' ?>
+    <?php require 'subpages/main.php' ?>
+    <?php require 'includes/footer.php' ?>
+
 
   </body>
 </html>
