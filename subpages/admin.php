@@ -12,7 +12,7 @@
 	<div id="admin">
 	<form action="../includes/sql_admin.php" method="POST"><br>
 		<label>UID</label><br>
-		<input type="text" name="username" value="" ><br><br>
+		<input type="text" name="username" value="" maxlength="10"><br><br>
 		<label>Password</label><br>
 		<input type="password" name="password" maxlength="10" value="" ><br><br>
 		<button type="submit" name="button">Login</button>
