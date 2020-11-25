@@ -82,7 +82,7 @@ footer a{
 
 }
 .main p{
-   
+
 	color: white;
 }
 
@@ -97,7 +97,7 @@ footer a{
 	padding: 10px;
 }
 .specials label{
-   
+
 	font-size: 50px;
 	color: #ffa60a;
 	font-family: bsit;
@@ -119,7 +119,7 @@ footer a{
 	height: 100%;
 }
 .spec label{
-   
+
 	font-size: 30px;
 	color: white;
 	font-family: bsitb;
@@ -785,7 +785,7 @@ footer a{
 	}
 }
 @media (min-width: 1600px){
-	
+
 	header h1{
 		font-size: 50px;
 	}
@@ -1049,24 +1049,127 @@ footer a{
 /*-----------------------------------------------------------------------------insert page starts here---*/
 #sql_subscribe{
 	height: auto;
-	padding: 50px;
 	width: auto;
 	text-align: center;
-	font-size: 30px;
+	font-size: 15px;
 	word-spacing: 3px;
 	color: white;
-	text-transform: uppercase;
 
 }
-#sql_subscribe a{
-	text-decoration: none;
-	font-size: 30px;
-	font-family: bsitb;
-	color: white;
-	word-spacing: 4px;
-	background: orange;
-	padding: 20px;
+
+
+/*----------------------------------------------------------------------admin page---*/
+
+#admin{
+	width: 100%;
+	height: 100%;
+	background: #191919;
 }
-#sql_subscribe pre{
-	font-size: 8px;
+#admin form{
+	margin-left: 45%;
+	margin-top: 15%;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+}
+#admin label{
+	font-size: 17px;
+	color: white;
+	font-family: monospace;
+}
+#admin input{
+	font-size: 15px;
+	font-family: sans-serif;
+	border: none;
+	background: none;
+	color: orange;
+	width: 200px;
+	border-bottom: 1.5px solid orange;
+
+}
+#admin input:focus{
+	width: 220px;
+	transition: .5s;
+}
+#admin button{
+	font-size: 15px;
+	margin-left: 20%;
+	width: 80px;
+	height: 30px;
+	font-family: monospace;
+	border: 1px solid orange;
+	background: none;
+	text-transform: uppercase;
+	color: white;
+}
+#admin button:hover{
+	background: orange;
+	color: white;
+	transition: .2s;
+
+}
+	#admin_no_MFA{
+	display: none;
+}
+@media (max-width:1080px) {
+		#admin{
+			display: none;
+		}
+		#admin_no_MFA{
+
+			padding: 40px;
+			text-align: center;
+			display: block;
+			width: auto;
+			height: auto;
+		}
+		#admin_no_MFA p{
+			border: solid;
+			background-color: orange;
+			margin-top: 40%;
+			width: 450px;
+			display: inline-block;
+			color: white;
+			font-size: 80px;
+			font-family: monospace;
+			text-transform: uppercase;
+
+		}
+		#admin_no_MFA	a{
+			text-decoration: none;
+			font-size: 50px;
+			color: white;
+			font-family: bsitb;
+			background-color: orange;
+			padding: 20px 50px 20px 50px;
+		}
+		#admin_no_MFA a:focus{
+			background: red;
+		}
+
+}
+#error_display{
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+#error_display h1{
+	font-size: 100px;
+	color: white;
+	font-family: lobs;
+}
+#error_display span{
+	font-size: 50px;
+}
+#error_display	a{
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+		padding: 10px;
+		background: orange;
+		font-family: sans-serif;
+}
+#error_display a:hover{
+	box-shadow: 5px 5px 7px black;
+	transition: .2s;
 }

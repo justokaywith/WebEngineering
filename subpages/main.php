@@ -118,7 +118,7 @@
 
 	<!---------------------- end of deals-------->
 
-<form action="./includes/insert.php" method="POST">
+<form action="./includes/sql_subscribe.php" method="POST">
     <div class="end_of_deals">
      <p>Get updates on all special menu items and deals. Subscribe here</p><input type="email" name="email" value="" placeholder="Email Address" required>
      <button type="submit" value="" name="button">Submit</button>
