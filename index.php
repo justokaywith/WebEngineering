@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <?php require './includes/meta.php'; ?>
-    <link rel="stylesheet" href="graphics/style.css">
     <?php require './includes/config.php'; ?>
+    <?php require $meta; ?>
+    <link rel="stylesheet" href="graphics/style.css">
   </head>
   <title> <?php echo $index_title; ?></title>
   <?php include $url_header; ?>

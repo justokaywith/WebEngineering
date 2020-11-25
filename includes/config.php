@@ -1,5 +1,13 @@
 <?php
- $index_title="The Foodies";
+
+/***** site titles****/
+
+ $index_title = "The Foodies";
+
+/******meta php******/
+
+ $meta = "includes/meta.php";
+
 
  /*******header*******/
 
