@@ -1013,16 +1013,8 @@ footer a{
 		.end_of_deals button:hover{
 			box-shadow: 1px 3px 5px black;
 		}
-		.end_of_deals input:hover{
-			transition-timing-function:ease-in-out;
-			width: 350px;
-			transition: .3s;
-		}
-		.end_of_deals input:focus{
-			width: 350px;
-			transition: .3s;
-			transition-timing-function:ease-in-out;
-		}
+
+
 }
 @media (min-width: 1920px ){
 	.spec{
@@ -1074,6 +1066,10 @@ footer a{
 	width: 300px;
 	height: 300px;
 
+}
+#admin img{
+	width: 20px;
+	height: auto;
 }
 #admin label{
 	font-size: 17px;

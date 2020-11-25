@@ -1,17 +1,15 @@
 
 <div id="sql_subscribe">
 
+<?php include	'config.php' ?>
+
 	<a href="../index.php">Return</a>
+
 	<br><br><br>
+
 	<?php
 	$email = $_POST['email'];
 	if(!empty($email)){
-		$host ="localhost";
-		$dbUsername ="root";
-		$dbPassword ="";
-		$dbname = "project";
-
-		$conn = new mysqli($host,$dbUsername,$dbPassword,$dbname);
 
 		if(mysqli_connect_error())
 		{
@@ -47,9 +45,7 @@
 
 	}
 
-?>
-</div>
- <?php include '../includes/footer.php' ?>
+	?>
 
 
 </div>

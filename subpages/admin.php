@@ -11,6 +11,7 @@
 	</div>
 	<div id="admin">
 	<form action="../includes/sql_admin.php" method="POST"><br>
+			<img src="../graphics/admin.png" alt="">
 		<label>UID</label><br>
 		<input type="text" name="username" value="" maxlength="10"><br><br>
 		<label>Password</label><br>
