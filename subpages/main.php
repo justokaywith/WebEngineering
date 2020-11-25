@@ -115,7 +115,7 @@
   	<a href="#">Order Here</a>
   	<hr>
   </div>
-  
+
 	<!---------------------- end of deals-------->
 
 <form action="./includes/insert.php" method="POST">
@@ -124,6 +124,6 @@
      <button type="submit" value="" name="button">Submit</button>
   </div>
 </form>
-z
+
 
 </div>
