@@ -1,6 +1,7 @@
-<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../graphics/style.css">
+<?php require '../includes/config.php'; ?>
 <div class="about">
 	<p>
-		凸(¬‿¬)凸 Surprise Osama 
+
 	</p>
 </div>

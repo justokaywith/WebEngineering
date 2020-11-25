@@ -1,3 +1,9 @@
 <footer>
-	<p>&copy; Copyrights Claimed, All rights reserved. <a class="sec_footer" href="https://www.riphah.edu.pk/"> <abbr title="Riphah International University Islamabad">RIUI</abbr> </a> 2018 - <?php echo date("Y"); ?><br>Read more about our deverlopers <a class="sec_footer_2" href="./subpages/about.php">Here.</a></p>
+	<p>&copy; <?php echo $footer['para1']; ?>
+		<a class="sec_footer" href="<?php echo $footer['riui']; ?>">
+			<abbr title="Riphah International University Islamabad">RIUI</abbr>
+		 </a> 2018 - <?php echo date("Y"); ?>
+		 <br> <?php echo   $footer['para2']; ?>
+		 <a class="sec_footer_2" href="<?php echo $footer['about']; ?>">Here.</a>
+	 </p>
 </footer>

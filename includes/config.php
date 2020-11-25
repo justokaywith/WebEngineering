@@ -13,10 +13,16 @@
  /*******header*******/
 
  $url_header = "includes/header.php";
+ $header['title'] =  "The";
+ $header['span'] = "Foodies";
 
 /*****footer******/
 
   $url_footer = "includes/footer.php";
+  $footer['para1'] = " Copyrights Claimed, All rights reserved.  ";
+  $footer['para2']  = "Read more about our deverlopers ";
+  $footer['riui'] = "https://www.riphah.edu.pk/";
+  $footer['about']  = "./subpages/about.php";
 
 
 /*-------------------------------------------database connection-----*/
@@ -112,7 +118,7 @@
 /*---------------------------deal ends-----------------*/
 /*----------------------------------index page ends--------------------*/
 
-/**********************************************admin page******************************/
+/**********************************************admin page starts******************************/
 
   $admin['MFA']['alink']  = "../index.php";
   $admin['MFA']['atag'] = 'Return';
@@ -124,6 +130,27 @@
   $admin['form']['label']['UID'] = "UID";
   $admin['form']['label']['pass'] = "Password";
   $admin['form']['label']['button'] = "Login";
+
+/**********************************************admin page ends******************************/
+
+/**********************************************error page starts******************************/
+
+  $error['heading'] = "ERROR";
+  $error['span']  = "Invalid Credentials";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  ?>
