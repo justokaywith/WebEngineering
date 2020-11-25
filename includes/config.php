@@ -3,6 +3,7 @@
 /***** site titles****/
 
  $index_title = "The Foodies";
+ $admin_title = "Admin panel";
 
 /******meta php******/
 
@@ -37,7 +38,7 @@
  }
 
 
-/*************************************index******************************/
+/*************************************index page ******************************/
 
 /************special part****************/
 
@@ -49,6 +50,7 @@
  $index['spec1']['img']  = "./graphics/burger.webp";
  $index['spec1']['para'] =  "Try our best burgers in town";
  $index['spec1']['atag'] = "Order here";
+ $index['spec']['alink'] =  "./subpages/order.php";
 
  /****spec 2****/
 
@@ -56,6 +58,7 @@
   $index['spec2']['img']  = "./graphics/nuggets.webp";
   $index['spec2']['para'] =  "Best in town Chicken & Nuggets.";
   $index['spec2']['atag'] = "Order here";
+  $index['spec']['alink'] =  "./subpages/order.php";
 
   /****spec 3****/
 
@@ -63,6 +66,7 @@
    $index['spec3']['img']  = "./graphics/pizza.webp";
    $index['spec3']['para'] =  "We'll serve it hot. Get the best pizza in town. ";
    $index['spec3']['atag'] = "Order here";
+   $index['spec']['alink'] =  "./subpages/order.php";
 
 
    /****spec 4****/
@@ -71,6 +75,8 @@
     $index['spec4']['img']  = "./graphics/shuarma.webp";
     $index['spec4']['para'] =  "Finger lickin' good.The best shuwarma. ";
     $index['spec4']['atag'] = "Order here";
+    $index['spec']['alink'] =  "./subpages/order.php";
+
 
 /*-----------------------------------special ends--------------*/
 
@@ -104,5 +110,20 @@
    $index['deal4']['atag'] =  "./subpages/order.php";
 
 /*---------------------------deal ends-----------------*/
+/*----------------------------------index page ends--------------------*/
+
+/**********************************************admin page******************************/
+
+  $admin['MFA']['alink']  = "../index.php";
+  $admin['MFA']['atag'] = 'Return';
+  $admin['MFA']['para'] = "You have been given a PC <br>Use that! ";
+
+  /********form******/
+
+  $admin['form']['img']  = "../graphics/admin.png";
+  $admin['form']['label']['UID'] = "UID";
+  $admin['form']['label']['pass'] = "Password";
+  $admin['form']['label']['button'] = "Login";
+
 
  ?>

@@ -13,7 +13,7 @@
    		<label><?php echo $index['special']['label']; ?></label>
    	</div>
 
-   <!------------------Special Item 1 starts here----->
+   <!---Special Item 1 starts here---->
 
     <div class="spec">
     	<label><?php echo $index['spec1']['hamburger']['label']; ?></label> <br>
@@ -21,23 +21,23 @@
 
     	<p><?php echo  $index['spec1']['para']; ?> <br><br><span class="only_for">Only for</span><br><span class="price"> Rs 299.99</span>
     	</p>
-    	<a href="#" ?><?php echo $index['spec1']['atag']; ?></a>
+    	<a href="<?php echo $index['spec']['alink']; ?>" ?><?php echo $index['spec1']['atag']; ?></a>
     	<hr>
     </div>
 
-    <!------------------Special Item 2 starts here----->
+    <!--- Item 2 starts here----->
 
       <div class="spec">
     	<label><?php echo $index['spec2']['nuggets']['label']; ?></label> <br>
-    	<img src="./graphics/nuggets.webp"> <br>
+    	<img src="<?php echo   $index['spec2']['img']; ?>"> <br>
 
     	<p><?php echo   $index['spec2']['para']; ?><br><br><span class="only_for">Bucket for</span><br><span class="price"> Rs 379.99</span>
     	</p>
-    	<a href="#"><?php echo $index['spec2']['atag']; ?></a>
+    	<a href="<?php echo $index['spec']['alink']; ?>"><?php echo $index['spec2']['atag']; ?></a>
     	<hr>
     </div>
 
-     <!-------------------Special Item 3 starts here--->
+     <!---Special Item 3 starts here--->
 
       <div class="spec">
 
@@ -46,11 +46,11 @@
 
     	<p><?php echo  $index['spec3']['para']; ?><br><br><span class="only_for">Starts From</span><br><span class="price"> Rs 799.99 <span class="inches">for 8"</span></span>
     </p>
-    	<a href="#"><?php echo  $index['spec3']['atag']; ?></a>
+    	<a href="<?php echo $index['spec']['alink']; ?>"><?php echo  $index['spec3']['atag']; ?></a>
     	<hr>
     </div>
 
-       <!------------------Special Item 4 starts here---->
+       <!---Special Item 4 starts here--->
 
       <div class="spec">
    		<label><?php echo $index['spec4']['shuarma']['label']; ?></label> <br>
@@ -59,11 +59,11 @@
 
     	<p><?php echo   $index['spec4']['para']; ?> <br><br><span class="only_for">Only From</span><br><span class="price"> Rs 249.99</span>
     </p>
-    	<a href="#"><?php echo   $index['spec4']['atag']; ?></a>
+    	<a href="<?php echo $index['spec']['alink']; ?>"><?php echo   $index['spec4']['atag']; ?></a>
     	<hr> <br>
     </div>
 
-     <!------------------Deals starts here----->
+     <!--Deals starts here----->
      <div class="deals">
    		<label><?php echo   $index['deal']['label'];?></label>
    		<p>So you're one of those guys ? <br>
@@ -71,7 +71,7 @@
    			<span>We Got the best deals in town for you!!</span></p>
    	</div>
 
-   	 <!------------------Deal 1 starts here------->
+   	 <!---Deal 1 starts here------->
 
    	    <div class="deal">
    	    	  	  	<label><?php echo  $index['deal1']['label']; ?></label> <br>
@@ -84,7 +84,7 @@
     	<hr>
     </div>
 
-     <!------------------Deal 2 starts here-------->
+     <!---Deal 2 starts here-------->
 
    	 <div class="deal">
    		  	  	<label><?php echo  $index['deal2']['label']; ?></label> <br>
@@ -97,7 +97,7 @@
     	<hr>
     </div>
 
-     <!------------------Deal 3 starts here-------->
+     <!---Deal 3 starts here-------->
 
    	 <div class="deal">
    		  	  	<label><?php echo $index['deal3']['label']; ?></label> <br>
@@ -110,7 +110,7 @@
     	<hr>
     </div>
 
-   <!------------------Deal 4 starts here-------->
+   <!---Deal 4 starts here-------->
 
    	 <div class="deal">
    		  	  	<label>Deal 4</label> <br>
@@ -123,7 +123,7 @@
     	<hr>
     </div>
 
-  	<!----------------------end of deals-------->
+  	<!---end of deals-------->
 
   <form action="./includes/sql_subscribe.php" method="POST">
       <div class="end_of_deals">
