@@ -7,7 +7,7 @@
 <body>
 	<div id="admin_no_MFA"><br>
 		<a href="../index.php">Return</a><br>
-		<p>You're given a PC <br>Use that! </p>
+		<p>You have been given a PC <br>Use that! </p>
 	</div>
 	<div id="admin">
 	<form action="../includes/sql_admin.php" method="POST"><br>
