@@ -1,13 +1,13 @@
 @font-face{
-	src: url(./fonts/Lobster-Regular.ttf);
+	src: url(../fonts/Lobster-Regular.ttf);
 	font-family: lobs;
 }
 @font-face{
-	src: url(./fonts/BigShouldersInlineText-Black.ttf);
+	src: url(../fonts/BigShouldersInlineText-Black.ttf);
 	font-family: bsitb;
 }
 @font-face{
-	src: url(./fonts/BigShouldersInlineText-ExtraBold.ttf);
+	src: url(..fonts/BigShouldersInlineText-ExtraBold.ttf);
 	font-family: bsit;
 }
 html{
