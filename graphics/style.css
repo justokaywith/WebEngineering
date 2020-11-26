@@ -10,24 +10,15 @@
 	src: url(../fonts/BigShouldersInlineText-ExtraBold.ttf);
 	font-family: bsit;
 }
-html{
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
 
-}
-html hr{
-  color: orange;
-}
-body{
-	overflow: scroll;
+.index_body{
+
 	scroll-behavior: smooth;
 	margin: 0;
 	padding: 0;
 	height: auto;
-	width: auto;
-	background: #191919;
+	width: 100%;
+
 }
 
 /*-------header starts here---------*/
@@ -158,7 +149,7 @@ footer a{
 /*--------Deals start here-----*/
 
 .deals{
-	margin: 0;
+	margin-top: 10px;
 	width: auto;
 	height: auto;
 	padding: 10px;
@@ -239,18 +230,18 @@ footer a{
 	text-transform: uppercase;
 	color: 	 #ffa60a;
 }
-.end_of_deals{
+.subscribe_form{
 	margin: 0;
 	padding: 10px;
 	width: auto;
 	height: auto;
 }
-.end_of_deals p{
+.subscribe_form p{
 	font-size: 15px;
 	font-family: sans-serif;
 }
 
-.end_of_deals a{
+.subscribe_form a{
 	text-align: right;
 	font-size: 15px;
 	color: white;
@@ -262,10 +253,10 @@ footer a{
 	padding-bottom: 3px;
 	background: orange;
 }
-.end_of_deals a:active{
+.subscribe_form a:active{
 	background-color:  red;
 }
-.end_of_deals input{
+.subscribe_form input{
 	text-align: left;
 	font-size: 13px;
 	border: none;
@@ -277,7 +268,7 @@ footer a{
 	font-family: sans-serif;
 
 }
-.end_of_deals button{
+.subscribe_form button{
 	font-size: 13px;
 	border: none;
 	padding: 3px;
@@ -285,13 +276,17 @@ footer a{
 	background: darkorange;
 	color: white;
 }
-.end_of_deals button:active{
+.subscribe_form button:active{
 	background: red;
 }
 
 /*------HOME CSS ENDS HERE-----*/
 @media (min-width: 360px){
-	.end_of_deals a{
+
+	.index_body{
+		background-color: #191919;
+	}
+	.subscribe_form a{
 		font-size: 20px;
 	}
 	.deal a{
@@ -300,7 +295,7 @@ footer a{
 	.spec a{
 		font-size: 20px;
 	}
-	.end_of_deals input{
+	.subscribe_form input{
 		text-align: left;
 		font-size: 15px;
 		border: none;
@@ -312,7 +307,7 @@ footer a{
 		font-family: sans-serif;
 
 	}
-	.end_of_deals button{
+	.subscribe_form button{
 		font-size: 15px;
 		border: none;
 		padding: 3px;
@@ -320,7 +315,7 @@ footer a{
 		background: darkorange;
 		color: white;
 	}
-	.end_of_deals button:active{
+	.subscribe_form button:active{
 		background: red;
 	}
 }
@@ -328,10 +323,10 @@ footer a{
 	footer p{
 		font-size:14px;
 	}
-	.end_of_deals p{
+	.subscribe_form p{
 		font-size:20px;
 	}
-	.end_of_deals a{
+	.subscribe_form a{
 		text-align: right;
 		font-size: 20px;
 		color: white;
@@ -343,7 +338,7 @@ footer a{
 		padding-bottom: 3px;
 		background: orange;
 	}
-	.end_of_deals a:active{
+	.subscribe_form a:active{
 		background-color:  red;
 	}
 
@@ -374,7 +369,7 @@ footer a{
 		background: red;
 		font-size: 18px;
 	}
-	.end_of_deals button:active{
+	.subscribe_form button:active{
 		background: red;
 	}
 }
@@ -388,6 +383,9 @@ footer a{
 	}
 	footer p{
 		font-size:25px;
+	}
+	.deal{
+		margin-top: 10px;
 	}
 	.deal label{
 		font-size: 25px;
@@ -453,10 +451,10 @@ footer a{
 	.deal_price{
 		font-size: 35px;
 	}
-	.end_of_deals p{
+	.subscribe_form p{
 		font-size: 25px;
 	}
-	.end_of_deals a{
+	.subscribe_form a{
 		text-align: right;
 		font-size: 25px;
 		color: white;
@@ -468,10 +466,10 @@ footer a{
 		padding-bottom: 3px;
 		background: orange;
 	}
-	.end_of_deals a:active{
+	.subscribe_form a:active{
 		background-color:  red;
 	}
-	.end_of_deals input{
+	.subscribe_form input{
 		text-align: left;
 		font-size: 18px;
 		border: none;
@@ -483,7 +481,7 @@ footer a{
 		font-family: sans-serif;
 
 	}
-	.end_of_deals button{
+	.subscribe_form button{
 		font-size: 18px;
 		border: none;
 		padding: 4px;
@@ -491,15 +489,18 @@ footer a{
 		background: darkorange;
 		color: white;
 	}
-	.end_of_deals button:active{
+	.subscribe_form button:active{
 		background: red;
 	}
 }
 @media (min-width: 568px){
 	header a{
 		font-size: 30px;
-	}}
-	.end_of_deals button:active{
+	}
+	.deal{
+		margin-top: 10px;
+	}
+	.subscribe_form button:active{
 		background: red;
 	}
 @media (min-width: 896px){
@@ -507,11 +508,19 @@ footer a{
 		font-size: 45px;
 		padding: 30px;
 	}
-	.end_of_deals button:active{
+	.deal{
+		margin-top: 10px;
+	}
+
+	.subscribe_form button:active{
 		background: red;
 	}
 }
 @media (min-width: 1360px){
+
+	.deal{
+		margin-top: 10px;
+	}
 
 	header h1{
 		font-size: 50px;
@@ -693,7 +702,7 @@ footer a{
 		font-size: 75px;
 		font-family: bsitb;
 	}
-	.end_of_deals{
+	.subscribe_form{
 		width: auto;
 		height: auto;
 		padding: 0;
@@ -701,15 +710,15 @@ footer a{
 		padding: 10px;
 		border-top: 1px solid orange;
 	}
-	.end_of_deals hr{
+	.subscribe_form hr{
 		border-bottom: none;
 	}
-	.end_of_deals p{
+	.subscribe_form p{
 		margin: 20px;
 		font-size: 20px;
 		font-family: sans-serif;
 	}
-	.end_of_deals input{
+	.subscribe_form input{
 		text-align: left;
 		font-size: 16px;
 		border: none;
@@ -722,7 +731,7 @@ footer a{
 		margin: 0;
 		margin-left: 20px;
 	}
-	.end_of_deals button{
+	.subscribe_form button{
 		font-size: 20px;
 		border: none;
 		background-color: orange;
@@ -731,21 +740,25 @@ footer a{
 		padding: 5px;
 		margin-left: 10px;
 	}
-		.end_of_deals button:hover{
+		.subscribe_form button:hover{
 			box-shadow: 1px 3px 5px black;
 		}
-		.end_of_deals input:hover{
+		.subscribe_form input:hover{
 			transition-timing-function:ease-in-out;
 			width: 350px;
 			transition: .3s;
 		}
-		.end_of_deals input:focus{
+		.subscribe_form input:focus{
 			width: 350px;
 			transition: .3s;
 			transition-timing-function:ease-in-out;
 		}
 }
 @media (min-width: 1440px ){
+	.deal{
+		margin-top: 10px;
+	}
+
 	.spec{
 		margin: 10px;
 		width: 300px;
@@ -785,6 +798,9 @@ footer a{
 	}
 }
 @media (min-width: 1600px){
+	.deal{
+		margin-top: 10px;
+	}
 
 	header h1{
 		font-size: 50px;
@@ -972,7 +988,7 @@ footer a{
 		font-size: 75px;
 		font-family: bsitb;
 	}
-	.end_of_deals{
+	.subscribe_form{
 		width: auto;
 		height: auto;
 		padding: 0;
@@ -980,15 +996,15 @@ footer a{
 		padding: 10px;
 		border-top: 1px solid orange;
 	}
-	.end_of_deals hr{
+	.subscribe_form hr{
 		border-bottom: none;
 	}
-	.end_of_deals p{
+	.subscribe_form p{
 		margin: 20px;
 		font-size: 20px;
 		font-family: sans-serif;
 	}
-	.end_of_deals input{
+	.subscribe_form input{
 		text-align: left;
 		font-size: 16px;
 		border: none;
@@ -1001,7 +1017,7 @@ footer a{
 		margin: 0;
 		margin-left: 20px;
 	}
-	.end_of_deals button{
+	.subscribe_form button{
 		font-size: 20px;
 		border: none;
 		background-color: orange;
@@ -1010,13 +1026,17 @@ footer a{
 		padding: 5px;
 		margin-left: 10px;
 	}
-		.end_of_deals button:hover{
+		.subscribe_form button:hover{
 			box-shadow: 1px 3px 5px black;
 		}
 
 
 }
 @media (min-width: 1920px ){
+	.deal{
+		margin-top: 10px;
+	}
+
 	.spec{
 		margin: 20px;
 		width: 300px;
@@ -1052,44 +1072,55 @@ footer a{
 
 /*----------------------------------------------------------------------admin page---*/
 
+#admin_body{
+	width: 100%;
+	height: auto;
+	background: white;
+	background-image: url("admin.jpg");
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
 #admin{
 	width: 100%;
 	height: 100%;
-	background: #191919;
+	background: WHITE;
 
 
 }
-#admin form{
+.admin_form {
+	position: absolute;
 	border-radius: 40px;
 	text-align: center;
-	margin-left: 42.5%;
-	margin-top: 10%;
+	margin-left: 68%;
+	margin-top: 15%;
 	display: inline-block;
 	width: 300px;
 	height: 350px;
-	background: #161616;
+	background: #E5E5FF;
 
 }
-#admin form:hover{
-	box-shadow: 1px 1px 30px orange;
+.admin_form:hover{
+	box-shadow: 1px 1px 30px #0799FF;
 	width: 310px;
 	height: 360px;
-	margin-left: 42.2%;
+	margin-left: 67.8%;
 	border-radius: 45px;
 	transition: .3s;
 
 }
 
 
-#admin img{
+#user_img img{
 	width: 80px;
 	margin-left:0%;
 	height: auto;
 }
 #admin label{
 	font-size: 17px;
-	color: white;
-	font-family: monospace;
+	color: #0799FF;
+	font-family: sans-serif;
 
 }
 #admin input{
@@ -1097,10 +1128,10 @@ footer a{
 	font-family: sans-serif;
 	border: none;
 	background: none;
-	color: orange;
+	color: #0799FF;
 	height: 40px;
 	width: 200px;
-	border-bottom: 1.5px solid orange;
+	border-bottom: 1.5px solid #0799FF;
 
 }
 #admin input:focus{
@@ -1109,23 +1140,34 @@ footer a{
 }
 #admin button{
 	font-size: 15px;
-
 	width: 80px;
 	height: 30px;
-	font-family: monospace;
-	border: 1px solid orange;
+	font-family: sans-serif;
+	border: 1px solid #0799FF;
 	background: none;
 	text-transform: uppercase;
-	color: white;
+	color: #0799FF;
 }
 #admin button:hover{
-	background: orange;
+	background: #0799FF;
 	color: white;
 	transition: .2s;
 
 }
 	#admin_no_MFA{
 	display: none;
+}
+@media (min-width: 1920px) {
+	#admin_body{
+		width: 100%;
+		height: auto;
+		background: white;
+		background-image: url("admin.jpg");
+		position: absolute;
+		background-repeat:  repeat-y;
+		background-size: cover;
+
+	}
 }
 @media (max-width:1440px) {
 		#admin{

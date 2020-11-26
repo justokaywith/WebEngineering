@@ -46,6 +46,15 @@
 
 /*************************************index page ******************************/
 
+/*********** index tags**********/
+
+
+$index['body']['title'] = "index_body";
+$index['div']['main'] = "main";
+$index['div']['special']  = "specials";
+$index['div']['spec'] = "spec";
+$index['div']['deal'] = 'deal';
+
 /************special part****************/
 
  $index['special']['label']  = "Specials";
@@ -88,7 +97,9 @@
 
     /********deal part******/
 
-    $index['deal']['label']  = "Deals";
+    $index['deals']['div'] = "deals";
+    $index['deals']['label'] = "Deals";
+    $index['deal']['label']  = "deal";
 
    /****deal 1****/
 
@@ -115,6 +126,19 @@
    $index['deal4']['img'] = "./graphics/deal4.webp";
    $index['deal4']['atag'] =  "./subpages/order.php";
 
+   /*********subscribe form*********/
+
+   $index['subscribe_form']['action'] = "./includes/sql_subscribe.php";
+   $index['subscribe_form']['method'] = "POST";
+   $index['subscribe_form']['para'] = "Get updates on all special menu items and deals. Subscribe here";
+   $index['input']['type']  = "email";
+   $index['input']['name']  = "email";
+   $index['input']['placeholder']  = "Your email address.";
+   $index['button']['type'] = "submit";
+   $index['button']['name'] = "button";
+   $index['button']['indicator']  = "Subscribe";
+
+
 /*---------------------------deal ends-----------------*/
 /*----------------------------------index page ends--------------------*/
 
@@ -127,6 +151,7 @@
   /********form******/
 
   $admin['form']['img']  = "../graphics/admin.png";
+  $admin['body']['img'] = "../graphics/admin.jpg";
   $admin['form']['label']['UID'] = "UID";
   $admin['form']['label']['pass'] = "Password";
   $admin['form']['label']['button'] = "Login";
@@ -137,6 +162,7 @@
 
   $error['heading'] = "ERROR";
   $error['span']  = "Invalid Credentials";
+
 
 /**********************************************error page ends******************************/
 
