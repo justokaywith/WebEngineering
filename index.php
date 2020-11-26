@@ -3,7 +3,9 @@
   <head>
   <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
-  <link rel="stylesheet" href="graphics/style.css">
+  <link rel="<?php echo $css['rel']; ?>"
+  type="<?php echo $css['type']; ?>"
+  href="<?php echo $css['href']; ?>">
   </head>
   <title> <?php echo $index_title; ?></title>
 

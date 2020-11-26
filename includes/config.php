@@ -9,12 +9,18 @@
 
  $meta = "includes/meta.php";
 
+/******style sheet*****/
+
+$css['rel'] =   "stylesheet";
+$css['type'] =  "text/css";
+$css['href'] =  "./graphics/style.css";
 
  /*******header*******/
 
  $url_header = "includes/header.php";
- $header['title'] =  "The";
+ $header['heading'] =  "The";
  $header['span'] = "Foodies";
+ $header['class']['span'] = "foodies_logo";
 
 /*****footer******/
 
@@ -33,15 +39,6 @@
  $db = "project";
  $conn = new mysqli($dbhost,$dbuser,$dbpass,$db);
 
- /*------------------------------------------data sanization-----*/
-
- function sanitizeinput($data)
- {
- 	$data =trim($data);
- 	$data =stripcslashes($data);
- 	$data =htmlspecialchars($data);
- 	return $data;
- }
 
 
 /*************************************index page ******************************/
@@ -77,29 +74,29 @@ $index['div']['deal'] = 'deal';
 
   /****spec 3****/
 
-   $index['spec3']['pizza']['label']  = "E che pizza!";
-   $index['spec3']['img']  = "./graphics/pizza.webp";
-   $index['spec3']['para'] =  "We'll serve it hot. Get the best pizza in town. ";
-   $index['spec3']['atag'] = "Order here";
-   $index['spec']['alink'] =  "./subpages/order.php";
+  $index['spec3']['pizza']['label']  = "E che pizza!";
+  $index['spec3']['img']  = "./graphics/pizza.webp";
+  $index['spec3']['para'] =  "We'll serve it hot. Get the best pizza in town. ";
+  $index['spec3']['atag'] = "Order here";
+  $index['spec']['alink'] =  "./subpages/order.php";
 
 
    /****spec 4****/
 
-    $index['spec4']['shuarma']['label']  = "The Karma Shuarma";
-    $index['spec4']['img']  = "./graphics/shuarma.webp";
-    $index['spec4']['para'] =  "Finger lickin' good.The best shuwarma. ";
-    $index['spec4']['atag'] = "Order here";
-    $index['spec']['alink'] =  "./subpages/order.php";
+  $index['spec4']['shuarma']['label']  = "The Karma Shuarma";
+  $index['spec4']['img']  = "./graphics/shuarma.webp";
+  $index['spec4']['para'] =  "Finger lickin' good.The best shuwarma. ";
+  $index['spec4']['atag'] = "Order here";
+  $index['spec']['alink'] =  "./subpages/order.php";
 
 
 /*-----------------------------------special ends--------------*/
 
     /********deal part******/
 
-    $index['deals']['div'] = "deals";
-    $index['deals']['label'] = "Deals";
-    $index['deal']['label']  = "deal";
+   $index['deals']['div'] = "deals";
+   $index['deals']['label'] = "Deals";
+   $index['deal']['label']  = "deal";
 
    /****deal 1****/
 
@@ -144,34 +141,51 @@ $index['div']['deal'] = 'deal';
 
 /**********************************************admin page starts******************************/
 
+
+  /********form******/
+
+  $admin['body']['id']  = "admin_body";
+  $admin['div']['id']  = "admin";
+  $admin['form']['class']  = "admin_form";
+  $admin['form']['action']  = "../includes/sql_admin.php";
+  $admin['form']['method']  = "POST";
+  $admin['img']['class']  = "user_img";
+  $admin['form']['img']  = "../graphics/admin.png";
+  $admin['body']['img'] = "../graphics/admin.jpg";
+  $admin['form']['label']['UID'] = "UID";
+  $admin['input']['type']['UID'] = "text";
+  $admin['input']['name']['UID'] = "username";
+  $admin['input']['maxlength']['UID'] = "10";
+  $admin['form']['label']['pass'] = "Password";
+  $admin['type']['type']['pass'] = "password";
+  $admin['name']['name']['pass'] = "password";
+  $admin['input']['maxlength']['pass'] = "10";
+  $admin['button']['type']  = "submit";
+  $admin['button']['name']  = "button";
+  $admin['form']['label']['button'] = "Login";
+  $admin['div']['id'] = "admin_no_MFA";
   $admin['MFA']['alink']  = "../index.php";
   $admin['MFA']['atag'] = 'Return';
   $admin['MFA']['para'] = "You have been given a PC <br>Use that! ";
 
-  /********form******/
-
-  $admin['form']['img']  = "../graphics/admin.png";
-  $admin['body']['img'] = "../graphics/admin.jpg";
-  $admin['form']['label']['UID'] = "UID";
-  $admin['form']['label']['pass'] = "Password";
-  $admin['form']['label']['button'] = "Login";
-
 /**********************************************admin page ends******************************/
 
 /**********************************************error page starts******************************/
-
+  $error['div']['id'] = "error_display";
   $error['heading'] = "ERROR";
   $error['span']  = "Invalid Credentials";
+  $error['anchortag'] = "admin.php";
 
 
 /**********************************************error page ends******************************/
 
 
+/**********************************************sql subscribe starts here******************************/
+
+  $sql_subscribe['div'] = "sql_subscribe";
 
 
-
-
-
+/**********************************************sql subscribe ends here******************************/
 
 
 
