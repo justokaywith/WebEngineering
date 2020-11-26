@@ -9,11 +9,7 @@
 
  $meta = "includes/meta.php";
 
-/******style sheet*****/
 
-$css['rel'] =   "stylesheet";
-$css['type'] =  "text/css";
-$css['href'] =  "./graphics/style.css";
 
  /*******header*******/
 
@@ -145,7 +141,7 @@ $index['div']['deal'] = 'deal';
   /********form******/
 
   $admin['body']['id']  = "admin_body";
-  $admin['div']['id']  = "admin";
+  $admin['admin']['div']['id']  = "admin";
   $admin['form']['class']  = "admin_form";
   $admin['form']['action']  = "../includes/sql_admin.php";
   $admin['form']['method']  = "POST";
@@ -155,15 +151,15 @@ $index['div']['deal'] = 'deal';
   $admin['form']['label']['UID'] = "UID";
   $admin['input']['type']['UID'] = "text";
   $admin['input']['name']['UID'] = "username";
-  $admin['input']['maxlength']['UID'] = "10";
+
   $admin['form']['label']['pass'] = "Password";
   $admin['type']['type']['pass'] = "password";
   $admin['name']['name']['pass'] = "password";
-  $admin['input']['maxlength']['pass'] = "10";
+
   $admin['button']['type']  = "submit";
   $admin['button']['name']  = "button";
   $admin['form']['label']['button'] = "Login";
-  $admin['div']['id'] = "admin_no_MFA";
+  $admin['MAF']['div']['id'] = "admin_no_MFA";
   $admin['MFA']['alink']  = "../index.php";
   $admin['MFA']['atag'] = 'Return';
   $admin['MFA']['para'] = "You have been given a PC <br>Use that! ";
@@ -171,6 +167,7 @@ $index['div']['deal'] = 'deal';
 /**********************************************admin page ends******************************/
 
 /**********************************************error page starts******************************/
+  $error['body']['id']  = "error_page";
   $error['div']['id'] = "error_display";
   $error['heading'] = "ERROR";
   $error['span']  = "Invalid Credentials";

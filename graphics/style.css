@@ -1,17 +1,86 @@
-@font-face{
+@font-face {
+
 	src: url(../fonts/Lobster-Regular.ttf);
 	font-family: lobs;
-}
-@font-face{
-	src: url(../fonts/BigShouldersInlineText-Black.ttf);
-	font-family: bsitb;
-}
-@font-face{
-	src: url(../fonts/BigShouldersInlineText-ExtraBold.ttf);
-	font-family: bsit;
+
 }
 
-.index_body{
+@font-face {
+
+	src: url(../fonts/BigShouldersInlineText-Black.ttf);
+	font-family: bsitb;
+
+}
+
+@font-face {
+
+	src: url(../fonts/BigShouldersInlineText-ExtraBold.ttf);
+	font-family: bsit;
+
+}
+
+
+/*-------header starts here---------*/
+
+header {
+
+	padding:0;
+	text-align: right;
+	height:	auto;
+	width: auto;
+	background: #191919;
+  border-bottom: 2px solid orange;
+
+}
+
+header hr {
+
+  display: none;
+
+}
+
+header h1 {
+
+	text-align: center;
+	font-family: lobs ;
+	color: white;
+	font-size: 40px;
+
+}
+
+
+/*-------footer starts here---------*/
+
+footer {
+
+	border-top: 2px solid red;
+	width: auto;
+	height: auto;
+	background-color: #191919;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+footer p {
+
+	font-size: 14px;
+	font-family: sans-serif;
+  color: white;
+
+}
+
+footer a {
+
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+/********************************************************index**/
+
+.index_body {
 
 	scroll-behavior: smooth;
 	margin: 0;
@@ -21,73 +90,37 @@
 
 }
 
-/*-------header starts here---------*/
+.main {
 
-header{
-	padding:0;
-	text-align: right;
-	height:	auto;
-	width: auto;
-	background: #191919;
-  border-bottom: 2px solid orange;
-}
-header hr{
-  display: none;
-}
-header h1{
-	text-align: center;
-	font-family: lobs ;
-	color: white;
-	font-size: 40px;
-}
-
-
-/*-------footer starts here---------*/
-
-footer{
-	border-top: 2px solid red;
-	width: auto;
-	height: auto;
-	background-color: #191919;
-	overflow: hidden;
-	text-align: center;
-}
-footer p{
-	font-size: 14px;
-	font-family: sans-serif;
-   color: white;
-}
-footer a{
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-/*-------main starts here---------*/
-
-.main{
 	margin: 0;
 	width: auto;
 	height: auto;
 	padding: 0;
 
 }
-.main p{
+.main p {
 
 	color: white;
+
 }
 
-.foodies_logo{
+.foodies_logo {
+
 	color:red;
 	text-shadow: 1px 2px 5px white;
+
 }
-.specials{
+
+.specials {
+
 	margin: 0;
 	width: auto;
 	height: auto;
 	padding: 10px;
+
 }
-.specials label{
+
+.specials label {
 
 	font-size: 50px;
 	color: #ffa60a;
@@ -96,65 +129,91 @@ footer a{
 	border-bottom: 1px solid #ffa60a;
 
 }
-   /* Sec 1 starts here */
+/*************************************Sec 1 starts here */
 
-.spec{
-   display: inline-block;
+.spec {
+
+  display: inline-block;
 	width: auto;
 	height: 100%;
 	padding: 10px;
+
 }
-.spec img{
-   border-radius: 12px;
+
+.spec img {
+
+  border-radius: 12px;
 	width: 100%;
 	height: 100%;
+
 }
-.spec label{
+
+.spec label {
 
 	font-size: 30px;
 	color: white;
 	font-family: bsitb;
+
 }
-.spec p{
+
+.spec p {
+
 	font-size: 16.5px;
 	font-family: sans-serif;
+
 }
+
 .only_for {
+
 	font-size: 20px;
 	font-family: bsit;
 	color: orange;
+
 }
+
 .price {
+
 	font-size: 30px;
 	font-family: bsit;
 	color: #ffa60a;
+
 }
-.spec a{
+
+.spec a {
+
 	text-decoration: none;
 	font-size:	15px;
 	color: white;
 	font-family: bsit;
 	padding: 5px;
 	background: #ffa60a;
+
 }
-.spec a:active{
+.spec a:active {
+
 	background: red;
 	font-size: 13px;
-}
-.spec hr{
-	color: #ffa60a;
-}
 
+}
+.spec hr {
+
+	color: #ffa60a;
+
+}
 
 /*--------Deals start here-----*/
 
-.deals{
+.deals {
+
 	margin-top: 10px;
 	width: auto;
 	height: auto;
-	padding: 10px;
+	padding: 10px'
+
 }
-.deals label{
+
+.deals label {
+
 	font-size: 50px;
 	color: #ffa60a;
 	font-family: bsit;
@@ -162,86 +221,124 @@ footer a{
 	border-bottom: 1px solid #ffa60a;
 
 }
-.deals p{
+
+.deals p {
 	font-size: 15px;
 	font-family: sans-serif;
+
 }
-.deals span{
+
+.deals span {
+
 	font-family: bsit;
 	font-size: 19px;
+
 }
 
 /*-------------deal 1 start here---------*/
 
-.deal{
+.deal {
+
 	height: auto;
 	width: auto;
 	height: auto;
 	padding: 10px;
+
 }
-.deal img{
-   border-radius: 12px;
+.deal img {
+
+  border-radius: 12px;
 	width: 100%;
 	height: 100%;
+
 }
-.deal label{
+
+.deal label {
+
 	font-size: 30px;
 	color: white;
 	font-family: bsitb;
+
 }
-.deal p{
+
+.deal p {
+
 	font-size: 16.5px;
 	font-family: sans-serif;
+
 }
 .deal_only_for {
+
 	font-size: 20px;
 	font-family: bsit;
 	color: orange;
 }
-.deal_price{
+.deal_price {
+
 	font-size: 30px;
 	font-family: bsit;
-	color: #ffa60a;
+	color: #ffa60a
+
 }
-.deal a{
+
+.deal a {
+
 	text-decoration: none;
 	font-size:	15px;
 	color: white;
 	font-family: bsit;
 	padding: 5px;
 	background: #ffa60a;
+
 }
-.deal a:active{
+
+.deal a:active {
+
 	background: red;
 	font-size: 13px;
+
 }
-.deal hr{
-	color: #ffa60a;
+
+.deal hr {
+
+	color: #ffa60a
+
 }
-.deal_p_1{
+.deal_p_1 {
+
 	font-family: bsit;
 	font-size: 19px;
 	text-transform: uppercase;
 	color:  #ffa60a;
+
 }
-.deal_p_2{
+
+.deal_p_2 {
+
 	font-family: bsit;
 	font-size: 	19px;
 	text-transform: uppercase;
 	color: 	 #ffa60a;
 }
-.subscribe_form{
+
+.subscribe_form {
+
 	margin: 0;
 	padding: 10px;
 	width: auto;
 	height: auto;
-}
-.subscribe_form p{
-	font-size: 15px;
-	font-family: sans-serif;
+
 }
 
-.subscribe_form a{
+.subscribe_form p {
+
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+
+.subscribe_form a {
+
 	text-align: right;
 	font-size: 15px;
 	color: white;
@@ -252,11 +349,17 @@ footer a{
 	padding-top: 3px;
 	padding-bottom: 3px;
 	background: orange;
+
 }
-.subscribe_form a:active{
+
+.subscribe_form a:active {
+
 	background-color:  red;
+
 }
-.subscribe_form input{
+
+.subscribe_form input {
+
 	text-align: left;
 	font-size: 13px;
 	border: none;
@@ -268,34 +371,56 @@ footer a{
 	font-family: sans-serif;
 
 }
-.subscribe_form button{
+
+.subscribe_form button {
+
 	font-size: 13px;
 	border: none;
 	padding: 3px;
 	margin-left: 10px;
 	background: darkorange;
 	color: white;
+
 }
-.subscribe_form button:active{
+
+.subscribe_form button:active {
+
 	background: red;
+
 }
 
 /*------HOME CSS ENDS HERE-----*/
-@media (min-width: 360px){
+@media (min-width: 360px) {
+	#admin_body {
 
-	.index_body{
+		background-image: none;
+
+	}
+	.index_body {
+
 		background-color: #191919;
+
 	}
-	.subscribe_form a{
+
+	.subscribe_form a {
+
 		font-size: 20px;
+
 	}
-	.deal a{
+	.deal a {
+
 		font-size: 20px;
+
 	}
-	.spec a{
+
+	.spec a {
+
 		font-size: 20px;
+
 	}
-	.subscribe_form input{
+
+	.subscribe_form input {
+
 		text-align: left;
 		font-size: 15px;
 		border: none;
@@ -307,26 +432,46 @@ footer a{
 		font-family: sans-serif;
 
 	}
-	.subscribe_form button{
+
+	.subscribe_form button {
+
 		font-size: 15px;
 		border: none;
 		padding: 3px;
 		margin-left: 10px;
 		background: darkorange;
 		color: white;
+
 	}
-	.subscribe_form button:active{
+
+	.subscribe_form button:active {
+
 		background: red;
+
 	}
+
 }
-@media (min-width: 414px){
-	footer p{
+
+@media (min-width: 414px) {
+	#admin_body {
+
+		background-image: none;
+
+	}
+	footer p {
+
 		font-size:14px;
+
 	}
-	.subscribe_form p{
+
+	.subscribe_form p {
+
 		font-size:20px;
+
 	}
+
 	.subscribe_form a{
+
 		text-align: right;
 		font-size: 20px;
 		color: white;
@@ -337,124 +482,213 @@ footer a{
 		padding-top: 3px;
 		padding-bottom: 3px;
 		background: orange;
+
 	}
-	.subscribe_form a:active{
+	.subscribe_form a:active {
+
 		background-color:  red;
+
 	}
 
-	.deal label{
+	.deal label {
+
 		font-size: 25px;
+
 	}
-	.deal a{
+	.deal a {
+
 		text-decoration: none;
 		font-size:	20px;
 		color: white;
 		font-family: bsit;
 		padding: 5px;
 		background: #ffa60a;
-	}
-	.deadl a:active{
-		background: red;
-		font-size: 18px;
-	}
-	.spec a{
-		text-decoration: none;
-		font-size:	20px;
-		color: white;
-		font-family: bsit;
-		padding: 5px;
-		background: #ffa60a;
-	}
-	.spec a:active{
-		background: red;
-		font-size: 18px;
-	}
-	.subscribe_form button:active{
-		background: red;
-	}
-}
-@media (min-width: 720px){
-	header a{
-		font-size: 30px;
+
 	}
 
-	.main h1{
+	.deadl a:active {
+
+		background: red;
+		font-size: 18px;
+
+	}
+
+	.spec a {
+
+		text-decoration: none;
+		font-size:	20px;
+		color: white;
+		font-family: bsit;
+		padding: 5px;
+		background: #ffa60a;
+
+	}
+
+	.spec a:active {
+
+		background: red;
+		font-size: 18px;
+
+	}
+
+	.subscribe_form button:active {
+
+		background: red;
+
+	}
+
+}
+
+@media (min-width: 720px) {
+	#admin_body {
+
+		background-image: none;
+
+	}
+	header a {
+
+		font-size: 30px;
+
+	}
+
+	.main h1 {
+
 		font-size: 65px;
+
 	}
-	footer p{
+
+	footer p {
+
 		font-size:25px;
+
 	}
-	.deal{
+
+	.deal {
 		margin-top: 10px;
 	}
-	.deal label{
+
+	.deal label {
+
 		font-size: 25px;
-	}
-	.spec label{
-		font-size: 35px;
+
 	}
 
-	.spec p{
-		font-size: 30px;
-	}
-	.only_for{
+	.spec label {
+
 		font-size: 35px;
+
 	}
-	.price{
+
+	.spec p {
+
+		font-size: 30px;
+
+	}
+
+	.only_for {
+
+		font-size: 35px;
+
+	}
+
+	.price {
+
 		font-size: 40px;
+
 	}
-	.spec a{
+
+	.spec a {
+
 		text-decoration: none;
 		font-size:	30px;
 		color: white;
 		font-family: bsit;
 		padding: 5px;
 		background: #ffa60a;
+
 	}
-	.spec a:active{
+
+	.spec a:active {
+
 		background: red;
 		font-size: 25px;
+
 	}
-	.specials label{
-		font-size: 60px;
+
+	.specials label {
+
+		font-size: 60px
+
 	}
-	.deal label{
+
+	.deal label {
+
 		font-size: 35px;
+
 	}
-	.deals span{
+
+	.deals span {
+
 		font-size: 25px;
+
 	}
-	.deal a{
+
+	.deal a {
+
 		text-decoration: none;
 		font-size:	20px;
 		color: white;
 		font-family: bsit;
 		padding: 5px;
 		background: #ffa60a;
+
 	}
-	.deal a:active{
+
+	.deal a:active {
+
 		background: red;
 		font-size: 18px;
+
 	}
-	.deal p{
+
+	.deal p {
+
 		font-size: 25px;
+
 	}
-	.deal_p_1{
+
+	.deal_p_1 {
+
 		font-size: 30px;
+
 	}
-	.deal_p_2{
+
+	.deal_p_2 {
+
 		font-size: 30px;
+
 	}
-	.deal_only_for{
+
+	.deal_only_for {
+
 		font-size: 30px;
+
 	}
-	.deal_price{
+
+	.deal_price {
+
 		font-size: 35px;
+
 	}
-	.subscribe_form p{
+
+	.subscribe_form p {
+
 		font-size: 25px;
+
 	}
-	.subscribe_form a{
+
+	.subscribe_form a {
+
 		text-align: right;
 		font-size: 25px;
 		color: white;
@@ -465,11 +699,17 @@ footer a{
 		padding-top: 3px;
 		padding-bottom: 3px;
 		background: orange;
+
 	}
-	.subscribe_form a:active{
+
+	.subscribe_form a:active {
+
 		background-color:  red;
+
 	}
-	.subscribe_form input{
+
+	.subscribe_form input {
+
 		text-align: left;
 		font-size: 18px;
 		border: none;
@@ -481,96 +721,153 @@ footer a{
 		font-family: sans-serif;
 
 	}
-	.subscribe_form button{
+	.subscribe_form button {
+
 		font-size: 18px;
 		border: none;
 		padding: 4px;
 		margin-left: 13px;
 		background: darkorange;
 		color: white;
+
 	}
-	.subscribe_form button:active{
+
+	.subscribe_form button:active {
+
 		background: red;
+
 	}
+
 }
-@media (min-width: 568px){
-	header a{
+
+@media (min-width: 568px) {
+	#admin_body {
+
+		background-image: none;
+
+	}
+	header a {
+
 		font-size: 30px;
+
 	}
-	.deal{
+
+	.deal {
+
 		margin-top: 10px;
+
 	}
-	.subscribe_form button:active{
+
+	.subscribe_form button:active {
+
 		background: red;
+
 	}
-@media (min-width: 896px){
-	header a{
+
+@media (min-width: 896px) {
+	#admin_body {
+
+		background-image: none;
+
+	}
+	header a {
+
 		font-size: 45px;
 		padding: 30px;
-	}
-	.deal{
-		margin-top: 10px;
+
 	}
 
-	.subscribe_form button:active{
+	.deal {
+
+		margin-top: 10px;
+
+	}
+
+	.subscribe_form button:active {
+
 		background: red;
+
 	}
+
 }
-@media (min-width: 1360px){
 
-	.deal{
+@media (min-width: 1360px) {
+
+
+	.deal {
+
 		margin-top: 10px;
+
 	}
 
-	header h1{
+	header h1 {
+
 		font-size: 50px;
+
 	}
-	.foodies_logo{
+
+	.foodies_logo {
+
 		text-shadow: none;
+
 	}
-	.foodies_logo:hover{
+
+	.foodies_logo:hover {
+
 		text-shadow: 0px 0px 0px none;
 		text-shadow: 1px 3px 5px white;
 		transition: .1s;
+
 	}
-	header{
+
+	header {
+
 		padding-left: 10px;
 		padding-right: 10px;
 		background: #191919;
-		width: auto
+		width: auto;
 		height: auto;
 
 	}
-	header a{
+
+	header a {
+
 		font-size: 30px;
 		padding: 0;
 		padding:10px;
-	}
-
-	header hr{
 
 	}
-	footer{
+
+	footer {
+
 		text-align: center;
 		background: #191919;
 		color: white;
 		border-top: none;
 		border-top: 1px solid orange;
 		padding:20px;
+
 	}
 
-	footer p{
+	footer p {
+
 		font-size: 20px;
 
 	}
-	footer a{
+
+	footer a {
+
 		color: orange;
+
 	}
 
-	.main{
+	.main {
+
 		display: block;
+
 	}
 	.spec {
+
 		margin: 4px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
@@ -579,129 +876,201 @@ footer a{
 		background-image: linear-gradient(to top,orange,darkorange);
 
 	}
-	.spec:hover{
+
+	.spec:hover {
+
 		box-shadow: 8px 11px 8px;
 		transition: .2s;
 
 	}
-	.spec img:hover{
+
+	.spec img:hover {
+
 		box-shadow: 8px 11px 8px;
 		transition: .2s;
+
 	}
-	.spec p{
+
+	.spec p {
+
 		font-size: 25px;
+
 	}
-	.spec a{
+
+	.spec a {
+
 		text-align: center;
 		width: 100%;
 		background: red;
 		font-size: 20px;
+
 	}
-	.spec a:hover{
+
+	.spec a:hover {
+
 		box-shadow: 1px 3px 5px black;
 		transition: .2s;
 		width: 355px;
+
 	}
-	.only_for{
+
+	.only_for {
+
 		color: red;
 		word-spacing: 5px;
 		font-size: 30px;
 		font-family: bsitb;
+
 	}
-	.spec img{
+
+	.spec img {
+
 		box-shadow: 1px 2px 7px;
+
 	}
-	.price{
+
+	.price {
+
 		color: red;
 		word-spacing: 10px;
 		font-size: 35px;
 		font-family: bsitb;
+
 	}
-	.spec hr{
+
+	.spec hr {
+
 		display: none;
 
+	}
+
+	.inches {
+
+		font-size: 20px;
 
 	}
-	.inches{
-		font-size: 20px;
-	}
-	.deal:hover{
+
+	.deal:hover {
+
 		box-shadow: 15px 20px 7px;
 		transition: .2s;
+
 	}
+
 	.deal {
+
 		margin: 4px;
 		box-shadow: 1px 2px 7px;
 		display: inline-table;
 		width: 300px;
 		height: 500px;
 		background-image: linear-gradient(to top,orange,darkorange);
+
 	}
-	.deal:hover{
+
+	.deal:hover {
+
 		box-shadow: 8px 11px 8px;
 		transition: .2s;
 
 	}
-	.deal img:hover{
-	box-shadow: 8px 11px 8px;
-		transition: .2s;
+
+	.deal img:hover {
+
+	 box-shadow: 8px 11px 8px;
+	 transition: .2s;
 
 	}
-	.deal img{
+
+	.deal img {
+
 		box-shadow: 1px 2px 7px;
+
 	}
-	.deal hr{
+
+	.deal hr {
+
 		display: none;
+
 	}
-	.deals label{
+
+	.deals label {
+
 		font-family: bsitb;
 		font-size: 75px;
+
 	}
-	.deals span{
+
+	.deals span {
 
 		font-size: 40px;
 		color: orange;
 		word-spacing: 10px;
+
 	}
 
-	.deal_p_1{
+	.deal_p_1 {
+
 		color: red;
 		font-family: bsitb;
+
 	}
-	.deal_p_2{
+
+	.deal_p_2 {
+
 		color: red;
 		font-family: bsitb;
+
 	}
-	.deal a{
+
+	.deal a {
+
 		text-align: center;
 		width: 100%;
 		background: red;
+
 	}
-	.deal a:hover{
+
+	.deal a:hover {
+
 		box-shadow: 1px 3px 5px black;
 		transition: .2s;
 		width: 355px;
+
 	}
-	.deal_only_for{
+
+	.deal_only_for {
+
 		color: red;
 		word-spacing: 10px;
 		font-size: 30px;
 		font-family: bsitb;
+
 	}
-	.deal_price{
+
+	.deal_price {
+
 		color: red;
 		word-spacing: 5px;
 		font-size: 35px;
 		font-family: bsitb;
+
 	}
-	.specials{
+
+	.specials {
+
 		padding: 0;
 		padding: 20px;
+
 	}
-	.specials label{
+
+	.specials label {
+
 		font-size: 75px;
 		font-family: bsitb;
+
 	}
+
 	.subscribe_form{
 		width: auto;
 		height: auto;
@@ -710,8 +1079,11 @@ footer a{
 		padding: 10px;
 		border-top: 1px solid orange;
 	}
-	.subscribe_form hr{
+
+	.subscribe_form hr {
+
 		border-bottom: none;
+
 	}
 	.subscribe_form p{
 		margin: 20px;
@@ -1056,6 +1428,17 @@ footer a{
 	.deal p{
 		font-size: 20px;
 	}
+	#admin_body {
+		overflow-x: hidden;
+		width: 100%;
+		height: auto;
+		background: white;
+		background-image: url("adminbg.jpg");
+		position: absolute;
+		background-repeat: repeat-y;
+		background-size: cover;
+
+	}
 }
 
 /*-----------------------------------------------------------------------------insert page starts here---*/
@@ -1072,16 +1455,18 @@ footer a{
 
 /*----------------------------------------------------------------------admin page---*/
 
-#admin_body{
+#admin_body {
+	overflow-x: hidden;
 	width: 100%;
 	height: auto;
 	background: white;
-	background-image: url("admin.jpg");
+	background-image: url("adminbg.jpg");
 	position: absolute;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: cover;
 
 }
+
 #admin{
 	width: 100%;
 	height: 100%;
@@ -1090,22 +1475,25 @@ footer a{
 
 }
 .admin_form {
+
+	z-index: 99999;
 	position: absolute;
 	border-radius: 40px;
 	text-align: center;
-	margin-left: 68%;
-	margin-top: 15%;
+	margin-left: 8%;
+	margin-top: 12%;
 	display: inline-block;
 	width: 300px;
 	height: 350px;
-	background: #E5E5FF;
+	background: #975758;
 
 }
-.admin_form:hover{
-	box-shadow: 1px 1px 30px #0799FF;
+.admin_form:hover {
+
+	box-shadow: 1px 1px 30px #FCE5E8;
 	width: 310px;
 	height: 360px;
-	margin-left: 67.8%;
+	margin-left: 7.70%;
 	border-radius: 45px;
 	transition: .3s;
 
@@ -1119,7 +1507,7 @@ footer a{
 }
 #admin label{
 	font-size: 17px;
-	color: #0799FF;
+	color: #ffb8bb;
 	font-family: sans-serif;
 
 }
@@ -1128,10 +1516,10 @@ footer a{
 	font-family: sans-serif;
 	border: none;
 	background: none;
-	color: #0799FF;
+	color: #ffb8bb;
 	height: 40px;
 	width: 200px;
-	border-bottom: 1.5px solid #0799FF;
+	border-bottom: 1.5px solid #ffb8bb;
 
 }
 #admin input:focus{
@@ -1143,10 +1531,10 @@ footer a{
 	width: 80px;
 	height: 30px;
 	font-family: sans-serif;
-	border: 1px solid #0799FF;
+	border: 1px solid #ffb8bb;
 	background: none;
 	text-transform: uppercase;
-	color: #0799FF;
+	color: #ffb8bb;
 }
 #admin button:hover{
 	background: #0799FF;
@@ -1207,15 +1595,26 @@ footer a{
 		}
 
 }
+#error_page {
+
+	width: 100%;
+	height: auto;
+	background-image: url("error.webp");
+	background-repeat: repeat-y;
+	background-size: cover;
+
+}
 #error_display{
 	width: auto;
 	height: auto;
 	text-align: center;
 }
 #error_display h1{
+	margin-left: 50%;
+	margin-top: 10%;
 	font-size: 100px;
 	color: white;
-	font-family: lobs;
+	font-family: fantasy;
 }
 #error_display span{
 	font-size: 50px;
@@ -1223,12 +1622,15 @@ footer a{
 #error_display	a{
 		text-decoration: none;
 		color: white;
+		margin-left: 49%;
 		font-size: 30px;
 		padding: 10px;
-		background: orange;
+		background: none;
+		border: 1px solid #ffb8bb;
 		font-family: sans-serif;
 }
 #error_display a:hover{
 	box-shadow: 5px 5px 7px black;
+	background: #ffb8bb;
 	transition: .2s;
 }
