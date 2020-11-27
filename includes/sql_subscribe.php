@@ -32,7 +32,7 @@
 	$stmt->close();
 	$conn->close();
 	}
-	}
+
 	?>
 
 </div>
