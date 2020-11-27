@@ -5,10 +5,9 @@
   <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
   </head>
-  <title> <?php echo $index_title; ?></title>
 
   <body class="<?php echo $index['body']['title']; ?>">
-
+  <title> <?php echo $index_title; ?></title>
     <!-- header -->
   <?php include $url_header; ?>
 
