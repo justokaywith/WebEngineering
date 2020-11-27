@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-  <link rel="stylesheet" href="graphics/style.css">
+  <link rel="stylesheet" href="./graphics/stylesheet.css">
     <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
   <title> <?php echo $index_title; ?></title>
