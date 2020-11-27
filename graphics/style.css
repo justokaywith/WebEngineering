@@ -1595,6 +1595,8 @@ footer a {
 		}
 
 }
+
+/*----------------------------------------------------------------------error page---*/
 #error_page {
 
 	width: 100%;
@@ -1633,4 +1635,48 @@ footer a {
 	box-shadow: 5px 5px 7px black;
 	background: #ffb8bb;
 	transition: .2s;
+}
+
+/*----------------------------------------------------------------------order display page---*/
+
+#order_display{
+	display: inline-grid;
+	width: 100%;
+	height: auto;
+	background-color: pink;
+	overflow-y: hidden;
+}
+.order_table{
+	width: auto;
+	height: auto;
+	padding: 20px;
+}
+.order_table table{
+	filter: drop-shadow(5px 6px 10px skyblue);
+	line-height: 25px;
+	width: 100%;
+	text-align: center;
+	background-color: hotpink;
+	border-radius: 14px;
+}
+.order_table th{
+	border-bottom: 1px solid pink;
+	color: white;
+	background-color: lightpink;
+	border-radius: 5px;
+}
+.order_table td{
+	border-bottom: 1px solid deeppink;
+	border-radius: 10px;
+	color: white;
+}
+.order_table_form {
+	display:block;
+	text-align: right;
+	width: auto;
+	height: auto;
+
+}
+.order_table_form button{
+	text-align: right;
 }

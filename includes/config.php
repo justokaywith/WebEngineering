@@ -149,7 +149,7 @@ $index['div']['deal'] = 'deal';
   $admin['form']['img']  = "../graphics/admin.png";
   $admin['body']['img'] = "../graphics/admin.jpg";
   $admin['form']['label']['UID'] = "UID";
-  $admin['input']['type']['UID'] = "text";
+  $admin['input']['type']['UID'] = "username";
   $admin['input']['name']['UID'] = "username";
 
   $admin['form']['label']['pass'] = "Password";
