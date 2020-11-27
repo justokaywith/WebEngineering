@@ -3,7 +3,7 @@
 /***** site titles****/
 
  $index_title = "The Foodies";
- $admin_title = "Admin panel";
+ 
 
 /******meta php******/
 
