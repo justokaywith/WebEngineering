@@ -135,55 +135,6 @@ $index['div']['deal'] = 'deal';
 /*---------------------------deal ends-----------------*/
 /*----------------------------------index page ends--------------------*/
 
-/**********************************************admin page starts******************************/
-
-
-  /********form******/
-
-  $admin['body']['id']  = "admin_body";
-  $admin['admin']['div']['id']  = "admin";
-  $admin['form']['class']  = "admin_form";
-  $admin['form']['action']  = "../includes/sql_admin.php";
-  $admin['form']['method']  = "POST";
-  $admin['img']['class']  = "user_img";
-  $admin['form']['img']  = "../graphics/admin.png";
-  $admin['body']['img'] = "../graphics/admin.jpg";
-  $admin['form']['label']['UID'] = "UID";
-  $admin['input']['type']['UID'] = "username";
-  $admin['input']['name']['UID'] = "username";
-
-  $admin['form']['label']['pass'] = "Password";
-  $admin['type']['type']['pass'] = "password";
-  $admin['name']['name']['pass'] = "password";
-
-  $admin['button']['type']  = "submit";
-  $admin['button']['name']  = "button";
-  $admin['form']['label']['button'] = "Login";
-  $admin['MAF']['div']['id'] = "admin_no_MFA";
-  $admin['MFA']['alink']  = "../index.php";
-  $admin['MFA']['atag'] = 'Return';
-  $admin['MFA']['para'] = "You have been given a PC <br>Use that! ";
-
-/**********************************************admin page ends******************************/
-
-/**********************************************error page starts******************************/
-  $error['body']['id']  = "error_page";
-  $error['div']['id'] = "error_display";
-  $error['heading'] = "ERROR";
-  $error['span']  = "Invalid Credentials";
-  $error['anchortag'] = "admin.php";
-
-
-/**********************************************error page ends******************************/
-
-
-/**********************************************sql subscribe starts here******************************/
-
-  $sql_subscribe['div'] = "sql_subscribe";
-
-
-/**********************************************sql subscribe ends here******************************/
-
 
 
 
