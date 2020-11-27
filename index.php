@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
   <link rel="stylesheet" href="graphics/style.css">
+    <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
   <title> <?php echo $index_title; ?></title>
   </head>
 
 
   <body class="<?php echo $index['body']['title']; ?>">
-  <?php require './includes/config.php'; ?>
 
     <!-- header -->
   <?php include $url_header; ?>
@@ -23,7 +23,7 @@
   <div class="<?php echo $index['div']['spec']; ?>">
   <label><?php echo $index['spec1']['hamburger']['label']; ?></label>
   <br>
-  <img src= "<?php echo $index['spec1']['img']; ?>">
+  <img src= "<?php echo $index['spec1']['img']; ?>" alt="Burger">
   <br>
   <p><?php echo  $index['spec1']['para']; ?>
   <br><br>
@@ -42,7 +42,7 @@
     <div class="<?php echo $index['div']['spec']; ?>">
     <label><?php echo $index['spec2']['nuggets']['label']; ?></label>
     <br>
-    <img src="<?php echo   $index['spec2']['img']; ?>">
+    <img src="<?php echo   $index['spec2']['img']; ?>" alt="Chicken_Nuggets">
     <br>
     <p><?php echo   $index['spec2']['para']; ?>
     <br><br>
@@ -60,7 +60,7 @@
 
     <div class="<?php echo $index['div']['spec']; ?>">
     <label>E che pizza!</label> <br>
-    <img src="<?php echo $index['spec3']['img']; ?>">
+    <img src="<?php echo $index['spec3']['img']; ?>" alt="Pizza">
     <br>
     <p><?php echo  $index['spec3']['para']; ?>
     <br><br>
@@ -80,7 +80,7 @@
     <div class="<?php echo $index['div']['spec']; ?>">
     <label><?php echo $index['spec4']['shuarma']['label']; ?></label>
     <br>
-    <img src="<?php echo $index['spec4']['img']; ?>">
+    <img src="<?php echo $index['spec4']['img']; ?>" alt="Shuarma">
     <br>
     <p><?php echo   $index['spec4']['para']; ?>
     <br><br>
@@ -111,7 +111,7 @@
     <div class="<?php echo $index['deal']['label']; ?>">
     <label><?php echo  $index['deal1']['label']; ?></label>
     <br>
-    <img src=" <?php echo $index['deal1']['img']; ?>">
+    <img src=" <?php echo $index['deal1']['img']; ?>" alt="Pizza_Coke">
     <br>
     <p>Buy
     <span class="deal_p_1">two</span>
@@ -132,7 +132,7 @@
     <div class="<?php echo   $index['deal']['label']; ?>">
     <label><?php echo  $index['deal2']['label']; ?></label>
     <br>
-    <img src="<?php echo  $index['deal2']['img']; ?>">
+    <img src="<?php echo  $index['deal2']['img']; ?>" alt="Shuwarmas_Coke">
     <br>
     <p>
     Buy <span class="deal_p_1">two</span>
@@ -152,7 +152,7 @@
 
     <div class="<?php echo   $index['deal']['label']; ?>">
     <label><?php echo $index['deal3']['label']; ?></label> <br>
-    <img src="<?php echo $index['deal3']['img']; ?>"> <br>
+    <img src="<?php echo $index['deal3']['img']; ?>" alt="Burger_Coke"> <br>
     <p>
     Buy <span class="deal_p_1">two</span>
     King Macs and get
@@ -172,7 +172,7 @@
     <div class="<?php echo   $index['deal']['label'] ; ?>">
     <label><?php echo $index['deal4']['label']; ?></label>
     <br>
-    <img src="<?php echo $index['deal4']['img']; ?>">
+    <img src="<?php echo $index['deal4']['img']; ?>" alt="Buckets_Coke">
     <br>
     <p>
     Buy <span class="deal_p_1">two</span>
