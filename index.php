@@ -7,7 +7,7 @@
   </head>
 
   <body class="<?php echo $index['body']['title']; ?>">
-  <title> <?php echo $index_title; ?></title>
+    <title> <?php echo $index_title; ?></title>
     <!-- header -->
   <?php include $url_header; ?>
 
