@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
   <link rel="stylesheet" href="graphics/style.css">
-  <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
-  </head>
   <title> <?php echo $index_title; ?></title>
+  </head>
+
 
   <body class="<?php echo $index['body']['title']; ?>">
+  <?php require './includes/config.php'; ?>
 
     <!-- header -->
   <?php include $url_header; ?>
@@ -200,8 +201,8 @@
     <?php echo $index['button']['indicator']; ?></button>
     </div>
     </form>
+    <?php require $url_footer; ?>
 
-<?php require $url_footer; ?>
   </div>
 
 </body>
