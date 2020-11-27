@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+  <title> <?php echo $index_title; ?></title>
   <link rel="stylesheet" href="graphics/style.css">
   <?php require './includes/config.php'; ?>
   <?php require $meta; ?>
   </head>
 
   <body class="<?php echo $index['body']['title']; ?>">
-    <title> <?php echo $index_title; ?></title>
+
     <!-- header -->
   <?php include $url_header; ?>
 
