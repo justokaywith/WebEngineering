@@ -3,17 +3,19 @@
 /***** site titles****/
 
  $index_title = "The Foodies";
- 
+
 
 /******meta php******/
 
  $meta = "includes/meta.php";
+ $meta_subpages = "../includes/meta.php";
 
 
 
  /*******header*******/
 
  $url_header = "includes/header.php";
+ $url_header_subpages = "../includes/header.php";
  $header['heading'] =  "The";
  $header['span'] = "Foodies";
  $header['class']['span'] = "foodies_logo";
@@ -21,6 +23,7 @@
 /*****footer******/
 
   $url_footer = "includes/footer.php";
+  $url_footer_subpages = "../includes/footer.php";
   $footer['para1'] = " Copyrights Claimed, All rights reserved.  ";
   $footer['para2']  = "Read more about our deverlopers ";
   $footer['riui'] = "https://www.riphah.edu.pk/";
@@ -43,7 +46,7 @@
 
 
 $index['body']['title'] = "index_body";
-$index['div']['main'] = "main";
+$index['div']['index_main'] = "index_main";
 $index['div']['special']  = "specials";
 $index['div']['spec'] = "spec";
 $index['div']['deal'] = 'deal';
@@ -58,6 +61,8 @@ $index['div']['deal'] = 'deal';
  $index['spec1']['img']  = "./graphics/burger.webp";
  $index['spec1']['para'] =  "Try our best burgers in town";
  $index['spec1']['atag'] = "Order here";
+ $index['spec']['class']['price'] = "price";
+ $index['spec']['class']['only_for']  = "only_for";
  $index['spec']['alink'] =  "./subpages/order.php";
 
  /****spec 2****/
@@ -93,6 +98,8 @@ $index['div']['deal'] = 'deal';
    $index['deals']['div'] = "deals";
    $index['deals']['label'] = "Deals";
    $index['deal']['label']  = "deal";
+   $index['deal']['class']['only_for']  = "only_for";
+   $index['deal']['class']['price'] = "price";
 
    /****deal 1****/
 
@@ -121,9 +128,10 @@ $index['div']['deal'] = 'deal';
 
    /*********subscribe form*********/
 
+   $index['subscribe_form']['div']  = "subscribe_form";
    $index['subscribe_form']['action'] = "./includes/sql_subscribe.php";
    $index['subscribe_form']['method'] = "POST";
-   $index['subscribe_form']['para'] = "Get updates on all special menu items and deals. Subscribe here";
+   $index['subscribe_form']['para'] = "Get updates on all special menu items and deals.";
    $index['input']['type']  = "email";
    $index['input']['name']  = "email";
    $index['input']['placeholder']  = "Your email address.";
@@ -133,12 +141,18 @@ $index['div']['deal'] = 'deal';
 
 
 /*---------------------------deal ends-----------------*/
+
 /*----------------------------------index page ends--------------------*/
 
+/*--------------------------------Order page starts here-----------------------*/
+
+  $order['title'] = "Menu";
+  $order['order_body']  = "order_body";
+  $order['order_menu']  = "order_menu";
 
 
+  // order menu starts here
 
-
-
+  $order_menu['h1'] = "Available Items";
 
  ?>

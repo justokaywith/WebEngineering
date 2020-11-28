@@ -5,6 +5,5 @@
 	<?php echo  $header['span']; ?>
 	</span>
 	</h1>
-	<hr>
 
 </header>

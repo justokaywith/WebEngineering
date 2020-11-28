@@ -1,7 +1,6 @@
-<?php include './config.php'; ?>
-<div id="$sql_subscribe['div']">
+<?php
 
-	<?php
+	include './config.php';
 	$email = $_POST['email'];
 	if(!empty($email)){
 	if(mysqli_connect_error())
@@ -34,5 +33,3 @@
 	}
 
 	?>
-
-</div>
