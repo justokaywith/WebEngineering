@@ -1,502 +1,1 @@
-@font-face{
-	src: url(../fonts/BigShouldersInlineText-Black.ttf);
-	font-family: bsit;
-}
-@font-face{
-	src: url(../fonts/Lobster-Regular.ttf);
-	font-family: lobs;
-}
-
-html{
-	width: 100%;
-	overflow-x: hidden;
-	height: auto;
-	padding: 0;
-	margin: 0;
-}
-/*header starts here*/
-
-header {
-	text-align: center;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	background-color: #191919;
-	border-bottom: 2px solid orange;
-}
-header h1{
-	font-size: 40px;
-	font-family: lobs;
-	color: white;
-}
-header span{
-	color: red;
-	text-shadow: 3px 3px 4px white;
-}
-
-/*header ends here*/
-
-/*Footer starts here*/
-
-footer{
-	text-align: center;
-	width: auto;
-	height: auto;
-	border-top: 2px solid orange;
-	padding: 5px;
-	margin: 0;
-	background-color: #191919;
-}
-footer p{
-	line-height: 30px;
-	font-family: sans-serif;
-	color: white;
-	font-size: 15px;
-}
-footer a{
-	text-decoration: none;
-	font-family: sans-serif;
-	font-weight: bold;
-	color: orange;
-	text-transform: uppercase;
-}
-
-/*footer ends here*/
-
-/*************************************************index body starts here*/
-
-.index_body{
-	width: 100%;
-	overflow-x: hidden;
-	height: auto;
-	padding: 0;
-	margin: auto;
-	background-color: #191919;
-
-}
-.index_main{
-
-	padding: 0px;
-	height: auto;
-	width: auto;
-	margin: 0;
-
-}
-
-/* specials div */
-
-.specials{
-
-	padding: 20px;
-	width: auto;
-	height: auto;
-	margin: auto;
-
-}
-.specials label{
-
-	font-size: 45px;
-	border-bottom: 2px solid orange;
-	color: orange;
-	font-family: bsit;
-
-}
-
-/* special items div */
-
-.spec{
-
-	margin: auto;
-	width: auto;
-	height: auto;
-
-}
-.spec hr{
-	width: 100%;
-	margin: auto;
-	color: orange;
-
-}
-.spec label{
-	padding: 20px;
-	margin: auto;
-	font-size: 35px;
-	font-family: bsit;
-	color: white;
-}
-.spec img{
-
-	text-align: center;
-	display: block;
-	margin:auto;
-	width: 90%;
-	height: auto;
-	border-radius: 25px;
-	box-shadow: 2px 2px 40px orange;
-
-}
-.spec p{
-	font-size: 25px;
-	padding: 20px;
-	margin: auto;
-	color: white;
-}
-.only_for {
-	font-family: 35px;
-	font-family: bsit;
-	color: orange;
-}
-.price {
-	font-size: 40px;
-	color: orange;
-	font-family: bsit;
-}
-.spec a{
-	font-size: 25px;
-	margin-left: 20px;
-	padding: 8.8px;
-	background: red;
-	text-decoration: none;
-	color: white;
-	font-family: bsit;
-}
-/* special ends here */
-
-/* specials div */
-
-.deals{
-
-	padding: 20px;
-	width: auto;
-	height: auto;
-	margin: auto;
-
-}
-.deals label{
-
-	font-size: 45px;
-	border-bottom: 2px solid orange;
-	color: orange;
-	font-family: bsit;
-
-}
-.deals p{
-	font-size: 25px;
-	color: white;
-}
-.deals span{
-	font-size: 30px;
-	font-family: bsit;
-	text-transform: uppercase;
-	color: orange;
-	padding-top: 10px;
-}
-
-/* deal items div */
-
-.deal{
-
-	margin: auto;
-	width: auto;
-	height: auto;
-
-}
-.deal hr{
-	width: auto;
-	margin: auto;
-	color: orange;
-
-}
-.deal label{
-	padding: 20px;
-	margin: auto;
-	font-size: 35px;
-	font-family: bsit;
-	color: white;
-}
-.deal img{
-
-	text-align: center;
-	display: block;
-	margin:auto;
-	width: 90%;
-	height: auto;
-	border-radius: 25px;
-	box-shadow: 2px 2px 40px orange;
-
-}
-.deal p{
-		font-size: 25px;
-		padding: 20px;
-		margin: auto;
-		color: white;
-}
-.deal_only_for {
-	font-family: 35px;
-	font-family: bsit;
-	color: orange;
-}
-.deal_price {
-	font-size: 45px;
-	color: orange;
-	font-family: bsit;
-}
-.deal a{
-	font-size: 25px;
-	margin-left: 20px;
-	padding: 8.8px;
-	background: red;
-	text-decoration: none;
-	color: white;
-	font-family: bsit;
-}
-.deal_p_1{
-	font-size: 28px;
-	font-family: bsit;
-	color: orange;
-	text-transform: uppercase;
-}
-.deal_p_2{
-	font-size: 28px;
-	font-family: bsit;
-	color: orange;
-	text-transform: uppercase;
-}
-
-/* deal ends here */
-
-/* subscrib form starts here */
-
-.subscribe_form{
-	width: auto;
-	height: auto;
-
-}
-.subscribe_form p{
-	font-size: 20px;
-	padding: 10px;
-	color: white;
-}
-.subscribe_form input{
-	margin-left: 20px;
-	background: none;
-	border: none;
-	width: auto;
-	font-size: 15px;
-	color: orange;
-	border-bottom: 2px solid orange;
-	margin-bottom: 20px;
-}
-
-.subscribe_form button{
-	font-size: 15px;
-	margin-left: 15px;
-	border: none;
-	background: none;
-	border: 2px solid orange;
-	padding: 5px;
-	color: orange;
-}
-.subscribe_form button{
-	animation-name: stretch;
-	animation-duration: 1.0s;
-	animation-timing-function: ease-out;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-}
-@keyframes stretch {
-	 0% {
-		background-color: orange;
-		color: white;
-			}
-}
-
-/* subscribe form ends here */
-
-/**************************************************Index body ends here */
-
-/**************************************************Order starts here */
-
-#order_body{
-	width: 100%;
-	overflow-x: hidden;
-	padding: 0;
-	margin: auto;
-	height: auto;
-	background-color: #191919;
-}
-.order_menu{
-	display: inline;
-	padding: auto;
-	margin: auto;
-	width: 100%;
-	height: auto;
-	box-shadow:
-}
-.order_menu h1{
-	text-align: center;
-	margin-top: 10px;
-	font-size: 25px;
-	color: white;
-	font-family: Arial;
-	text-transform: uppercase;
-	font-weight: bolder;
-	text-shadow: 0px 0px 10px orange;
-	animation-name: order_menu;
-	animation-duration: 1.0s;
-	animation-timing-function: ease-out;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-}
-@keyframes order_menu {
-	 0% {
-		background-color: orange;
-			}
-}
-
-
-/* table starts here */
-
-.table_items{
-
-	width: 85%;
-	height: auto;
-	margin: auto;
-	text-align: center;
-	background: none;
-	box-shadow: 0  500px 50px orange;
-}
-.table_items th{
-	font-weight: lighter;
-	font-family: bsit;
-	color: white;
-	letter-spacing: 2px;
-	padding: 5px;
-	font-size: 20px;
-	background-color: darkorange;
-}
-.table_items td{
-	background-color: orange;
-	font-size: 15px;
-	padding: 5px;
-}
-
-/*orders start here*/
-
-.order_here{
-	width: 100%;
-	overflow-x: hidden;
-	margin: auto;
-	height: auto;
-	background-color: #191919;
-}
-.order_form{
-	width: auto;
-	padding: 0px;
-	display:block;
-	margin: 10px;
-	height: auto;
-	background-color: #191919;
-	text-align: center;
-}
-.order_form h1{
-	border-top: 1px solid orange;
-	border-bottom: 1px solid orange;
-	font-size: 25px;
-	padding: 5px;
-	font-family: bsit;
-	letter-spacing: 5px;
-	font-weight: lighter;
-	text-align: center;
-	color: white;
-	text-transform: capitalize;
-}
-.order_form label{
-	color: white;
-	font-style: 20px;
-	display: block;
-}
-.order_type{
-
-	width: auto;
-	border: 1px solid orange ;
-	background-color:  #191919;
-	color: white;
-}
-.order_type option{
-	width:auto;
-	text-align: center;
-	background-color: orange;
-}
-.order_form input{
-	width: auto;
-	border: none;
-	background-color: #191919;
-	border-bottom: 1px solid orange;
-	color: orange;
-}
-.order_form button{
-	text-align: center;
-	width: auto;
-	font-size: 20px;
-	padding: 3px 15px 3px 15px ;
-	font-family: bsit;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	border: none;
-	background-color: orange;
-	color: white;
-}
-
-/* order status page starts here */
-
-.order_status{
-
-	width: auto;
-	height: auto;
-	padding: 0;
-	margin: auto;
-	background: #191919;
-}
-
-.order_status_div{
-
-	box-shadow: 1px 1px 20px 10px  orange;
-	padding: 0;
-	width: 90%;
-	margin: auto;
-	height: auto;
-	text-align: center;
-	line-height: 40px;
-}
-.order_status_div h1{
-	font-size: 35px;
-	font-family: bsit;
-	color: orange;
-	text-transform:uppercase;
-
-}
-.order_status_div label{
-	font-size: 20px;
-	color: white;
-	text-transform: capitalize;
-	line-height: 0px;
-}
-.order_status_div a{
-	text-decoration: none;
-	color: white;
-	font-family: bsit;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	padding: 5px 10px 5px 10px ;
-	background-color: orange;
-}
-.order_status_div p{
-	font-size: 40px;
-	color: white;
-	line-height: 0px;
-	font-family: bsit;
-	text-transform: uppercase;
-}
+@font-face{	src: url(../fonts/BigShouldersInlineText-Black.ttf);	font-family: bsit;}@font-face{	src: url(../fonts/Lobster-Regular.ttf);	font-family: lobs;}html{	width: 100%;	overflow-x: hidden;	height: auto;	padding: 0;	margin: 0;}/*header starts here*/header {	text-align: center;	width: 100%;	height: auto;	margin: 0;	background-color: #191919;	border-bottom: 2px solid orange;}header h1{	font-size: 40px;	font-family: lobs;	color: white;}header span{	color: red;	text-shadow: 3px 3px 4px white;}/*header ends here*//*Footer starts here*/footer{	text-align: center;	width: auto;	height: auto;	border-top: 2px solid orange;	padding: 5px;	margin: 0;	background-color: #191919;}footer p{	line-height: 30px;	font-family: sans-serif;	color: white;	font-size: 15px;}footer a{	text-decoration: none;	font-family: sans-serif;	font-weight: bold;	color: orange;	text-transform: uppercase;}/*footer ends here*//*************************************************index body starts here*/.index_body{	width: 100%;	overflow-x: hidden;	height: auto;	padding: 0;	margin: auto;	background-color: #191919;}.index_main{	padding: 0px;	height: auto;	width: auto;	margin: 0;}/* specials div */.specials{	padding: 20px;	width: auto;	height: auto;	margin: auto;}.specials label{	font-size: 45px;	border-bottom: 2px solid orange;	color: orange;	font-family: bsit;}/* special items div */.spec{	margin: auto;	width: auto;	height: auto;}.spec hr{	width: 100%;	margin: auto;	color: orange;}.spec label{	padding: 20px;	margin: auto;	font-size: 35px;	font-family: bsit;	color: white;}.spec img{	text-align: center;	display: block;	margin:auto;	width: 90%;	height: auto;	border-radius: 25px;	box-shadow: 2px 2px 40px orange;}.spec p{	font-size: 25px;	padding: 20px;	margin: auto;	color: white;}.only_for {	font-family: 35px;	font-family: bsit;	color: orange;}.price {	font-size: 40px;	color: orange;	font-family: bsit;}.spec a{	font-size: 25px;	margin-left: 20px;	padding: 8.8px;	background: red;	text-decoration: none;	color: white;	font-family: bsit;}/* special ends here *//* specials div */.deals{	padding: 20px;	width: auto;	height: auto;	margin: auto;}.deals label{	font-size: 45px;	border-bottom: 2px solid orange;	color: orange;	font-family: bsit;}.deals p{	font-size: 25px;	color: white;}.deals span{	font-size: 30px;	font-family: bsit;	text-transform: uppercase;	color: orange;	padding-top: 10px;}/* deal items div */.deal{	margin: auto;	width: auto;	height: auto;}.deal hr{	width: auto;	margin: auto;	color: orange;}.deal label{	padding: 20px;	margin: auto;	font-size: 35px;	font-family: bsit;	color: white;}.deal img{	text-align: center;	display: block;	margin:auto;	width: 90%;	height: auto;	border-radius: 25px;	box-shadow: 2px 2px 40px orange;}.deal p{		font-size: 25px;		padding: 20px;		margin: auto;		color: white;}.deal_only_for {	font-family: 35px;	font-family: bsit;	color: orange;}.deal_price {	font-size: 45px;	color: orange;	font-family: bsit;}.deal a{	font-size: 25px;	margin-left: 20px;	padding: 8.8px;	background: red;	text-decoration: none;	color: white;	font-family: bsit;}.deal_p_1{	font-size: 28px;	font-family: bsit;	color: orange;	text-transform: uppercase;}.deal_p_2{	font-size: 28px;	font-family: bsit;	color: orange;	text-transform: uppercase;}/* deal ends here *//* subscrib form starts here */.subscribe_form{	width: auto;	height: auto;}.subscribe_form p{	font-size: 20px;	padding: 10px;	color: white;}.subscribe_form input{	margin-left: 20px;	background: none;	border: none;	width: auto;	font-size: 15px;	color: orange;	border-bottom: 2px solid orange;	margin-bottom: 20px;}.subscribe_form button{	font-size: 15px;	margin-left: 15px;	border: none;	background: none;	border: 2px solid orange;	padding: 5px;	color: orange;}.subscribe_form button{	animation-name: stretch;	animation-duration: 1.0s;	animation-timing-function: ease-out;	animation-direction: alternate;	animation-iteration-count: infinite;	animation-play-state: running;}@keyframes stretch {	 0% {		background-color: orange;		color: white;			}}/* subscribe form ends here *//**************************************************Index body ends here *//**************************************************Order starts here */#order_body{	width: 100%;	overflow-x: hidden;	padding: 0;	margin: auto;	height: auto;	background-color: #191919;}.order_menu{	display: inline;	padding: auto;	margin: auto;	width: 100%;	height: auto;	box-shadow:}.order_menu h1{	text-align: center;	margin-top: 10px;	font-size: 25px;	color: white;	font-family: Arial;	text-transform: uppercase;	font-weight: bolder;	text-shadow: 0px 0px 10px orange;	animation-name: order_menu;	animation-duration: 1.0s;	animation-timing-function: ease-out;	animation-direction: alternate;	animation-iteration-count: infinite;	animation-play-state: running;}@keyframes order_menu {	 0% {		background-color: orange;			}}/* table starts here */.table_items{	width: 85%;	height: auto;	margin: auto;	text-align: center;	background: none;	box-shadow: 0  500px 50px orange;}.table_items th{	font-weight: lighter;	font-family: bsit;	color: white;	letter-spacing: 2px;	padding: 5px;	font-size: 20px;	background-color: darkorange;}.table_items td{	background-color: orange;	font-size: 15px;	padding: 5px;}/*orders start here*/.order_here{	width: 100%;	overflow-x: hidden;	margin: auto;	height: auto;	background-color: #191919;}.order_form{	width: auto;	padding: 0px;	display:block;	margin: 10px;	height: auto;	background-color: #191919;	text-align: center;}.order_form h1{	border-top: 1px solid orange;	border-bottom: 1px solid orange;	font-size: 25px;	padding: 5px;	font-family: bsit;	letter-spacing: 5px;	font-weight: lighter;	text-align: center;	color: white;	text-transform: capitalize;}.order_form label{	color: white;	font-style: 20px;	display: block;}.order_type{	width: auto;	border: 1px solid orange ;	background-color:  #191919;	color: white;}.order_type option{	width:auto;	text-align: center;	background-color: orange;}.order_form input{	width: auto;	border: none;	background-color: #191919;	border-bottom: 1px solid orange;	color: orange;}.order_form button{	text-align: center;	width: auto;	font-size: 20px;	padding: 3px 15px 3px 15px ;	font-family: bsit;	text-transform: uppercase;	letter-spacing: 3px;	border: none;	background-color: orange;	color: white;}/* order status page starts here */.order_status{	width: auto;	height: auto;	padding: 0;	margin: auto;	background: #191919;}.order_status_div{	box-shadow: 1px 1px 20px 10px  orange;	padding: 0;	width: 90%;	margin: auto;	height: auto;	text-align: center;	line-height: 40px;}.order_status_div h1{	font-size: 35px;	font-family: bsit;	color: orange;	text-transform:uppercase;}.order_status_div label{	font-size: 20px;	color: white;	text-transform: capitalize;	line-height: 0px;}.order_status_div a{	text-decoration: none;	color: white;	font-family: bsit;	letter-spacing: 3px;	text-transform: uppercase;	padding: 5px 10px 5px 10px ;	background-color: orange;}.order_status_div p{	font-size: 40px;	color: white;	line-height: 0px;	font-family: bsit;	text-transform: uppercase;}/*order page ends here*//*about page starts here*/#about_body{	scroll-behavior: smooth;	width: 100%;	height: 100vh;	margin: auto;	padding: 0;	background-color: #191919;	position: relative;	overflow-y: hidden; }#dev_team{	width: 95%;	min-height: 100vh;	margin: auto;	padding: auto;}#dev_team label{	text-transform: capitalize;	margin: auto; 	line-height: 40px;	font-size: 25px;	color: white;	border-bottom: 2px solid orange;	font-family: bsit;	letter-spacing: 5px;}#dev_team p{	font-size: 18px;	font-family: sans-serif;	color: white;}#dev_team a{	font-size: 20px;	text-decoration: none;	color: white;	font-family: bsit;	word-spacing: 5px;	background: orange;	padding: 5px 10px 5px 10px;	text-transform: uppercase;	line-height: 20px;}#haris{	width: auto;	min-height: 100vh;	padding: 0;	margin: auto;}#osama{	width: auto;	min-height: 100vh;	padding: 0;	margin: auto;}#zain{	width: auto;	min-height: 100vh;	padding: 0;	margin: auto;}#abdullah{	width: auto;	min-height: 100vh;	padding: 0;	margin: auto;}
