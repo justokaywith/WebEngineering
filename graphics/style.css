@@ -360,8 +360,8 @@ footer a{
 /* table starts here */
 
 .table_items{
-	padding: 10px;
-	width: auto;
+	
+	width: 90%;
 	height: auto;
 	margin: auto;
 	text-align: center;
