@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
   <?php require './includes/config.php'; ?>
-  <?php require $meta?>
+  <?php include $meta?>
   <link rel="stylesheet" href="./graphics/style.css">
   <title> <?php echo $index_title; ?></title>
   </head>
@@ -13,7 +13,7 @@
     <!-- header -->
   <?php include $url_header; ?>
 
-  <div class="<?php echo $index['div']['index_main ']; ?>">
+  <div class="<?php echo $index['div']['index_main']; ?>">
   <div class="<?php echo $index['div']['special']; ?>">
   <label><?php echo $index['special']['label']; ?></label>
   </div>

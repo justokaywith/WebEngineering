@@ -7,31 +7,26 @@
 	font-family: lobs;
 }
 
-html{
-	width: 100%;
-	overflow-x: hidden;
-	height: auto;
-	padding: 0;
-	margin: 0;
-}
+
 /*header starts here*/
 
 header {
 	text-align: center;
 	width: 100%;
 	height: auto;
+	padding: 10px;
 	margin: 0;
 	background-color: #191919;
 	border-bottom: 2px solid orange;
 }
 header h1{
-	font-size: 40px;
+	font-size: 50px;
 	font-family: lobs;
 	color: white;
 }
 header span{
 	color: red;
-	text-shadow: 3px 3px 4px white;
+	text-shadow: 5px 5px 10px white;
 }
 
 /*header ends here*/
@@ -43,15 +38,15 @@ footer{
 	width: auto;
 	height: auto;
 	border-top: 2px solid orange;
-	padding: 5px;
+	padding: 20px;
 	margin: 0;
 	background-color: #191919;
 }
 footer p{
-	line-height: 30px;
+	line-height: 50px;
 	font-family: sans-serif;
 	color: white;
-	font-size: 15px;
+	font-size: 30px;
 }
 footer a{
 	text-decoration: none;
@@ -66,11 +61,11 @@ footer a{
 /*************************************************index body starts here*/
 
 .index_body{
+
 	width: 100%;
-	overflow-x: hidden;
-	height: auto;
 	padding: 0;
 	margin: auto;
+	height: auto;
 	background-color: #191919;
 
 }
@@ -78,7 +73,7 @@ footer a{
 
 	padding: 0px;
 	height: auto;
-	width: auto;
+	width: 100%;
 	margin: 0;
 
 }
@@ -87,15 +82,15 @@ footer a{
 
 .specials{
 
-	padding: 20px;
-	width: auto;
+	padding: 50px;
+	width: 100%;
 	height: auto;
 	margin: auto;
 
 }
 .specials label{
 
-	font-size: 45px;
+	font-size: 80px;
 	border-bottom: 2px solid orange;
 	color: orange;
 	font-family: bsit;
@@ -107,7 +102,7 @@ footer a{
 .spec{
 
 	margin: auto;
-	width: auto;
+	width: 100%;
 	height: auto;
 
 }
@@ -118,9 +113,9 @@ footer a{
 
 }
 .spec label{
-	padding: 20px;
+	padding: 50px;
 	margin: auto;
-	font-size: 35px;
+	font-size: 70px;
 	font-family: bsit;
 	color: white;
 }
@@ -131,30 +126,31 @@ footer a{
 	margin:auto;
 	width: 90%;
 	height: auto;
-	border-radius: 25px;
+	border-radius: 20px;
 	box-shadow: 2px 2px 40px orange;
 
 }
 .spec p{
-	font-size: 25px;
-	padding: 20px;
-	margin: auto;
-	color: white;
+		font-size: 45px;
+		padding-left: 50px;
+		padding-bottom: 10px;
+		margin: auto;
+		color: white;
 }
 .only_for {
-	font-family: 35px;
+	font-family: 50px;
 	font-family: bsit;
 	color: orange;
 }
 .price {
-	font-size: 40px;
+	font-size: 80px;
 	color: orange;
 	font-family: bsit;
 }
 .spec a{
-	font-size: 25px;
-	margin-left: 20px;
-	padding: 8.8px;
+	font-size: 50px;
+	margin-left: 50px;
+	padding: 10px;
 	background: red;
 	text-decoration: none;
 	color: white;
@@ -166,26 +162,26 @@ footer a{
 
 .deals{
 
-	padding: 20px;
-	width: auto;
+	padding: 50px;
+	width: 100%;
 	height: auto;
 	margin: auto;
 
 }
 .deals label{
 
-	font-size: 45px;
+	font-size: 80px;
 	border-bottom: 2px solid orange;
 	color: orange;
 	font-family: bsit;
 
 }
 .deals p{
-	font-size: 25px;
+	font-size: 40px;
 	color: white;
 }
 .deals span{
-	font-size: 30px;
+	font-size: 50px;
 	font-family: bsit;
 	text-transform: uppercase;
 	color: orange;
@@ -197,20 +193,20 @@ footer a{
 .deal{
 
 	margin: auto;
-	width: auto;
+	width: 100%;
 	height: auto;
 
 }
 .deal hr{
-	width: auto;
+	width: 100%;
 	margin: auto;
 	color: orange;
 
 }
 .deal label{
-	padding: 20px;
+	padding: 50px;
 	margin: auto;
-	font-size: 35px;
+	font-size: 70px;
 	font-family: bsit;
 	color: white;
 }
@@ -221,43 +217,44 @@ footer a{
 	margin:auto;
 	width: 90%;
 	height: auto;
-	border-radius: 25px;
+	border-radius: 20px;
 	box-shadow: 2px 2px 40px orange;
 
 }
 .deal p{
-		font-size: 25px;
-		padding: 20px;
+		font-size: 45px;
+		padding-left: 50px;
+		padding-bottom: 10px;
 		margin: auto;
 		color: white;
 }
 .deal_only_for {
-	font-family: 35px;
+	font-family: 50px;
 	font-family: bsit;
 	color: orange;
 }
 .deal_price {
-	font-size: 45px;
+	font-size: 80px;
 	color: orange;
 	font-family: bsit;
 }
 .deal a{
-	font-size: 25px;
-	margin-left: 20px;
-	padding: 8.8px;
+	font-size: 50px;
+	margin-left: 50px;
+	padding: 10px;
 	background: red;
 	text-decoration: none;
 	color: white;
 	font-family: bsit;
 }
 .deal_p_1{
-	font-size: 28px;
+	font-size: 55px;
 	font-family: bsit;
 	color: orange;
 	text-transform: uppercase;
 }
 .deal_p_2{
-	font-size: 28px;
+	font-size: 55px;
 	font-family: bsit;
 	color: orange;
 	text-transform: uppercase;
@@ -268,33 +265,36 @@ footer a{
 /* subscrib form starts here */
 
 .subscribe_form{
-	width: auto;
+	width: 100%;
 	height: auto;
 
 }
 .subscribe_form p{
-	font-size: 20px;
-	padding: 10px;
+	font-size: 40px;
+	margin-left: 20px;
 	color: white;
 }
 .subscribe_form input{
 	margin-left: 20px;
 	background: none;
 	border: none;
-	width: auto;
-	font-size: 15px;
+	width: 400px;
+	font-size: 30px;
 	color: orange;
-	border-bottom: 2px solid orange;
+	border-bottom: 3px solid orange;
 	margin-bottom: 20px;
 }
-
+.subscribe_form input:focus{
+	width: 460px;
+	transition: 1s;
+}
 .subscribe_form button{
-	font-size: 15px;
+	font-size: 30px;
 	margin-left: 15px;
 	border: none;
 	background: none;
 	border: 2px solid orange;
-	padding: 5px;
+	padding: 10px;
 	color: orange;
 }
 .subscribe_form button{
