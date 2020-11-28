@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="<?php echo $css_subpages; ?>">
     <title><?php echo $order_title; ?></title>
   </head>
+  
+
+ <body id="<?php echo $order['order_body']; ?>">
   <?php include $url_header_subpages; ?>
-  <body id="<?php echo $order['order_body']; ?>">
     <div class="<?php echo $order['order_menu']; ?>">
       <h1><?php echo $order_menu['h1']; ?></h1>
       <table class="<?php echo $table_items['class']; ?>">
@@ -52,13 +54,12 @@
 
       </table>
     </div>
-
-      <!---Order form-------->
-  <div class="order_form">
+  
+ <div class="order_form">
     <form action="../includes/sql_order.php" method="post">
 
    <h1>Order Section</h1> <br>
-   <select class="order_type "required name="category">
+   <select class="order_type" required name="category">
     <option selected hidden value="">Category</option>
     <option>Burgers</option>
     <option>Pizza</option>
@@ -67,13 +68,22 @@
    </select>
    <br><br>
    <input type="text" name="item" placeholder="Item Name" required><br><br>
-   <input type="text" name="extra" placeholder="Other Items"  ><br><br>
-   <input type="text" name="quantity" placeholder="Quantity"  required><br><br>
-   <input type="text" name="address" placeholder="Add Address" required><br><br>
+   <input type="text" name="extra" placeholder="Other Items">
+   <br><br>
+   <input type="text" name="quantity" placeholder="Quantity"  required>
+   <br><br>
+   <input type="text" name="address" placeholder="Add Address" required>
+   <br><br>
 
-   <label for="method">Payment on delivery <input type="checkbox" name="method" value="Payment on Dilevery" required> </label><br>
-   <button type="submit" name="submit" value="Order">Order</form>
-  </div>
+   <label for="method">Payment on delivery <input type="checkbox" name="method" value="Payment on Dilevery" required> </label>
+   <br>
+   <button type="submit" name="submit" value="Order">Order</button>
+
+   </form>
+ </div>
+
   <?php include $url_footer_subpages ; ?>
-  </body>
+
+ </body>
+
 </html>

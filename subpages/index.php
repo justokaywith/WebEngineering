@@ -18,7 +18,7 @@
   <label><?php echo $index['special']['label']; ?></label>
   </div>
 
-   <!---Special Item 1 starts here---->
+  <!-- special item starts here -->
 
   <div class="<?php echo $index['div']['spec']; ?>">
   <label><?php echo $index['spec1']['hamburger']['label']; ?></label>
@@ -40,7 +40,7 @@
   <br><br>
 
 
-    <!--- Item 2 starts here----->
+    <!-- item 2 starts here -->
 
     <div class="<?php echo $index['div']['spec']; ?>">
     <label><?php echo $index['spec2']['nuggets']['label']; ?></label>
@@ -61,7 +61,7 @@
     </div>
     <br><br>
 
-     <!---Special Item 3 starts here--->
+     <!-- item 3 starts here -->
 
     <div class="<?php echo $index['div']['spec']; ?>">
     <label>E che pizza!</label>
@@ -83,7 +83,7 @@
     </div>
     <br><br>
 
-       <!---Special Item 4 starts here--->
+       <!-- Item 4 starts here -->
 
     <div class="<?php echo $index['div']['spec']; ?>">
     <label><?php echo $index['spec4']['shuarma']['label']; ?></label>
@@ -104,7 +104,7 @@
     </div>
     <br><br>
 
-     <!--Deals starts here----->
+     <!-- Deals starts here -->
 
     <div class="<?php echo $index['deals']['div']; ?>">
     <label><?php echo $index['deals']['label'];?></label>
@@ -115,7 +115,7 @@
     </div>
 
 
-     <!---Deal 1 starts here------->
+     <!-- Deal 1 starts here -->
 
     <div class="<?php echo $index['deal']['label']; ?>">
     <label><?php echo  $index['deal1']['label']; ?></label>
@@ -138,7 +138,7 @@
     </div>
     <br><br>
 
-     <!---Deal 2 starts here-------->
+     <!-- Deal 2 starts here -->
 
     <div class="<?php echo   $index['deal']['label']; ?>">
     <label><?php echo  $index['deal2']['label']; ?></label>
@@ -161,7 +161,7 @@
     </div>
     <br><br>
 
-     <!---Deal 3 starts here-------->
+     <!-- Deal 3 starts here -->
 
     <div class="<?php echo   $index['deal']['label']; ?>">
     <label><?php echo $index['deal3']['label']; ?></label>
@@ -184,7 +184,7 @@
     </div>
     <br><br>
 
-   <!---Deal 4 starts here-------->
+   <!-- Deal 4 starts here -->
 
     <div class="<?php echo   $index['deal']['label'] ; ?>">
     <label><?php echo $index['deal4']['label']; ?></label>
@@ -206,7 +206,7 @@
     </div>
     <br><br>
 
-    <!---subscribe form-------->
+    <!-- subscribe form -->
 
     <div class="<?php echo $index['subscribe_form']['div']; ?>">
     <form action="<?php echo $index['subscribe_form']['action']; ?>"
