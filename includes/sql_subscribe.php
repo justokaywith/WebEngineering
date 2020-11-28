@@ -23,10 +23,10 @@
 	$stmt = $conn->prepare($INSERT);
 	$stmt->bind_param("s", $email);
 	$stmt->execute();
-	header("Location: ../index.php");
+	header("Location: ../subpages/index.php");
 	}
 	else{
-	header("Location: ../index.php");
+	header("Location: ../subpages/index.php");
 	}
 	$stmt->close();
 	$conn->close();

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-  <?php require './includes/config.php'; ?>
-  <?php include $meta?>
-  <link rel="stylesheet" href="<?php echo $css; ?>">
+  <?php require '../includes/config.php'; ?>
+  <?php include $meta_subpages?>
+  <link rel="stylesheet" href="<?php echo $css_subpages ; ?>">
   <title> <?php echo $index_title; ?></title>
   </head>
 
@@ -11,7 +11,7 @@
   <body class="<?php echo $index['body']['title']; ?>">
 
     <!-- header -->
-  <?php include $url_header; ?>
+  <?php include $url_header_subpages; ?>
 
   <div class="<?php echo $index['div']['index_main']; ?>">
   <div class="<?php echo $index['div']['special']; ?>">
@@ -222,7 +222,7 @@
     </form>
     </div>
     <br><br>
-    <?php require $url_footer; ?>
+    <?php require $url_footer_subpages; ?>
 
   </div>
 

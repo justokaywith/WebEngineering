@@ -7,7 +7,7 @@
 	2018 - <?php echo date("Y"); ?>
 	<br>
 	<?php echo   $footer['para2']; ?>
-	<a class="sec_footer_2" href="<?php echo $footer['about']; ?>">Here.</a>
+	<a class="sec_footer_2" href="about.php">Here.</a>
 	</p>
 
 </footer>

@@ -16,8 +16,8 @@
     <h1>your order has been placed</h1>
     <label>Would you like to <br>  <a href="order.php">Order More</a> </label>
     <p>or</p>
-    <label>Go back to <br><a href="../index.php">Home Screen</a> </label>
+    <label>Go back to <br><a href="../subpages/index.php">Home Screen</a> </label>
     </div>  
-    
+
   </body>
 </html>
