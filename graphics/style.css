@@ -320,6 +320,7 @@ footer a{
 
 #order_body{
 	width: 100%;
+	overflow-x: hidden;
 	padding: 0;
 	margin: auto;
 	height: auto;
@@ -334,13 +335,13 @@ footer a{
 }
 .order_menu h1{
 	text-align: center;
-	margin-top: 30px;
-	font-size: 50px;
+	margin-top: 10px;
+	font-size: 25px;
 	color: white;
 	font-family: Arial;
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: 0px 0px 20px orange;
+	text-shadow: 0px 0px 10px orange;
 	animation-name: order_menu;
 	animation-duration: 1.0s;
 	animation-timing-function: ease-out;
@@ -351,7 +352,6 @@ footer a{
 @keyframes order_menu {
 	 0% {
 		background-color: orange;
-		color: white;
 			}
 }
 
@@ -359,21 +359,30 @@ footer a{
 /* table starts here */
 
 .table_items{
-	width: 90%;
+	padding: 10px;
+	width: auto;
 	height: auto;
 	margin: auto;
 	text-align: center;
 	background: none;
-	border-radius: 20px 20px 0px 0px;
+
 }
 .table_items th{
 	padding: 10px;
-	border-radius: 20px 20px 0 0 ;
-	font-size: 35px;
+	border-radius: 15px 15px 0 0;
+	font-size: 20px;
 	background-color: darkorange;
 }
 .table_items td{
 	background-color: orange;
-	font-size: 30px;
+	font-size: 15px;
 	padding: 5px;
+}
+.order_here{
+	width: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	margin: auto;
+	height: auto;
+	background-color: #191919;
 }

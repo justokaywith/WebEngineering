@@ -49,53 +49,29 @@
             <td>Apfelschorle</td>
             <td>Cheese Potato</td>
           </tr>
-          <tr>
-            <td>Banquet Burger</td>
-            <td>Pugliese</td>
-            <td>Atole</td>
-            <td>Shuarma</td>
-          </tr>
-          <tr>
-            <td>Bøfsandwich</td>
-            <td>Montanara</td>
-            <td>Babycino</td>
-            <td>Popsicles</td>
-          </tr>
-          <tr>
-            <td>Buffalo burger</td>
-            <td>Emiliana</td>
-            <td>Baesuk</td>
-            <td>Slush</td>
-          </tr>
-          <tr>
-            <td>Ande Wala Burger</td>
-            <td>Romana</td>
-            <td>Bandrek</td>
-            <td>Pasta</td>
-          </tr>
-          <tr>
-            <td>Oklahoma Onion Burger</td>
-            <td>Prosciutto </td>
-            <td>Bandung</td>
-            <td>Macaroni</td>
-          </tr>
+
       </table>
+    </div>
 
       <!---Order form-------->
     <div class="order_here">
 
    <form action="../includes/sql_order.php"method="post">
-   <label>ADD Details</label> <br>
-   <input type="text" name="category" placeholder="category" value="apply cookie from previous page" readonly required>
-   <input type="text" name="item" placeholder="item name" value="apply cookie from previous page" readonly required>
-   <input type="text" name="price" placeholder="price" value="apply cookie from previous page" readonly required>
-   <input type="text" name="address" placeholder="Add address" required>
-   <input type="text" name="quantity" placeholder="Quantity"  required>
-   <select>
-   	<option selected hidden value="">Payment method</option>
-   	<option>payment on delivery</option>
-   </select>
-   <input type="submit" name="submit" value="ADD Item"></form>
+    <h1>Place your orders here</h1>
+    <label for="item_type"></label>Choose Item Type:
+    <select class="item_type" name="item_type" select_hidden_value="" >
+      <option value="Burger">Burgers</option>
+      <option value="Pizza">Pizza</option>
+      <option value="Drinks">Drinks</option>
+      <option value="Extra">Extra</option>
+    </select>
+    <input type="text" name="order_item" placeholder="Enter your items" required>
+    <input type="text" name="more_items" value="" >
+    <input type=" text" name="quantity" placeholder="Enter Quantity"required>
+    <input type="checkbox" name="payment" value="On Dilevery" required>
+    <label for="paymet">Cash On Delivery</label>
+    <button type="submit" name="button">Order</button>
+   </form>
    </div>
 
       <?php require $url_footer_subpages; ?>
