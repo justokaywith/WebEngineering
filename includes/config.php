@@ -3,14 +3,18 @@
 /***** site titles****/
 
  $index_title = "The Foodies";
-
+ $order_title = "Order";
+ $order_succ  = "Order Confirmed";
 
 /******meta php******/
 
  $meta = "includes/meta.php";
  $meta_subpages = "../includes/meta.php";
 
+/*********CSS********/
 
+$css= "./graphics/style.css";
+$css_subpages = "../graphics/style.css";
 
  /*******header*******/
 
@@ -146,7 +150,6 @@ $index['div']['deal'] = 'deal';
 
 /*--------------------------------Order page starts here-----------------------*/
 
-  $order['title'] = "Menu";
   $order['order_body']  = "order_body";
   $order['order_menu']  = "order_menu";
 
@@ -154,5 +157,20 @@ $index['div']['deal'] = 'deal';
   // order menu starts here
 
   $order_menu['h1'] = "Available Items";
+  $table_items['class'] = "table_items";
+
+/*--------------------------------Order page ends here-----------------------*/
+
+/*--------------------------------Order status page starts here-----------------------*/
+
+  $order_success['body']  = "order_status";
+  $order_success['div']['status'] = "order_status_div";
+
+
+
+
+
+
+
 
  ?>

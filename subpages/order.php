@@ -3,14 +3,14 @@
   <head>
     <?php include '../includes/config.php'; ?>
     <?php include $meta_subpages; ?>
-    <link rel="stylesheet" href="../graphics/style.css">
-    <title><?php echo $order['title']; ?></title>
+    <link rel="stylesheet" href="<?php echo $css_subpages; ?>">
+    <title><?php echo $order_title; ?></title>
   </head>
   <?php include $url_header_subpages; ?>
   <body id="<?php echo $order['order_body']; ?>">
     <div class="<?php echo $order['order_menu']; ?>">
       <h1><?php echo $order_menu['h1']; ?></h1>
-      <table class="table_items">
+      <table class="<?php echo $table_items['class']; ?>">
 
         <tr>
 
@@ -54,29 +54,26 @@
     </div>
 
       <!---Order form-------->
-    <div class="order_here">
+  <div class="order_form">
+    <form action="../includes/sql_order.php" method="post">
 
-   <form action="../includes/sql_order.php"method="post">
-    <h1>Place your orders here</h1>
-    <label for="item_type"></label>Choose Item Type:
-    <select class="item_type" name="item_type" select_hidden_value="" >
-      <option value="Burger">Burgers</option>
-      <option value="Pizza">Pizza</option>
-      <option value="Drinks">Drinks</option>
-      <option value="Extra">Extra</option>
-    </select>
-    <input type="text" name="order_item" placeholder="Enter your items" required>
-    <input type="text" name="more_items" value="" >
-    <input type=" text" name="quantity" placeholder="Enter Quantity"required>
-    <input type="checkbox" name="payment" value="On Dilevery" required>
-    <label for="paymet">Cash On Delivery</label>
-    <button type="submit" name="button">Order</button>
-   </form>
-   </div>
+   <h1>Order Section</h1> <br>
+   <select class="order_type "required name="category">
+    <option selected hidden value="">Category</option>
+    <option>Burgers</option>
+    <option>Pizza</option>
+    <option>Drinks</option>
+    <option>Extra</option>
+   </select>
+   <br><br>
+   <input type="text" name="item" placeholder="Item Name" required><br><br>
+   <input type="text" name="extra" placeholder="Other Items"  ><br><br>
+   <input type="text" name="quantity" placeholder="Quantity"  required><br><br>
+   <input type="text" name="address" placeholder="Add Address" required><br><br>
 
-      <?php require $url_footer_subpages; ?>
-
-
-    </div>
+   <label for="method">Payment on delivery <input type="checkbox" name="method" value="Payment on Dilevery" required> </label><br>
+   <button type="submit" name="submit" value="Order">Order</form>
+  </div>
+  <?php include $url_footer_subpages ; ?>
   </body>
 </html>

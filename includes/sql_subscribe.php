@@ -1,6 +1,6 @@
 <?php
 
-	include './config.php';
+	include 'config.php';
 	$email = $_POST['email'];
 	if(!empty($email)){
 	if(mysqli_connect_error())

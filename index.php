@@ -3,7 +3,7 @@
   <head>
   <?php require './includes/config.php'; ?>
   <?php include $meta?>
-  <link rel="stylesheet" href="./graphics/style.css">
+  <link rel="stylesheet" href="<?php echo $css; ?>">
   <title> <?php echo $index_title; ?></title>
   </head>
 

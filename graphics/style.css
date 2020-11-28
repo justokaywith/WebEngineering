@@ -332,6 +332,7 @@ footer a{
 	margin: auto;
 	width: 100%;
 	height: auto;
+	box-shadow:
 }
 .order_menu h1{
 	text-align: center;
@@ -365,11 +366,14 @@ footer a{
 	margin: auto;
 	text-align: center;
 	background: none;
-
+	box-shadow: 0  500px 50px orange;
 }
 .table_items th{
-	padding: 10px;
-	border-radius: 15px 15px 0 0;
+	font-weight: lighter;
+	font-family: bsit;
+	color: white;
+	letter-spacing: 2px;
+	padding: 5px;
 	font-size: 20px;
 	background-color: darkorange;
 }
@@ -378,11 +382,121 @@ footer a{
 	font-size: 15px;
 	padding: 5px;
 }
+
+/*orders start here*/
+
 .order_here{
 	width: 100%;
 	overflow-x: hidden;
-	padding: 0;
 	margin: auto;
 	height: auto;
 	background-color: #191919;
+}
+.order_form{
+	width: auto;
+	padding: 0px;
+	display:block;
+	margin: 10px;
+	height: auto;
+	background-color: #191919;
+	text-align: center;
+}
+.order_form h1{
+	border-top: 1px solid orange;
+	border-bottom: 1px solid orange;
+	font-size: 25px;
+	padding: 5px;
+	font-family: bsit;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+}
+.order_form label{
+	color: white;
+	font-style: 20px;
+	display: block;
+}
+.order_type{
+
+	width: auto;
+	border: 1px solid orange ;
+	background-color:  #191919;
+	color: white;
+}
+.order_type option{
+	width:auto;
+	text-align: center;
+	background-color: orange;
+}
+.order_form input{
+	width: auto;
+	border: none;
+	background-color: #191919;
+	border-bottom: 1px solid orange;
+	color: orange;
+}
+.order_form button{
+	text-align: center;
+	width: auto;
+	font-size: 20px;
+	padding: 3px 15px 3px 15px ;
+	font-family: bsit;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border: none;
+	background-color: orange;
+	color: white;
+}
+
+/* order status page starts here */
+
+.order_status{
+
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: auto;
+	background: #191919;
+}
+
+.order_status_div{
+
+	box-shadow: 1px 1px 20px 10px  orange;
+	padding: 0;
+	width: 90%;
+	margin: auto;
+	height: auto;
+	text-align: center;
+	line-height: 40px;
+}
+.order_status_div h1{
+	font-size: 35px;
+	font-family: bsit;
+	color: orange;
+	text-transform:uppercase;
+
+}
+.order_status_div label{
+	font-size: 20px;
+	color: white;
+	text-transform: capitalize;
+	line-height: 0px;
+}
+.order_status_div a{
+	text-decoration: none;
+	color: white;
+	font-family: bsit;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 5px 10px 5px 10px ;
+	background-color: orange;
+}
+.order_status_div p{
+	font-size: 40px;
+	color: white;
+	line-height: 0px;
+	font-family: bsit;
+	text-transform: uppercase;
 }
