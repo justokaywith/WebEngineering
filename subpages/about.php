@@ -27,78 +27,85 @@
 		<p>Team management is the most best thing in suck projects not only you provide yourself with ease but also it divides work load. </p>
 
 		<label>What we achieved.</label>
-		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p>
+		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p><br>
 
-		<a href="#haris">Meet the devs</a>
+		<a href="#haris">Meet the devs</a> <a id="go_back" href="index.php">Go Back</a>
 
 	</div>
 
 	<div id="haris">
-				
-		<label>Introduction.</label>
-		<p>A Software Engineering team who thinks that with efforts they can be in the line of this tough developing competition.</p>
+		<img id="user_img" src="../graphics/haris.webp" title="M Haris Rana">
+		<label>Name</label>
+		<p>M Haris Rana</p>
+		<label>Profession.</label>
+		<p>Graphic Designing.</p>
 
-		<label>Was it good?.</label>
-		<p>Simple yet time taking this project was one of the most fun projects we have done so far.</p>
+		<label>Experience.</label>
+		<p>Around 1 year</p>
 
-		<label>What we learned.</label>
-		<p>Team management is the most best thing in suck projects not only you provide yourself with ease but also it divides work load. </p>
+		<label>Hobbies</label>
+		<p> Swimming <br>gaming</p>
 
-		<label>What we achieved.</label>
-		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p>
-
-		<a href="#osama">Osama Ali Mangi</a>
+		<a href="https://www.reddit.com/u/justokaywith"><img class="icon_img" src="../graphics/reddit.png"></a>
+		<br>
+		<a id="dev_tag" href="#osama">Next</a>
 	</div>
 
 	<div id="osama">
-				
-		<label>Introduction.</label>
-		<p>A Software Engineering team who thinks that with efforts they can be in the line of this tough developing competition.</p>
+		<img id="user_img" src="../graphics/osama.webp">
+		<label>Name</label>
+		<p>Osama Ali Mangi</p>
+		<label>Profession.</label>
+		<p>Digital Marketer.</p>
 
-		<label>Was it good?.</label>
-		<p>Simple yet time taking this project was one of the most fun projects we have done so far.</p>
+		<label>Experience.</label>
+		<p>Around 4 year</p>
 
-		<label>What we learned.</label>
-		<p>Team management is the most best thing in suck projects not only you provide yourself with ease but also it divides work load. </p>
+		<label>Hobbies</label>
+		<p>Gaming <br>Social Work</p>
 
-		<label>What we achieved.</label>
-		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p>
-
-		<a href="#zain">Zain Ul Abidin</a>
+		<a href="https://www.linkedin.com/in/osamamangi"><img class="icon_img" src="../graphics/linkedin.png" title="Osama ALi Mangi"></a>
+		<br>
+		<a id="dev_tag" href="#zain">Next</a>
 	</div>
 
 		<div id="zain">
 				
-		<label>Introduction.</label>
-		<p>A Software Engineering team who thinks that with efforts they can be in the line of this tough developing competition.</p>
+		<img id="user_img" src="../graphics/haris.webp">
+		<label>Name</label>
+		<p>Zain Ul Abidin</p>
+		<label>Profession.</label>
+		<p>Graphic Designing.</p>
 
-		<label>Was it good?.</label>
-		<p>Simple yet time taking this project was one of the most fun projects we have done so far.</p>
+		<label>Experience.</label>
+		<p>Around 1 year</p>
 
-		<label>What we learned.</label>
-		<p>Team management is the most best thing in suck projects not only you provide yourself with ease but also it divides work load. </p>
+		<label>Hobbies</label>
+		<p> Swimming <br>gaming</p>
 
-		<label>What we achieved.</label>
-		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p>
 
-		<a href="#abdullah">Abdullah</a>
+		<a href="https://www.facebook.com/abdullahkhan"><img class="icon_img" src="../graphics/facebook.png" title="Zain Ul Abidin"></a>
+		<br>
+		<a id="dev_tag" href="#abdullah">Next</a>
 	</div>
 
 		<div id="abdullah">
 				
-		<label>Introduction.</label>
-		<p>A Software Engineering team who thinks that with efforts they can be in the line of this tough developing competition.</p>
+		<img id="user_img" src="../graphics/abdullah.webp">
+		<label>Name</label>
+		<p>Abdullah</p>
+		<label>Profession.</label>
+		<p>Web Designing.</p>
 
-		<label>Was it good?.</label>
-		<p>Simple yet time taking this project was one of the most fun projects we have done so far.</p>
+		<label>Experience.</label>
+		<p>Around 1 year</p>
 
-		<label>What we learned.</label>
-		<p>Team management is the most best thing in suck projects not only you provide yourself with ease but also it divides work load. </p>
+		<label>Hobbies</label>
+		<p> Cricket <br>Adventure</p>
 
-		<label>What we achieved.</label>
-		<p>Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together. you keep enjoing our products and we will keep making them</p>
-
-		<a href="#dev_team">to top</a>
+		<a href="https://www.facebook.com/abdullahkhan"><img class="icon_img" src="../graphics/facebook.png" title="Abdullah"></a>
+		<br>
+		<a id="dev_tag" href="#dev_team">TOP</a>
 	</div>
 
 	</body>

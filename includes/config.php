@@ -63,7 +63,7 @@ $index['div']['deal'] = 'deal';
 
  $index['spec1']['hamburger']['label']  = "The king mac";
  $index['spec1']['img']  = "../graphics/burger.webp";
- $index['spec1']['para'] =  "Try our best burgers in town";
+ $index['spec1']['para'] =  "Try our best and spiciest burgers";
  $index['spec1']['atag'] = "Order here";
  $index['spec']['class']['price'] = "price";
  $index['spec']['class']['only_for']  = "only_for";
@@ -90,7 +90,7 @@ $index['div']['deal'] = 'deal';
 
   $index['spec4']['shuarma']['label']  = "The Karma Shuarma";
   $index['spec4']['img']  = "../graphics/shuarma.webp";
-  $index['spec4']['para'] =  "Finger lickin' good.The best shuwarma. ";
+  $index['spec4']['para'] =  "Finger lickin' good.The best shuarma. ";
   $index['spec4']['atag'] = "Order here";
   $index['spec']['alink'] =  "order.php";
 
@@ -102,8 +102,8 @@ $index['div']['deal'] = 'deal';
    $index['deals']['div'] = "deals";
    $index['deals']['label'] = "Deals";
    $index['deal']['label']  = "deal";
-   $index['deal']['class']['only_for']  = "only_for";
-   $index['deal']['class']['price'] = "price";
+   $index['deal']['class']['only_for']  = "deal_only_for";
+   $index['deal']['class']['price'] = "deal_price";
 
    /****deal 1****/
 
