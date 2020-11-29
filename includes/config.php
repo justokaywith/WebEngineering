@@ -158,6 +158,7 @@ $index['div']['deal'] = 'deal';
 
   $order_menu['h1'] = "Available Items";
   $table_items['class'] = "table_items";
+  $order_form['class']  = "order_form";
 
 /*--------------------------------Order page ends here-----------------------*/
 

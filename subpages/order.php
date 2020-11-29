@@ -55,7 +55,7 @@
       </table>
     </div>
   
- <div class="order_form">
+ <div class="<?php echo  $order_form['class']; ?>">
     <form action="../includes/sql_order.php" method="post">
 
    <h1>Order Section</h1> <br>
@@ -68,14 +68,14 @@
    </select>
    <br><br>
    <input type="text" name="item" placeholder="Item Name" required><br><br>
-   <input type="text" name="extra" placeholder="Other Items">
+   <input type="text" name="extra" placeholder="Other Items" maxlength="150">
    <br><br>
-   <input type="text" name="quantity" placeholder="Quantity"  required>
+   <input type="text" name="quantity" placeholder="Quantity" maxlength="100"  required>
    <br><br>
-   <input type="text" name="address" placeholder="Add Address" required>
+   <input type="text" name="address" placeholder="Add Address" required maxlength="200">
    <br><br>
 
-   <label for="method">Payment on delivery <input type="checkbox" name="method" value="Payment on Dilevery" required> </label>
+   <label for="method">Payment on delivery <input id="checkbox_payment" type="checkbox" name="method" value="Payment on Dilevery" required> </label>
    <br>
    <button type="submit" name="submit" value="Order">Order</button>
 
