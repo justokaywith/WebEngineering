@@ -168,8 +168,89 @@ $index['div']['deal'] = 'deal';
   $order_success['div']['status'] = "order_status_div";
 
 
+/*----------------------------------About starts here *----------------------------*/
 
 
+  $about_body['main'] = "about_body";
+  $dev_team['div']  = "dev_team";
+
+  $introduction['label'] =  "Introduction.";
+  $introduction['para'] = "A software engineering team who thinks that with efforts they can be in the line of this tough developing competition.";
+
+  $Was_it_good['label'] = "Was it good?";
+  $Was_it_good['para']  = "Simple yet time taking. This project was one of the most fun projects we have done so far.";
+
+  $What_we_learned['label'] = "What we learned.";
+  $What_we_learned['para']  = "Well if we see it this way, we have not achieved anything yet. but hey its always the fun and time we spent working together.";
+
+  $What_we_achieved['label']  = "What we achieved.";
+  $What_we_achieved['para'] = "Team management is the best thing gained in such projects. Not only it provides you comforts but also it divides work load.";
+
+  // haris about starts here
+
+  $haris['div'] = "haris";
+  $haris['label']['name'] = "Name";
+  $haris['para']['name']  = "M Haris Rana";
+
+  $haris['label']['profession']  = "Profession";
+  $haris['para']['profession']  = "Graphic Designer";
+
+  $haris['label']['experience']  = "Experience";
+  $haris['para']['experience']  = "Around 1 year";
+
+  $haris['label']['hobbies']  = "Hobbies";
+  $haris['para1']['hobbies']  = "Swimming";
+  $haris['para2']['hobbies']  = "Gaming";
+
+// osama about starts here
+  
+  $osama['div'] = "osama";
+  $osama['label']['name'] = "Name";
+  $osama['para']['name']  = "Osama Ali Mangi";
+
+  $osama['label']['profession']  = "Profession";
+  $osama['para']['profession']  = "Digital Marketer";
+
+  $osama['label']['experience']  = "Experience";
+  $osama['para']['experience']  = "Around 4 years";
+
+  $osama['label']['hobbies']  = "Hobbies";
+  $osama['para1']['hobbies']  = "Social Work";
+  $osama['para2']['hobbies']  = "Gaming";
+
+  // zain about starts here
+  
+  $zain['div'] = "zain";
+  $zain['label']['name'] = "Name";
+  $zain['para']['name']  = "Zain ul abidin";
+
+  $zain['label']['profession']  = "Profession";
+  $zain['para']['profession']  = "Digital Marketer";
+
+  $zain['label']['experience']  = "Experience";
+  $zain['para']['experience']  = "Around 4 years";
+
+  $zain['label']['hobbies']  = "Hobbies";
+  $zain['para1']['hobbies']  = "Social Work";
+  $zain['para2']['hobbies']  = "Gaming";
+
+  // abdullah about starts here
+  
+  $abdullah['div'] = "abdullah";
+  $abdullah['label']['name'] = "Name";
+  $abdullah['para']['name']  = "Abdullah";
+
+  $abdullah['label']['profession']  = "Profession";
+  $abdullah['para']['profession']  = "Web Designer";
+
+  $abdullah['label']['experience']  = "Experience";
+  $abdullah['para']['experience']  = "Around 1 years";
+
+  $abdullah['label']['hobbies']  = "Hobbies";
+  $abdullah['para1']['hobbies']  = "Cricket";
+  $abdullah['para2']['hobbies']  = "Adventures";
+
+  // about ends here
 
 
 
