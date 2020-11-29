@@ -15,7 +15,7 @@
 /*********CSS********/
 
 
-$css_subpages = "../graphics/style.css";
+$css_subpages = "../css/style.css";
 
  /*******header*******/
 
