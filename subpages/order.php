@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="<?php echo $css_subpages; ?>">
     <title><?php echo $order_title; ?></title>
   </head>
-  
+
 
  <body id="<?php echo $order['order_body']; ?>">
   <?php include $url_header_subpages; ?>
     <div class="<?php echo $order['order_menu']; ?>">
       <h1><?php echo $order_menu['h1']; ?></h1>
+
       <table class="<?php echo $table_items['class']; ?>">
-
         <tr>
-
             <th>Burgers</th>
             <th>Pizza</th>
             <th>Drinks</th>
@@ -51,11 +50,12 @@
             <td>Apfelschorle</td>
             <td>Cheese Potato</td>
           </tr>
-
       </table>
+
     </div>
-  
+
  <div class="<?php echo  $order_form['class']; ?>">
+
     <form action="../includes/sql_order.php" method="post">
 
    <h1>Order Section</h1> <br>
@@ -80,6 +80,7 @@
    <button type="submit" name="submit" value="Order">Order</button>
 
    </form>
+
  </div>
 
   <?php include $url_footer_subpages ; ?>
