@@ -10,7 +10,7 @@
 
 /*header starts here*/
 
-header{
+header {
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -61,45 +61,56 @@ footer a{
 /*************************************************index body starts here*/
 
 .index_body{
+
 	width: 100%;
 	padding: 0;
 	margin: auto;
 	height: auto;
 	background-color: #191919;
+
 }
 .index_main{
+
 	padding: 0px;
 	height: auto;
 	width: 100%;
 	margin: 0;
+
 }
 
 /* specials div */
 
 .specials{
+
 	padding: 50px;
 	width: 100%;
 	height: auto;
 	margin: auto;
+
 }
 .specials label{
+
 	font-size: 80px;
 	border-bottom: 2px solid orange;
 	color: orange;
 	font-family: bsit;
+
 }
 
 /* special items div */
 
 .spec{
+
 	margin: auto;
 	width: 100%;
 	height: auto;
+
 }
 .spec hr{
 	width: 100%;
 	margin: auto;
 	color: orange;
+
 }
 .spec label{
 	padding: 50px;
@@ -109,6 +120,7 @@ footer a{
 	color: white;
 }
 .spec img{
+
 	text-align: center;
 	display: block;
 	margin:auto;
@@ -116,6 +128,7 @@ footer a{
 	height: auto;
 	border-radius: 20px;
 	box-shadow: 2px 2px 40px orange;
+
 }
 .spec p{
 		font-size: 45px;
@@ -124,12 +137,12 @@ footer a{
 		margin: auto;
 		color: white;
 }
-.only_for{
+.only_for {
 	font-family: 50px;
 	font-family: bsit;
 	color: orange;
 }
-.price{
+.price {
 	font-size: 80px;
 	color: orange;
 	font-family: bsit;
@@ -148,12 +161,15 @@ footer a{
 /* specials div */
 
 .deals{
+
 	padding: 50px;
 	width: 100%;
 	height: auto;
 	margin: auto;
+
 }
 .deals label{
+
 	font-size: 80px;
 	border-bottom: 2px solid orange;
 	color: orange;
@@ -175,14 +191,17 @@ footer a{
 /* deal items div */
 
 .deal{
+
 	margin: auto;
 	width: 100%;
 	height: auto;
+
 }
 .deal hr{
 	width: 100%;
 	margin: auto;
 	color: orange;
+
 }
 .deal label{
 	padding: 50px;
@@ -192,6 +211,7 @@ footer a{
 	color: white;
 }
 .deal img{
+
 	text-align: center;
 	display: block;
 	margin:auto;
@@ -199,6 +219,7 @@ footer a{
 	height: auto;
 	border-radius: 20px;
 	box-shadow: 2px 2px 40px orange;
+
 }
 .deal p{
 		font-size: 45px;
@@ -246,6 +267,7 @@ footer a{
 .subscribe_form{
 	width: 100%;
 	height: auto;
+
 }
 .subscribe_form p{
 	font-size: 40px;
