@@ -225,14 +225,14 @@ $index['div']['deal'] = 'deal';
   $zain['para']['name']  = "Zain ul abidin";
 
   $zain['label']['profession']  = "Profession";
-  $zain['para']['profession']  = "Digital Marketer";
+  $zain['para']['profession']  = "website design/grAPHIC design";
 
   $zain['label']['experience']  = "Experience";
-  $zain['para']['experience']  = "Around 4 years";
+  $zain['para']['experience']  = "Around 2 years";
 
   $zain['label']['hobbies']  = "Hobbies";
-  $zain['para1']['hobbies']  = "Social Work";
-  $zain['para2']['hobbies']  = "Gaming";
+  $zain['para1']['hobbies']  = "Quran reciting with tafseer";
+  $zain['para2']['hobbies']  = "playing games";
 
   // abdullah about starts here
   
